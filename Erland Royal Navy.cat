@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="96fe-9367-6e0b-2d4c" name="Erland Royal Navy" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="a727-8425-36a9-9cd6" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="1651-ea31-a359-ba61" name="Liberator-Class Carrier" publicationId="2c42-f471-bf78-bef5" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="5d4e-f70d-43d2-977b" name="Heavy Support" hidden="false" targetId="fed3-7df7-4345-0ae0" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="f1b1-a4ac-dd36-f1cd" name="Liberator-Class Carrier" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="8.0"/>
+            <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="0.0"/>
+        <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2bb4-a694-1023-19e7" name="Sentry-Class Corvette" publicationId="2c42-f471-bf78-bef5" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="dcb3-4b5c-60d5-a547" name="Light Core" hidden="false" targetId="c533-36dd-293a-b5d0" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="228a-6208-0230-38ac" name="Sentry-Class Corvette" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="5.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="0.0"/>
+        <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b7a4-5122-80ad-321e" name="Watchman-Class Frigate" publicationId="2c42-f471-bf78-bef5" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="0582-9c92-75f9-a64c" name="Light Core" hidden="false" targetId="c533-36dd-293a-b5d0" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="38f4-d31c-1f30-3385" name="Watchman-Class Frigate" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="5.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="0.0"/>
+        <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8bd1-32a5-b275-9512" name="Fortress-Class Battleship" publicationId="2c42-f471-bf78-bef5" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="a9fd-c7af-41fa-101a" name="Light Support" hidden="false" targetId="317b-7b08-d144-c5bf" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="eb0b-b2a2-6a88-1fe5" name="Fortress-Class Battleship" publicationId="2c42-f471-bf78-bef5" hidden="false" collective="false" import="true" type="upgrade"/>
+      </selectionEntries>
+      <costs>
+        <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="0.0"/>
+        <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+</catalogue>

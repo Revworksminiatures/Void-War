@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="96fe-9367-6e0b-2d4c" name="Erland Royal Navy" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="a727-8425-36a9-9cd6" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="1651-ea31-a359-ba61" name="Liberator-Class Carrier" publicationId="2c42-f471-bf78-bef5" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="5d4e-f70d-43d2-977b" name="Heavy Support" hidden="false" targetId="fed3-7df7-4345-0ae0" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="f1b1-a4ac-dd36-f1cd" name="Liberator-Class Carrier" hidden="false" collective="false" import="true" type="unit">
+          <infoLinks>
+            <infoLink id="32a4-27ae-07ad-0d6d" name="Liberator-Class Carrier" hidden="false" targetId="d3cb-ba83-ac19-fe7f" type="profile"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="7a56-f5ea-1e9f-99df" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="d962-58a3-8acb-ee79" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="8.0"/>
+            <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+        <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2bb4-a694-1023-19e7" name="Sentry-Class Corvette" publicationId="2c42-f471-bf78-bef5" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="dcb3-4b5c-60d5-a547" name="Light Core" hidden="false" targetId="c533-36dd-293a-b5d0" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="228a-6208-0230-38ac" name="Sentry-Class Corvette" hidden="false" collective="false" import="true" type="unit">
+          <infoLinks>
+            <infoLink id="8785-4b17-7d14-2e20" name="Sentry-Class Corvette" hidden="false" targetId="8ca6-ee0e-72cc-8103" type="profile"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="2d94-f08f-12e4-6a6b" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="d962-58a3-8acb-ee79" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="5.0"/>
+            <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="0.0"/>
+        <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b7a4-5122-80ad-321e" name="Watchman-Class Frigate" publicationId="2c42-f471-bf78-bef5" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="0582-9c92-75f9-a64c" name="Light Core" hidden="false" targetId="c533-36dd-293a-b5d0" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="38f4-d31c-1f30-3385" name="Watchman-Class Frigate" hidden="false" collective="false" import="true" type="upgrade">
+          <infoLinks>
+            <infoLink id="b62d-f03f-1882-e865" name="Watchman-Class Frigate" hidden="false" targetId="3e7e-c7a0-9767-32f3" type="profile"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="bfed-3344-1eac-74d9" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="d962-58a3-8acb-ee79" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="5.0"/>
+            <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="0.0"/>
+        <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8bd1-32a5-b275-9512" name="Fortress-Class Battleship" publicationId="2c42-f471-bf78-bef5" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="a9fd-c7af-41fa-101a" name="Light Support" hidden="false" targetId="317b-7b08-d144-c5bf" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="eb0b-b2a2-6a88-1fe5" name="Fortress-Class Battleship" publicationId="2c42-f471-bf78-bef5" hidden="false" collective="false" import="true" type="upgrade">
+          <infoLinks>
+            <infoLink id="8f6f-caa7-fadf-5260" name="Fortress-Class Battleship" hidden="false" targetId="89d1-3663-310e-77ab" type="profile"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="c381-bf1c-2353-eec4" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="d962-58a3-8acb-ee79" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="6.0"/>
+            <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="0.0"/>
+        <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedProfiles>
+    <profile id="89d1-3663-310e-77ab" name="Fortress-Class Battleship" hidden="false" typeId="4487-44d7-2322-d781" typeName="Starship">
+      <characteristics>
+        <characteristic name="Key Traits" typeId="5f5c-f13e-6aec-ade9"/>
+        <characteristic name="CMBT" typeId="ad3b-8b26-47ba-c073"/>
+        <characteristic name="DEF" typeId="1983-3f45-9951-7db0"/>
+        <characteristic name="ATHL" typeId="eeb4-9519-cdeb-e0ed"/>
+        <characteristic name="INT" typeId="71b6-3c7f-c8e4-3322"/>
+        <characteristic name="LD" typeId="8a50-4f93-4b23-7ee6"/>
+        <characteristic name="AMROR" typeId="74ff-b92c-d121-74ee"/>
+        <characteristic name="END" typeId="667a-c155-ab8b-e83f"/>
+        <characteristic name="NERVE" typeId="480f-fee3-9b40-433c"/>
+        <characteristic name="MOVE" typeId="872a-ccc5-1cd8-391c"/>
+        <characteristic name="SIZE" typeId="80ac-ac42-0281-8c74"/>
+      </characteristics>
+    </profile>
+    <profile id="d3cb-ba83-ac19-fe7f" name="Liberator-Class Carrier" hidden="false" typeId="4487-44d7-2322-d781" typeName="Starship">
+      <characteristics>
+        <characteristic name="Key Traits" typeId="5f5c-f13e-6aec-ade9"/>
+        <characteristic name="CMBT" typeId="ad3b-8b26-47ba-c073"/>
+        <characteristic name="DEF" typeId="1983-3f45-9951-7db0"/>
+        <characteristic name="ATHL" typeId="eeb4-9519-cdeb-e0ed"/>
+        <characteristic name="INT" typeId="71b6-3c7f-c8e4-3322"/>
+        <characteristic name="LD" typeId="8a50-4f93-4b23-7ee6"/>
+        <characteristic name="AMROR" typeId="74ff-b92c-d121-74ee"/>
+        <characteristic name="END" typeId="667a-c155-ab8b-e83f"/>
+        <characteristic name="NERVE" typeId="480f-fee3-9b40-433c"/>
+        <characteristic name="MOVE" typeId="872a-ccc5-1cd8-391c"/>
+        <characteristic name="SIZE" typeId="80ac-ac42-0281-8c74"/>
+      </characteristics>
+    </profile>
+    <profile id="8ca6-ee0e-72cc-8103" name="Sentry-Class Corvette" hidden="false" typeId="4487-44d7-2322-d781" typeName="Starship">
+      <characteristics>
+        <characteristic name="Key Traits" typeId="5f5c-f13e-6aec-ade9"/>
+        <characteristic name="CMBT" typeId="ad3b-8b26-47ba-c073"/>
+        <characteristic name="DEF" typeId="1983-3f45-9951-7db0"/>
+        <characteristic name="ATHL" typeId="eeb4-9519-cdeb-e0ed"/>
+        <characteristic name="INT" typeId="71b6-3c7f-c8e4-3322"/>
+        <characteristic name="LD" typeId="8a50-4f93-4b23-7ee6"/>
+        <characteristic name="AMROR" typeId="74ff-b92c-d121-74ee"/>
+        <characteristic name="END" typeId="667a-c155-ab8b-e83f"/>
+        <characteristic name="NERVE" typeId="480f-fee3-9b40-433c"/>
+        <characteristic name="MOVE" typeId="872a-ccc5-1cd8-391c"/>
+        <characteristic name="SIZE" typeId="80ac-ac42-0281-8c74"/>
+      </characteristics>
+    </profile>
+    <profile id="3e7e-c7a0-9767-32f3" name="Watchman-Class Frigate" hidden="false" typeId="4487-44d7-2322-d781" typeName="Starship">
+      <characteristics>
+        <characteristic name="Key Traits" typeId="5f5c-f13e-6aec-ade9"/>
+        <characteristic name="CMBT" typeId="ad3b-8b26-47ba-c073"/>
+        <characteristic name="DEF" typeId="1983-3f45-9951-7db0"/>
+        <characteristic name="ATHL" typeId="eeb4-9519-cdeb-e0ed"/>
+        <characteristic name="INT" typeId="71b6-3c7f-c8e4-3322"/>
+        <characteristic name="LD" typeId="8a50-4f93-4b23-7ee6"/>
+        <characteristic name="AMROR" typeId="74ff-b92c-d121-74ee"/>
+        <characteristic name="END" typeId="667a-c155-ab8b-e83f"/>
+        <characteristic name="NERVE" typeId="480f-fee3-9b40-433c"/>
+        <characteristic name="MOVE" typeId="872a-ccc5-1cd8-391c"/>
+        <characteristic name="SIZE" typeId="80ac-ac42-0281-8c74"/>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>

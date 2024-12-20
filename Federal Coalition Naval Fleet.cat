@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1c71-8671-9af6-45c1" name="Federal Coalition Naval Fleet" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="a727-8425-36a9-9cd6" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1c71-8671-9af6-45c1" name="Federal Coalition Naval Fleet" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="a727-8425-36a9-9cd6" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="8151-3e35-1f4f-0a11" name="Midway-Class Battleship" publicationId="a53b-cebe-de49-bcbc" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -65,6 +65,27 @@
             <entryLink id="0fa9-316c-2fad-1fd5" name="Veteran Crew" hidden="false" collective="false" import="true" targetId="c58c-2f3b-3ba8-e2e4" type="selectionEntryGroup"/>
             <entryLink id="9502-e1ba-1149-f2e8" name="Ship Modifications " hidden="false" collective="false" import="true" targetId="2e44-f620-9e46-8b4e" type="selectionEntryGroup"/>
             <entryLink id="9079-bfb5-0d1c-c33a" name="Task Force Leader" publicationId="33f2-a17a-6c67-dfa5" hidden="false" collective="false" import="true" targetId="d962-58a3-8acb-ee79" type="selectionEntry"/>
+            <entryLink id="a7c8-ed23-5eaa-280b" name="Hanger Bay" hidden="false" collective="false" import="true" targetId="b971-5773-9be7-581c" type="selectionEntry">
+              <selectionEntries>
+                <selectionEntry id="b229-60e5-ccfa-d452" name="FCA- 6 Boarding Ship" publicationId="a53b-cebe-de49-bcbc" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2d7-61e2-3b99-11e7" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="165e-2039-396c-351f" name="Boarding Clamps" publicationId="a53b-cebe-de49-bcbc" hidden="false">
+                      <description>A unit equipped with Boarding Clamps can make a Melee Attack against a target ship. If the attack is successful, the target ship is considered boarded. This action does not deal damage to the target but counts as one of the unit&apos;s actions for the turn.</description>
+                    </rule>
+                  </rules>
+                  <infoLinks>
+                    <infoLink id="a88a-83fd-5b18-27ef" name="Boarding Ship" hidden="false" targetId="078c-32a9-07b5-0d34" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="-6.0"/>
+                    <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </entryLink>
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="10.0"/>
@@ -164,6 +185,9 @@
                   <constraints>
                     <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d055-27c4-8160-ddec" type="max"/>
                   </constraints>
+                  <infoLinks>
+                    <infoLink id="2e27-956b-f63e-4fb2" name="FCA-1 Drone Fighter Squadron" hidden="false" targetId="c523-d1ec-81ad-e713" type="profile"/>
+                  </infoLinks>
                   <selectionEntries>
                     <selectionEntry id="c606-968e-fd98-e088" name="FCA-1 Drone Fighter Squadron" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
@@ -185,7 +209,7 @@
                     </selectionEntry>
                   </selectionEntries>
                   <costs>
-                    <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="10.0"/>
+                    <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="4.0"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -210,7 +234,7 @@
     </selectionEntry>
     <selectionEntry id="c61a-c09c-4b42-a6e2" name="PepperBox-Class Gunship" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink id="fe16-c7f4-8353-23cf" name="Light Core" hidden="false" targetId="c533-36dd-293a-b5d0" primary="true"/>
+        <categoryLink id="ff99-a4ef-e628-8dc2" name="Heavy Core" hidden="false" targetId="ffc0-944b-4d47-2640" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="4eb0-f566-d842-f643" name="PepperBox-Class Gunship" hidden="false" collective="false" import="true" type="upgrade">
@@ -230,7 +254,7 @@
             <entryLink id="a1e4-ab1e-3c2e-f486" name="Task Force Leader" publicationId="33f2-a17a-6c67-dfa5" hidden="false" collective="false" import="true" targetId="d962-58a3-8acb-ee79" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="5.0"/>
+            <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="4.0"/>
             <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="20.0"/>
           </costs>
         </selectionEntry>
@@ -255,6 +279,15 @@
           </infoLinks>
           <entryLinks>
             <entryLink id="ac88-9e7d-28e5-4077" name="Ship Modifications " hidden="false" collective="false" import="true" targetId="2e44-f620-9e46-8b4e" type="selectionEntryGroup"/>
+            <entryLink id="11d7-fe97-1c5f-28f7" name="Task Force Leader" publicationId="33f2-a17a-6c67-dfa5" hidden="false" collective="false" import="true" targetId="d962-58a3-8acb-ee79" type="selectionEntry"/>
+            <entryLink id="7e3b-16a5-288e-c118" name="Dreadnought Front Weapons Batteries" hidden="false" collective="false" import="true" targetId="c38a-faa3-e008-562d" type="selectionEntryGroup"/>
+            <entryLink id="9373-ea91-b090-1c3a" name="Veteran Crew" hidden="false" collective="false" import="true" targetId="c58c-2f3b-3ba8-e2e4" type="selectionEntryGroup"/>
+            <entryLink id="9fab-8289-d7a5-4cf0" name="Beam Cannons" hidden="false" collective="false" import="true" targetId="746e-3524-ef05-7d86" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bad6-04e3-bd15-5462" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1190-accc-8a7d-398c" type="min"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="10.0"/>
@@ -425,6 +458,9 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc59-ed74-2b0d-71f1" type="max"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00e8-2423-e8bc-a562" type="min"/>
                       </constraints>
+                      <infoLinks>
+                        <infoLink id="28fd-64d1-312a-3819" name="FCA-1 Drone Fighter Squadron" hidden="false" targetId="c523-d1ec-81ad-e713" type="profile"/>
+                      </infoLinks>
                       <entryLinks>
                         <entryLink id="5490-21d3-ca84-99eb" name="2x Anti-Armor Missiles" hidden="false" collective="false" import="true" targetId="156e-f7c4-d013-9514" type="selectionEntry">
                           <constraints>
@@ -460,7 +496,7 @@
     </selectionEntry>
     <selectionEntry id="f21e-40dc-cea0-1e13" name="Paris-Class Corvette" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
-        <categoryLink id="c507-e59d-dfc1-8009" name="Light Core" hidden="false" targetId="c533-36dd-293a-b5d0" primary="true"/>
+        <categoryLink id="77c6-fa35-c61a-681a" name="Heavy Core" hidden="false" targetId="ffc0-944b-4d47-2640" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="e4e5-62e4-d7c5-51d5" name="Paris-Class Corvette" publicationId="33f2-a17a-6c67-dfa5" hidden="false" collective="false" import="true" type="upgrade">
@@ -477,9 +513,30 @@
             <entryLink id="f3ef-b77e-e9f5-fd57" name="Corvette Back Weapons Batteries" hidden="false" collective="false" import="true" targetId="d554-b25b-f021-4520" type="selectionEntryGroup"/>
             <entryLink id="a248-d677-23f9-0ad1" name="Ship Modifications " hidden="false" collective="false" import="true" targetId="2e44-f620-9e46-8b4e" type="selectionEntryGroup"/>
             <entryLink id="0cf7-84b1-4cfc-41a5" name="Task Force Leader" publicationId="33f2-a17a-6c67-dfa5" hidden="false" collective="false" import="true" targetId="d962-58a3-8acb-ee79" type="selectionEntry"/>
+            <entryLink id="4212-de90-af0c-320c" name="Hanger Bay" hidden="false" collective="false" import="true" targetId="b971-5773-9be7-581c" type="selectionEntry">
+              <selectionEntries>
+                <selectionEntry id="5830-5c71-663b-2fef" name="Boarding Ship" publicationId="a53b-cebe-de49-bcbc" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83c4-eacb-23aa-287f" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="f962-0ea9-8af9-84cd" name="Boarding Clamps" publicationId="a53b-cebe-de49-bcbc" hidden="false">
+                      <description>A unit equipped with Boarding Clamps can make a Melee Attack against a target ship. If the attack is successful, the target ship is considered boarded. This action does not deal damage to the target but counts as one of the unit&apos;s actions for the turn.</description>
+                    </rule>
+                  </rules>
+                  <infoLinks>
+                    <infoLink id="c99e-1111-432d-b6f2" name="Boarding Ship" hidden="false" targetId="078c-32a9-07b5-0d34" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="-6.0"/>
+                    <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </entryLink>
           </entryLinks>
           <costs>
-            <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="5.0"/>
+            <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="4.0"/>
             <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="20.0"/>
           </costs>
         </selectionEntry>
@@ -491,7 +548,7 @@
     </selectionEntry>
     <selectionEntry id="01e0-b1f3-c459-73d3" name="Meiji-Class Frigate" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
-        <categoryLink id="b551-2c9d-b921-98ee" name="Light Core" hidden="false" targetId="c533-36dd-293a-b5d0" primary="true"/>
+        <categoryLink id="8478-a3a1-60cf-65f5" name="Light Core" hidden="false" targetId="c533-36dd-293a-b5d0" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="bc5d-fd7d-4119-aa6d" name="Meiji-Class Frigate" hidden="false" collective="false" import="true" type="upgrade">
@@ -499,12 +556,36 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ea2-f97e-1859-d206" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb7d-a8b4-020f-c772" type="min"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="4a2a-d256-a52b-a7f8" name="Meiji-Class Frigate" publicationId="a53b-cebe-de49-bcbc" hidden="false" targetId="af0d-6279-4b32-61c4" type="profile"/>
+          </infoLinks>
           <entryLinks>
             <entryLink id="4885-074e-d885-b6e0" name="Veteran Crew" hidden="false" collective="false" import="true" targetId="c58c-2f3b-3ba8-e2e4" type="selectionEntryGroup"/>
             <entryLink id="689e-0f90-aadd-ddc7" name="Ship Modifications " hidden="false" collective="false" import="true" targetId="2e44-f620-9e46-8b4e" type="selectionEntryGroup"/>
             <entryLink id="aa0d-7c9a-bf1a-8955" name="Frigate Front Weapons Batteries" hidden="false" collective="false" import="true" targetId="6c6c-e8f3-7634-eb22" type="selectionEntryGroup"/>
             <entryLink id="8342-d801-c781-2d42" name="Frigate Back Weapons Batteries" hidden="false" collective="false" import="true" targetId="d94c-a427-6dc0-f646" type="selectionEntryGroup"/>
             <entryLink id="3cae-52eb-db3a-d137" name="Task Force Leader" publicationId="33f2-a17a-6c67-dfa5" hidden="false" collective="false" import="true" targetId="d962-58a3-8acb-ee79" type="selectionEntry"/>
+            <entryLink id="278a-06d8-7af7-8eb0" name="Hanger Bay" hidden="false" collective="false" import="true" targetId="b971-5773-9be7-581c" type="selectionEntry">
+              <selectionEntries>
+                <selectionEntry id="c864-0c21-d05d-5fa5" name="Boarding Ship" publicationId="a53b-cebe-de49-bcbc" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e258-01a0-44a8-8b57" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="5a73-3934-d6db-e790" name="Boarding Clamps" publicationId="a53b-cebe-de49-bcbc" hidden="false">
+                      <description>A unit equipped with Boarding Clamps can make a Melee Attack against a target ship. If the attack is successful, the target ship is considered boarded. This action does not deal damage to the target but counts as one of the unit&apos;s actions for the turn.</description>
+                    </rule>
+                  </rules>
+                  <infoLinks>
+                    <infoLink id="cdb6-93c6-39e0-523b" name="Boarding Ship" hidden="false" targetId="078c-32a9-07b5-0d34" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="-6.0"/>
+                    <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </entryLink>
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="5.0"/>
@@ -599,12 +680,373 @@
                     <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="-6.0"/>
                   </costs>
                 </selectionEntry>
+                <selectionEntry id="a0ff-1feb-cd26-6b59" name="FCA- 6 Boarding Ship" publicationId="a53b-cebe-de49-bcbc" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56e1-327c-4a64-9086" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="b7aa-2090-f266-56f8" name="Boarding Clamps" publicationId="a53b-cebe-de49-bcbc" hidden="false">
+                      <description>A unit equipped with Boarding Clamps can make a Melee Attack against a target ship. If the attack is successful, the target ship is considered boarded. This action does not deal damage to the target but counts as one of the unit&apos;s actions for the turn.</description>
+                    </rule>
+                  </rules>
+                  <infoLinks>
+                    <infoLink id="187d-9cc7-ac86-82b8" name="Boarding Ship" hidden="false" targetId="078c-32a9-07b5-0d34" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="-6.0"/>
+                    <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="0.0"/>
+                  </costs>
+                </selectionEntry>
               </selectionEntries>
+              <entryLinks>
+                <entryLink id="98c4-9a88-4999-77c7" name="FCA-1 Drone Fighter Squadron" hidden="false" collective="false" import="true" targetId="1648-e46b-91c8-3e9d" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ddda-effa-6ebc-bf23" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="42c8-8528-e9fe-0f55" name="FCA-1 Drone Fighter Squadron" hidden="false" targetId="c523-d1ec-81ad-e713" type="profile"/>
+                  </infoLinks>
+                  <selectionEntries>
+                    <selectionEntry id="7972-ed05-bd6b-29aa" name="FCA-1 Drone Fighter Squadron" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c99-61d0-f14e-8eab" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="110e-683f-4403-d5f9" type="min"/>
+                      </constraints>
+                      <entryLinks>
+                        <entryLink id="3b79-01aa-643c-6352" name="2x Anti-Armor Missiles" hidden="false" collective="false" import="true" targetId="156e-f7c4-d013-9514" type="selectionEntry">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24ba-2c20-29e9-f145" type="max"/>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d052-4e49-bbb5-9497" type="min"/>
+                          </constraints>
+                        </entryLink>
+                      </entryLinks>
+                      <costs>
+                        <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="0.0"/>
+                        <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <costs>
+                    <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="4.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
             </entryLink>
+            <entryLink id="838d-ed40-75b0-780f" name="Metal Storm Cannon" hidden="false" collective="false" import="true" targetId="f0d2-c865-d7f8-eacb" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc07-d2d8-5aa3-d88c" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3967-8cfa-1a87-68ff" type="min"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="c337-b811-bcca-bbc6" name="Ship Modifications " hidden="false" collective="false" import="true" targetId="2e44-f620-9e46-8b4e" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="10.0"/>
-            <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="20.0"/>
+            <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="29.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="0.0"/>
+        <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c2e8-06bd-85f3-2643" name="Federal Coalition Naval Forces Command Cards" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8845-ff26-943e-8ffe" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2651-bc84-2d08-78c4" type="min"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="136d-a0e5-93a1-b6b0" name="1 Command Point Cards" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0145-b481-6545-ba06" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b89e-ee41-3f00-b7c2" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="32b5-9dce-a3ea-fa59" name="•Full Speed Ahead (Mobile Bay)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f81b-2336-1bfd-c9da" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="57bc-5f1e-f103-f0ba" name="•Full Speed Ahead (Mobile Bay)" hidden="false">
+                  <description>Play this card to add +3 MOVE to the MOBILE BAY&apos;s movement. Discard the card after use.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="1.0"/>
+                <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3e6d-e684-a189-d595" name="•Overwhelming Volley (Mobile Bay)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="715a-bb8f-cd4e-3694" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="6291-23e4-e76c-bae1" name="•Overwhelming Volley (Mobile Bay)" publicationId="a53b-cebe-de49-bcbc" hidden="false">
+                  <description>If the MOBILE BAY uses its Rate of Fire against an enemy ship, add +2 Nerve tokens to the total when determining how many Nerve tokens are placed on the enemy ship.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="1.0"/>
+                <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9c9a-7e8a-215b-abdd" name="•Donat&apos;s Gambit (Poltava)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f93-a496-283d-bfcd" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="f6a5-c419-c64a-ca37" name="•Donat&apos;s Gambit (Poltava)" hidden="false"/>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="1.0"/>
+                <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="58f9-22a4-c7d6-36dd" name="•Defensive Formation (Poltava)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de9f-4501-031a-702d" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="f31a-d6b0-55df-6b80" name="•Defensive Formation (Poltava)" hidden="false"/>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="1.0"/>
+                <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f778-4337-3d6c-9d4c" name="• Murphy Ambush (Port Arthur)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e81d-9d60-e8ed-b643" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="89fe-badd-79cd-d0ce" name="• Murphy Ambush (Port Arthur)" hidden="false"/>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="1.0"/>
+                <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3d61-b5dc-a6e8-54a3" name="• Fire in Place  (Port Arthur)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fca1-45f6-88f0-5360" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="4d1b-62ad-0e2a-d7ed" name="• Fire in Place  (Port Arthur)" hidden="false"/>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="1.0"/>
+                <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7990-b186-f7ee-0716" name="•Unity of Purpose" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05a0-7842-921e-b97a" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="7784-ae01-19c3-4986" name="•Unity of Purpose" publicationId="a53b-cebe-de49-bcbc" hidden="false">
+                  <description>Select a ship or squadron within the Voice of Command range of your Task Force Commander. The chosen unit may reroll any failed Leadership or Nerve checks during this turn. Discard this card after it is used.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="1.0"/>
+                <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="376d-70d3-1ee8-4812" name="•Orbital Dominance" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="beee-e84d-d07d-742f" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="d09b-3aaa-3c6e-3a22" name="•Orbital Dominance" publicationId="a53b-cebe-de49-bcbc" hidden="false">
+                  <description>During your activation, select one LIGHT SUPPORT or HEAVY SUPPORT ship. If that ship remains on a planetary objective at the end of the round, you gain +2 Victory Points. Play this card at the start of the unit&apos;s activation, and discard it at the end of the round.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="1.0"/>
+                <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="0.0"/>
+            <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1e34-f071-aee8-c030" name="2 Command Point Cards" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f452-e899-977e-aa96" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ffa6-d4a1-1759-bd85" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="355a-4e3f-b38a-2afc" name="•• Ironclad Resolve (Mobile Bay)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea59-e588-433d-0053" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="536e-ee25-d736-cad3" name="•• Ironclad Resolve (Mobile Bay)" hidden="false">
+                  <description>Play this card when MOBILE BAY is targeted by an attack. Reduce the total DMG by 3 for this attack. Discard this card after use.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="2.0"/>
+                <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c1bb-5cd7-48ea-46da" name="•• Chaff Deployment (Mobile Bay)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12aa-fe8e-3283-0f43" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="6890-2440-4e33-ce6d" name="•• Chaff Deployment (Mobile Bay)" publicationId="a53b-cebe-de49-bcbc" hidden="false">
+                  <description>If MOBILE BAY is targeted by an attack, you may play this card to deploy Chaff as an action. Place a Chaff token next to MOBILE BAY. While the Chaff token is in play, any MISSILE weapon attack targeting MOBILE BAY loses 1 die from its attack pool. The Chaff token remains active until the end of the round when it is removed from the board. Discard this card after use.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="2.0"/>
+                <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7cbf-b2da-867d-8a43" name="•• Defensive Perimeter (Poltava)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd23-733d-63bc-4be7" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="870d-0033-bff0-15ab" name="•• Defensive Perimeter (Poltava)" hidden="false"/>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="2.0"/>
+                <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3c6c-695f-3e3a-56b1" name="•• Scorched Sky Protocol (Poltava)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b3c-1a34-a3c1-caf6" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="7d24-07da-9e7f-f5fe" name="•• Scorched Sky Protocol (Poltava)" hidden="false"/>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="2.0"/>
+                <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9e93-9795-353d-f8c9" name="•• Daring Sortie (Port Arthur)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5abc-9e06-ff87-40a8" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="8113-6e46-807e-79f5" name="•• Daring Sortie (Port Arthur)" hidden="false"/>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="2.0"/>
+                <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d640-25be-fd98-8c2b" name="•• Attrition Doctrine (Port Arthur)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e06d-6847-e708-72e1" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="f3b2-c571-2eb4-d6f6" name="•• Attrition Doctrine (Port Arthur)" hidden="false"/>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="2.0"/>
+                <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e806-2dbf-7810-cce9" name="••Hold the Line" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="714c-91d7-1d9b-57fa" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="fee8-37bc-d7fb-4d94" name="••Hold the Line" publicationId="a53b-cebe-de49-bcbc" hidden="false">
+                  <description>When an enemy unit attacks a LIGHT CORE or HEAVY CORE ship, add +1 DEF to your defense dice pool.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="2.0"/>
+                <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="88c7-ee47-28e4-cdf7" name="••Logistical Superiority" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3427-c822-8494-d8e9" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="2121-f40a-f7be-9905" name="••Logistical Superiority" publicationId="a53b-cebe-de49-bcbc" hidden="false">
+                  <description>At the start of the Activation Phase, restore 1 health box to each of up to two friendly LIGHT CORE units within the Voice of Command range of your Task Force Commander.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="2.0"/>
+                <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="0.0"/>
+            <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="38f6-c8c3-4de7-d224" name="3 Command Point Cards" hidden="false" collective="false" import="true" type="upgrade">
+          <selectionEntries>
+            <selectionEntry id="7e1d-09c2-8c59-c78c" name="••• Decisive Coordination  (Mobile Bay)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab38-78d9-af7f-2b8d" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="0b43-c9cb-44e2-00b8" name="••• Decisive Coordination  (Mobile Bay)" hidden="false">
+                  <description>Select one LIGHT SUPPORT or HEAVY CORE unit within the Voice of Command range of MOBILE BAY. This unit gains an additional activation this turn. Discard this card after use.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="3.0"/>
+                <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8d2b-908d-a34f-fcb7" name="••• Last Salvo (Poltava)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="984b-2fe5-40be-30ae" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="1d63-9037-cc90-1dde" name="••• Last Salvo (Poltava)" hidden="false"/>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="3.0"/>
+                <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4ffd-76aa-42aa-068c" name="••• Last Bastion (Port Arthur)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1465-aecc-934c-a037" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="5d9d-e876-8ea7-e922" name="••• Last Bastion (Port Arthur)" hidden="false"/>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="3.0"/>
+                <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="69bf-802a-47a0-0980" name="••• Coordinated Assault" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e436-bb89-0f3e-cecb" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="b695-4603-73d6-1e76" name="••• Coordinated Assault" hidden="false">
+                  <description>Select two LIGHT SUPPORT or LIGHT CORE units that are within each other&apos;s Voice of Command range. If both units target the same enemy unit this turn, add +3 to their combined DMG total. Discard this card after use.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="3.0"/>
+                <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="0.0"/>
+            <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -620,7 +1062,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f60e-39b9-239b-c265" type="max"/>
       </constraints>
       <profiles>
-        <profile id="0297-1c39-58a0-4f8d" name="Reconnaissance Drone" hidden="false" typeId="d036-1502-eb10-94e0" typeName="Combat Drones">
+        <profile id="0297-1c39-58a0-4f8d" name="Reconnaissance Drone" publicationId="a53b-cebe-de49-bcbc" hidden="false" typeId="d036-1502-eb10-94e0" typeName="Combat Drones">
           <characteristics>
             <characteristic name="Key Traits" typeId="0114-9975-34de-e945">Drone, Electronic, Hover, Fly</characteristic>
             <characteristic name="CMBT" typeId="d2d2-0f04-9ccf-c5f2"/>
@@ -645,23 +1087,26 @@
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4911-12b2-bb5e-aea5" type="max"/>
       </constraints>
-      <profiles>
-        <profile id="bc8a-3c12-38ff-d1be" name="FCA-1 Drone Fighter Squadron" publicationId="a53b-cebe-de49-bcbc" hidden="false" typeId="d036-1502-eb10-94e0" typeName="Combat Drones">
-          <characteristics>
-            <characteristic name="Key Traits" typeId="0114-9975-34de-e945">Drone, Electronic, Hover, Fly</characteristic>
-            <characteristic name="CMBT" typeId="d2d2-0f04-9ccf-c5f2"/>
-            <characteristic name="DEF" typeId="2631-bf57-0edf-8794"/>
-            <characteristic name="ATHL" typeId="dfec-271b-ff72-d400"/>
-            <characteristic name="INT" typeId="dbc4-5761-a1c1-6dd3"/>
-            <characteristic name="LD" typeId="326d-093f-12ec-0411"/>
-            <characteristic name="ARMOR" typeId="bd4c-4dd1-c57b-3101"/>
-            <characteristic name="END" typeId="ef11-46fa-bc52-eb87"/>
-            <characteristic name="NERVE" typeId="e2b9-09de-10e0-96ab"/>
-            <characteristic name="MOVE" typeId="cca7-888c-d574-eb44"/>
-            <characteristic name="SIZE" typeId="1f3a-f95f-7791-e337"/>
-          </characteristics>
-        </profile>
-      </profiles>
+      <infoLinks>
+        <infoLink id="30ab-3352-9600-a855" name="FCA-1 Drone Fighter Squadron" hidden="false" targetId="c523-d1ec-81ad-e713" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="0.0"/>
+        <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6015-03d0-414e-d562" name="FCA- 6 Boarding Ship" publicationId="a53b-cebe-de49-bcbc" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9650-00bf-c28f-1f9c" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="49dc-e84c-d901-b4d3" name="Boarding Clamps" publicationId="a53b-cebe-de49-bcbc" hidden="false">
+          <description>A unit equipped with Boarding Clamps can make a Melee Attack against a target ship. If the attack is successful, the target ship is considered boarded. This action does not deal damage to the target but counts as one of the unit&apos;s actions for the turn.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="1be7-d5c5-653b-71b5" name="FCA- 6 Boarding Ship" hidden="false" targetId="078c-32a9-07b5-0d34" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="0.0"/>
         <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
@@ -952,7 +1397,7 @@
     </selectionEntryGroup>
     <selectionEntryGroup id="80a2-8977-d64b-454f" name="Battleships of Renown" publicationId="a53b-cebe-de49-bcbc" hidden="false" collective="false" import="true">
       <selectionEntries>
-        <selectionEntry id="03b7-1327-d043-ed3a" name="Mobile Bay" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="03b7-1327-d043-ed3a" name="Mobile Bay" publicationId="a53b-cebe-de49-bcbc" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70ca-6ace-3757-d7ca" type="max"/>
           </constraints>
@@ -961,9 +1406,10 @@
           </rules>
           <costs>
             <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="-3.0"/>
+            <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="4e1d-aa46-7801-2625" name="Poltava" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="4e1d-aa46-7801-2625" name="Poltava" publicationId="a53b-cebe-de49-bcbc" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e322-10c6-5d4b-5b92" type="max"/>
           </constraints>
@@ -972,9 +1418,10 @@
           </rules>
           <costs>
             <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="-3.0"/>
+            <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="3f17-1650-cf80-9a30" name="Port Arthur" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="3f17-1650-cf80-9a30" name="Port Arthur" publicationId="a53b-cebe-de49-bcbc" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6e0-eb4d-dc78-6fe4" type="max"/>
           </constraints>
@@ -983,6 +1430,7 @@
           </rules>
           <costs>
             <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="-3.0"/>
+            <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1006,7 +1454,7 @@
     </profile>
     <profile id="f459-9af3-342e-f9a5" name="Derringer-Class Dreadnought" publicationId="a53b-cebe-de49-bcbc" hidden="false" typeId="4487-44d7-2322-d781" typeName="Starship">
       <characteristics>
-        <characteristic name="Key Traits" typeId="5f5c-f13e-6aec-ade9">Stablized, Electronic</characteristic>
+        <characteristic name="Key Traits" typeId="5f5c-f13e-6aec-ade9">Stablized, Electronic, Hanger</characteristic>
         <characteristic name="CMBT" typeId="ad3b-8b26-47ba-c073"/>
         <characteristic name="DEF" typeId="1983-3f45-9951-7db0"/>
         <characteristic name="ATHL" typeId="eeb4-9519-cdeb-e0ed"/>
@@ -1081,7 +1529,7 @@
     </profile>
     <profile id="d8a2-e1f2-4a14-048e" name="Longbow-Class Dreadnought" publicationId="a53b-cebe-de49-bcbc" hidden="false" typeId="4487-44d7-2322-d781" typeName="Starship">
       <characteristics>
-        <characteristic name="Key Traits" typeId="5f5c-f13e-6aec-ade9">Stablized, Electronic</characteristic>
+        <characteristic name="Key Traits" typeId="5f5c-f13e-6aec-ade9">Stablized, Electronic, Hanger</characteristic>
         <characteristic name="CMBT" typeId="ad3b-8b26-47ba-c073"/>
         <characteristic name="DEF" typeId="1983-3f45-9951-7db0"/>
         <characteristic name="ATHL" typeId="eeb4-9519-cdeb-e0ed"/>
@@ -1111,7 +1559,7 @@
     </profile>
     <profile id="ebe5-cea8-9e34-bd37" name="Paris-Class Corvette" publicationId="a53b-cebe-de49-bcbc" hidden="false" typeId="4487-44d7-2322-d781" typeName="Starship">
       <characteristics>
-        <characteristic name="Key Traits" typeId="5f5c-f13e-6aec-ade9">Stablized, Electronic</characteristic>
+        <characteristic name="Key Traits" typeId="5f5c-f13e-6aec-ade9">Stablized, Electronic, Hanger</characteristic>
         <characteristic name="CMBT" typeId="ad3b-8b26-47ba-c073"/>
         <characteristic name="DEF" typeId="1983-3f45-9951-7db0"/>
         <characteristic name="ATHL" typeId="eeb4-9519-cdeb-e0ed"/>
@@ -1156,7 +1604,52 @@
     </profile>
     <profile id="c5ea-6ed8-bf30-65f7" name="Vesta-Class Space Station" publicationId="a53b-cebe-de49-bcbc" hidden="false" typeId="4487-44d7-2322-d781" typeName="Starship">
       <characteristics>
-        <characteristic name="Key Traits" typeId="5f5c-f13e-6aec-ade9">Immobile, Hanger</characteristic>
+        <characteristic name="Key Traits" typeId="5f5c-f13e-6aec-ade9">Immobile, Hanger, Electronic, Stablized</characteristic>
+        <characteristic name="CMBT" typeId="ad3b-8b26-47ba-c073"/>
+        <characteristic name="DEF" typeId="1983-3f45-9951-7db0"/>
+        <characteristic name="ATHL" typeId="eeb4-9519-cdeb-e0ed"/>
+        <characteristic name="INT" typeId="71b6-3c7f-c8e4-3322"/>
+        <characteristic name="LD" typeId="8a50-4f93-4b23-7ee6"/>
+        <characteristic name="AMROR" typeId="74ff-b92c-d121-74ee"/>
+        <characteristic name="END" typeId="667a-c155-ab8b-e83f"/>
+        <characteristic name="NERVE" typeId="480f-fee3-9b40-433c"/>
+        <characteristic name="MOVE" typeId="872a-ccc5-1cd8-391c"/>
+        <characteristic name="SIZE" typeId="80ac-ac42-0281-8c74"/>
+      </characteristics>
+    </profile>
+    <profile id="c523-d1ec-81ad-e713" name="FCA-1 Drone Fighter Squadron" hidden="false" typeId="d036-1502-eb10-94e0" typeName="Combat Drones">
+      <characteristics>
+        <characteristic name="Key Traits" typeId="0114-9975-34de-e945">Flyer, Hover, Electronic</characteristic>
+        <characteristic name="CMBT" typeId="d2d2-0f04-9ccf-c5f2">2</characteristic>
+        <characteristic name="DEF" typeId="2631-bf57-0edf-8794">2</characteristic>
+        <characteristic name="ATHL" typeId="dfec-271b-ff72-d400">2</characteristic>
+        <characteristic name="INT" typeId="dbc4-5761-a1c1-6dd3">2</characteristic>
+        <characteristic name="LD" typeId="326d-093f-12ec-0411">2</characteristic>
+        <characteristic name="ARMOR" typeId="bd4c-4dd1-c57b-3101">11/11/11</characteristic>
+        <characteristic name="END" typeId="ef11-46fa-bc52-eb87">3</characteristic>
+        <characteristic name="NERVE" typeId="e2b9-09de-10e0-96ab">-</characteristic>
+        <characteristic name="MOVE" typeId="cca7-888c-d574-eb44">11</characteristic>
+        <characteristic name="SIZE" typeId="1f3a-f95f-7791-e337">11-MA</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="078c-32a9-07b5-0d34" name="FCA- 6 Boarding Ship" hidden="false" typeId="6ca8-b189-8255-fac0" typeName="HAVOC Squadron (High Altitude Void Operable Craft)">
+      <characteristics>
+        <characteristic name="Key Traits" typeId="6275-71f5-2057-8d4f">Fly, Hover, Electronic, Transport: 10, </characteristic>
+        <characteristic name="CMBT" typeId="14d9-083f-a167-403e"/>
+        <characteristic name="DEF" typeId="9985-e89e-ded2-c735"/>
+        <characteristic name="ATHL" typeId="d306-75b3-463d-1645"/>
+        <characteristic name="INT" typeId="8f2b-78f0-c3af-7c88"/>
+        <characteristic name="LD" typeId="b90d-4e75-1006-6bee"/>
+        <characteristic name="ARMOR" typeId="22e0-a978-00a4-85af"/>
+        <characteristic name="END" typeId="baa5-19e2-ed40-0962"/>
+        <characteristic name="NERVE" typeId="fb8c-451a-9121-dd04"/>
+        <characteristic name="MOVE" typeId="2dc0-57fe-f190-f562"/>
+        <characteristic name="SIZE" typeId="7e7f-f040-4c5b-0bea"/>
+      </characteristics>
+    </profile>
+    <profile id="af0d-6279-4b32-61c4" name="Meiji-Class Frigate" hidden="false" typeId="4487-44d7-2322-d781" typeName="Starship">
+      <characteristics>
+        <characteristic name="Key Traits" typeId="5f5c-f13e-6aec-ade9">Stablized, Electronic, Hanger</characteristic>
         <characteristic name="CMBT" typeId="ad3b-8b26-47ba-c073"/>
         <characteristic name="DEF" typeId="1983-3f45-9951-7db0"/>
         <characteristic name="ATHL" typeId="eeb4-9519-cdeb-e0ed"/>

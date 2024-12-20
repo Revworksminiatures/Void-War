@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="a727-8425-36a9-9cd6" name="Void War" revision="5" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="a727-8425-36a9-9cd6" name="Void War" revision="7" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="a53b-cebe-de49-bcbc" name="Forces of the Federal Coalition Navy"/>
     <publication id="25a0-f467-ac2c-01e6" name="Naval Forces of the Protectorate Defense League "/>
@@ -444,6 +444,469 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35bc-d8a6-aa0d-3666" type="min"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d463-5231-3546-0fce" type="max"/>
       </constraints>
+      <selectionEntries>
+        <selectionEntry id="192a-b515-2e87-7984" name="Face to Face (1-2)" publicationId="33f2-a17a-6c67-dfa5" hidden="false" collective="true" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f44-be5d-d506-bbfb" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="8652-1649-bc92-3e99" name="Face to Face (1-2)" publicationId="33f2-a17a-6c67-dfa5" hidden="false">
+              <description>Player Deployment Zones are across from each other, with home edges being on opposing board edges.</description>
+            </rule>
+          </rules>
+          <selectionEntries>
+            <selectionEntry id="0a11-a065-4b86-3087" name="Assault Missions" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5fe3-1728-db1b-46bb" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="0.0"/>
+                <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="df52-6be0-afa6-f086" name="Defend Missions" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b0af-a177-72fc-235a" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="0.0"/>
+                <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8bb1-b21c-3298-30b8" name="Recon Missions" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d68d-335b-0ea5-7bae" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="0.0"/>
+                <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9834-7015-9ccc-dc94" name="Retrieve Missions" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e04-1db3-8540-46c8" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="0.0"/>
+                <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="31ff-b9b3-f7e8-d7c4" name="Support Missions" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c9d-136a-4b29-f5e9" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="0.0"/>
+                <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="0.0"/>
+            <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8dcd-11a1-cf59-2e24" name="Middle Ground (7-8)" publicationId="33f2-a17a-6c67-dfa5" hidden="false" collective="true" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="031e-3e2d-a6b4-135b" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="0.0"/>
+            <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4c77-0a40-4864-63ac" name="Off Sides (3-4)" publicationId="33f2-a17a-6c67-dfa5" hidden="false" collective="true" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="548d-552e-3285-2741" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="0.0"/>
+            <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6fca-660a-a9b7-92a7" name="Scattered (9-10)" publicationId="33f2-a17a-6c67-dfa5" hidden="false" collective="true" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b27-d2f1-87f9-9b18" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="0.0"/>
+            <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7cc1-619a-3469-eb48" name="Corners (5-6)" publicationId="33f2-a17a-6c67-dfa5" hidden="false" collective="true" import="true">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b89e-ea7c-3ac4-a5d1" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="6f2a-388b-f9a3-d9d8" name="Corners (5-6)" publicationId="33f2-a17a-6c67-dfa5" hidden="false">
+              <description>One player chooses a corner of the board and the other player takes the opposite corner. Both deploy out from their corners, using it as a point of origin. The home edge must be on a board edge touching the corner.
+</description>
+            </rule>
+          </rules>
+          <selectionEntries>
+            <selectionEntry id="7798-9106-d53a-557b" name="Assault Missions" publicationId="33f2-a17a-6c67-dfa5" hidden="false" collective="true" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d9c-6639-77bf-aee7" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="c6ef-c495-2e26-adef" name="Destroy/Sabotage (1 VP)" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aeea-6ca2-fc19-3dbb" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="8d31-89ee-e95a-94f0" name="Destroy/Sabotage" hidden="false">
+                      <description>Objective Terrain/Enemy Token must be eliminated. Choose a Terrain piece. If an Opponent has already placed one of their own Objective tokens, you may designate it instead. In either case, the Objective must be destroyed. If it is an Opponent’s token, a Model must move within 5 inches of the token and spend an action to destroy it. That opponent can no longer complete that objective (they have failed it). If the objective is a terrain piece, place a token on it. A Model must move within 5 inches of the token and spend an action to destroy it. Alternatively, if a model can draw a Line of Sight to a designated objective (either the opponent&apos;s marker or the terrain piece) and has a usable weapon that is in range, they may spend an action to attack it. You do not need to roll for the attack, it is assumed to automatically hit. If it is a terrain piece, and the weapon’s DMG rating exceeds its AR (see cover table),  it is destroyed. If it is an opponent’s token, it is automatically destroyed. You then gain 1 VP.</description>
+                    </rule>
+                  </rules>
+                  <costs>
+                    <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="0.0"/>
+                    <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="0cdd-4200-d168-f614" name="Kill ‘Em All (2 VP)" publicationId="33f2-a17a-6c67-dfa5" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1e2-ce32-d2a8-ecfb" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="78c5-5867-5439-cf16" name="Kill ‘Em All" hidden="false">
+                      <description>The Enemy Unit must be wiped out. Pick an enemy Unit after all units have been deployed at the start of the game. Every model must be destroyed by the end of the game in order to complete the Objective.</description>
+                    </rule>
+                  </rules>
+                  <costs>
+                    <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="0.0"/>
+                    <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="0848-531b-bce6-1d8f" name="Manhunt (1-3 VP)" publicationId="33f2-a17a-6c67-dfa5" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2605-3a21-68e3-abde" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="d549-a7ae-e213-6d1d" name="Manhunt" hidden="false">
+                      <description>Objective Enemy Character Leader must be eliminated. The Target must be killed by any means necessary. If one of your models kills the Target, then you immediately gain 3VPs. If however, the Target is killed by some other means, leave the target model on the battlefield and place an objective marker beside it. One of your models must move into Base to base contact with the marker and spend an action to confirm the death. Then the target and the marker are then removed. Immediately gain 3 Victory Points.
+
+</description>
+                    </rule>
+                  </rules>
+                  <costs>
+                    <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="0.0"/>
+                    <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="efb0-dfbc-ba32-9c08" name="Raid (1-5 VP)" publicationId="33f2-a17a-6c67-dfa5" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5697-a036-28c8-13aa" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="88da-b018-6fa7-9753" name="Raid" hidden="false">
+                      <description>Secure Objective Area for x rounds. Place an Objective marker anywhere on the battlefield at least 10 inches outside your deployment zone. The objective marker must be secured for at least 1 to 5 rounds. You gain a VP at the end of every round if the objective is uncontested and the marker is still secured. You can continue to hold the objective for up to 5 consecutive rounds for a possible 5 VPs total. At the end of the round, if the objective is contested, or the models securing it are destroyed or pinned down, tally the total round the objective was secured. You gain that many Victory Points.
+
+</description>
+                    </rule>
+                  </rules>
+                  <costs>
+                    <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="0.0"/>
+                    <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="0.0"/>
+                <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="aa25-df2e-a77d-39ad" name="Defend Missions" publicationId="33f2-a17a-6c67-dfa5" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e3e-fbb4-4c3b-4152" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="c161-bf3f-d505-682f" name="Besieged (1-5 VP)" publicationId="33f2-a17a-6c67-dfa5" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e814-b7f3-f37c-55fa" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="1005-c471-1c07-f9e5" name="Besieged" hidden="false">
+                      <description>You are dug in, Hold out to the bitter end. Place a marker within your deployment zone. You must start the game with a unit securing this objective marker. If by the end of a round, the Objective is not contested and you still have the Objective secured, you gain 1 VP. This can continue for up to 5 rounds for a total of 5 Victory Points. </description>
+                    </rule>
+                  </rules>
+                  <costs>
+                    <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="0.0"/>
+                    <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="0f74-6ceb-eccc-99dd" name="Guard (2 VP)" publicationId="33f2-a17a-6c67-dfa5" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0215-4e1a-cef6-a4c5" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="73f3-acd1-08c0-2818" name="Guard (2 VP)" hidden="false">
+                      <description>Objective Character/Model must not be killed. Select one of your models after deployment. If this model is not destroyed by the end of the game, you gain 2 VPs.</description>
+                    </rule>
+                  </rules>
+                  <costs>
+                    <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="0.0"/>
+                    <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="12f3-ad7c-8b2c-3777" name="Protect ( 1 VP)" publicationId="33f2-a17a-6c67-dfa5" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed35-4708-d50e-f97c" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="4ad0-5626-2752-3eaa" name="Protect " hidden="false">
+                      <description>Objective Terrain/Token must not be destroyed. Place a token at least 5 inches outside of your Deployment Zone. Choose a Terrain piece. If an Opponent has already placed one of their own Objective tokens, you may designate it instead. In either case, the Objective must not be destroyed by any means. If at the end of the game, you have the Objective secured, you gain 1 VP.</description>
+                    </rule>
+                  </rules>
+                  <costs>
+                    <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="0.0"/>
+                    <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="0.0"/>
+                <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="47ce-9070-6a0e-b257" name="Recon Missions" publicationId="33f2-a17a-6c67-dfa5" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntries>
+                <selectionEntry id="7ef4-84fa-4881-7c01" name="Survey (1 VP)" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1af0-0d44-459b-2466" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="2579-ec63-55b1-f974" name="Survey" hidden="false">
+                      <description>Objective Area must be observed. Place a marker on the battlefield at least 10 inches outside of your deployment Zone. If a Model can gain LOS to this token, it can spend an action to observe the marker. You then gain 1VP.</description>
+                    </rule>
+                  </rules>
+                  <costs>
+                    <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="0.0"/>
+                    <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="d6df-d6ef-4dc6-f644" name="Tracking (1-5 VP)" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d52-b5f3-5295-f6c7" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="2433-ceb0-751b-aae9" name="Tracking (1-5 VP)" hidden="false">
+                      <description>Objective Unit/Character Leader must be observed for a number of rounds. The longer the objective is observed, the more VPs gain. Can observe for a maximum of 5 rounds for a possible 5VPs total. Pick an enemy Unit after all units have been deployed at the start of the game. If a model has a Line of Sight to ALL models within that unit, it may spend an action to observe the unit. You then gain 1 VP. The same model may repeat this action once each round for up to five rounds and 5 Victory Points. Only that model or its unit continues to observe the objective Unit/ Character leader.</description>
+                    </rule>
+                  </rules>
+                  <costs>
+                    <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="0.0"/>
+                    <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="7cf0-d234-5f48-706a" name="Scout (2 VP)" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="93d0-1094-c949-5e8d" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="e715-2b73-f631-c6b9" name="Scout" hidden="false">
+                      <description>Enemy Unit is of questionable size and strength, observe it. Pick an enemy Unit after all units have been deployed at the start of the game. If a model has Line-Of-Sight to ALL models within that unit, it may spend an action to observe the unit. You then gain 2 VP.</description>
+                    </rule>
+                  </rules>
+                  <costs>
+                    <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="0.0"/>
+                    <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="0.0"/>
+                <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ff2f-8d14-41d0-f73f" name="Retrieve Missions" publicationId="33f2-a17a-6c67-dfa5" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntries>
+                <selectionEntry id="b62f-0b2a-0eba-f37c" name="Gather Intel (1 VP)" publicationId="33f2-a17a-6c67-dfa5" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a410-4e56-dd35-4fbd" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="7a3d-02c3-9a48-209b" name="Gather Intel" hidden="false">
+                      <description>The enemy has valuable information, interact with the Objective to recover it</description>
+                    </rule>
+                  </rules>
+                  <costs>
+                    <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="0.0"/>
+                    <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="3a7b-c14a-617e-3348" name="Grab ‘Em! (3 VP)" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7481-f842-692f-a530" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="56a9-5d64-7331-de06" name="Grab ‘Em! (3 VP)" hidden="false">
+                      <description>Objective character model(s) is of interest to command, (re)capture them, and bring them to the rendezvous point. Pick an Opponent’s Infantry Model. If this model is made helpless or is hit with a successful Unarmed attack that does not kill it, the Objective Model is Restrained and can be forced to move up to its MR if an opponent’s model is in base-to-base contact with it. On the objective model’s activation, it can spend actions in a CQB vs CQB roll against the Model in base-to-base contact with it. If the model wins the roll it escapes and is no longer restrained. It may now move and act as normal but lacks any of its weapons (they were taken by its captors). To Complete the Objective the Objective Model(s) must be brought to a friendly Deployment zone. If the objective model(s) is killed, the player who was assigned the objective has failed it.</description>
+                    </rule>
+                  </rules>
+                  <costs>
+                    <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="0.0"/>
+                    <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="70a6-bd51-5162-877c" name="Lost and Found (1-5 VP)" publicationId="33f2-a17a-6c67-dfa5" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="14d1-a1e0-b986-fd2c" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="adb0-6c21-635d-efb2" name="Lost and Found (1-5 VP)" hidden="false">
+                      <description>You left something important behind. Go back and get it. Set a number of tokens on the board equal to 2 tokens for every 1VP risked for this objective.
+1 VP
+2 Tokens
+2 VP
+4 Tokens
+3 VP
+6 Tokens
+4 VP 
+8 Tokens
+5 VP
+10 Tokens
+
+These Tokens must be placed at least 5 inches outside your Deployment Zone and be at least 5 inches away from each other. 
+When a Model moves into base-to-base contact with one of the tokens, roll a 1d10 and consult the 
+Chart below:
+1
+Objective Token explodes with Blast 3, DMG 12. Attack rolls 3d10 and can be defended against normally. Armor and cover still apply.
+2-6
+You find nothing
+7-10
+Found the Objective. Instantly gain 1-5VP
+
+Once a Token has been rolled for and the result applied, remove it from the game. If one token remains and has been rolled for, that Token, is the objective. You must still reach base-to-base contact with the token to earn the victory points. If an enemy Model is in base-to-base contact with a Token, that token cannot be rolled for until the enemy Model is no longer in base-to-base contact with the Token, killed, or is Helpless.
+
+</description>
+                    </rule>
+                  </rules>
+                  <costs>
+                    <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="0.0"/>
+                    <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="96d5-876d-f244-a01f" name="POW (1-5 VP)" publicationId="33f2-a17a-6c67-dfa5" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8fe-777e-20b8-1094" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="7305-fae5-bd3f-44a6" name="POW (1-5 VP)" hidden="false">
+                      <description>Objective character model(s) is being held captive and must be recovered and brought to a designated rendezvous spot. You choose to have between 1 to 5 hostages to rescue. Each hostage is worth 1 VP. An opponent places the Objective Models on the battlefield at least 10 inches outside any deployment zone. The models can be placed separately or in a group as the opponent desires. When a model is in base-to-base contact with the hostage model, the player immediately adds that hostage to the model’s unit. When that unit activates, the hostage activates with it. Hostages have a living model with an MR of 5, Size of 5Sm, 1 Damage box, and all skills are 1. To Complete the Objective the Objective Model(s) must make it to a friendly Deployment zone. If the objective model(s) is killed, the player who was assigned the objective has failed it.</description>
+                    </rule>
+                  </rules>
+                  <costs>
+                    <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="0.0"/>
+                    <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="5340-6f2b-babf-5892" name="Recover (2 VP)" publicationId="33f2-a17a-6c67-dfa5" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75c7-de0f-ab9a-ba5c" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="f192-c8e2-8b58-a75f" name="Recover" hidden="false">
+                      <description>An Item is of vital importance, Retrieve it and bring it back to the rendezvous point. Place an Objective marker on the battlefield at least 10 inches from your deployment zones. When a model is in base to base with the marker, remove it from the battlefield and place it on the Model’s card. If the model is killed or becomes helpless, place the marker back onto the battlefield in base-to-base contact with the model (then remove the model from the battlefield if it is killed). An opponent’s model may take the objective marker in the same fashion. To Complete the Objective the Marker must be brought to a friendly Deployment zone. If an opponent brings the objective to their deployment zone, the player who was assigned the objective has failed it.</description>
+                    </rule>
+                  </rules>
+                  <costs>
+                    <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="0.0"/>
+                    <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="0.0"/>
+                <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="16e8-2127-1653-9f6b" name="Support Missions" publicationId="33f2-a17a-6c67-dfa5" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntries>
+                <selectionEntry id="8d97-2856-dae8-f9c1" name="Rally Point (1 VP)" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d366-0d68-c79d-b27f" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="a0fc-5462-427a-5cad" name="Rally Point (1 VP)" hidden="false">
+                      <description>A friendly force is falling back. Make sure they have a place to go. Designate an Infantry unit (unit A). That unit must deploy 5 inches from an Opponent’s Deployment Zone (but at least 10 inches from your deployment zone). Then place a Marker at least 5 inches outside of your deployment zone but at least 10 inches from unit A. Unit A must make it within 5 inches of this maker. A second Unit (unit B) must have a marker secured before, Unit A arrives.</description>
+                    </rule>
+                  </rules>
+                  <costs>
+                    <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="0.0"/>
+                    <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="148d-6fd3-6275-9b8b" name="Relay (1-5 VP)" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ec2-235f-be75-283f" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="56c6-9d2d-024e-475f" name="Relay (1-5 VP)" hidden="false">
+                      <description>Communications are not getting through, set up a Comms relay. Nominate a Model, this model is carrying a Transceiver. This Model may deploy a transceiver marker by spending an action. Only one Transceiver can be on the board at a time. To deploy a Transceiver marker, the marker is placed in base-to-base contact with the model. At the end of a Round, if the Transceiver is deployed, you gain 1 VP. You can gain a max of 5 Victory Points. A Transceiver can be “packed up” and moved by any Infantry-type model that is in base-to-base contact with the marker by spending an action. The Model can then move normally and place the marker at a new location if desired. If the marker is destroyed, no more VPs can be earned further. The transceiver marker can be destroyed either by an opponent’s model moving into base contact with it and spending an action or if they can draw a line of sight to it and make a ranged attack. The attack does not have to be rolled for it is assumed to automatically hit.
+</description>
+                    </rule>
+                  </rules>
+                  <costs>
+                    <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="0.0"/>
+                    <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="8142-7830-1f9a-28ca" name="Repair (1-5 VP)" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c61-eff7-8fb3-616d" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="5e58-f829-f94c-6fbb" name="Repair (1-5 VP)" hidden="false">
+                      <description>Valuable Equipment has been damaged, repair it. Center a marker within your deployment zone, then roll scatter. Move the marker 10 inches plus the dice value in the direction indicated. Models can move into base contact with the marker and spend an action to repair it
+ an Objective cost an action to repair per VP the objective is worth. These actions can be spent by multiple models and can be spent over several rounds as need be. 
+Once an action has been spent towards repairing the objective it is not lost if the model dies, or the round ends. The Objective now simply costs one less action to repair. 
+Once the objective is fully repaired, then you earn the VPs declared for the objective. Once the Objective is repaired, remove it from the battlefield. An Objective must be secured before actions can be spent to repair it.
+Victory Points  Worth
+Valuable Equipment
+Damaged Vehicle
+Terrain Piece
+1
+Transceiver
+-
+-
+2
+Beacon
+-
+-
+3
+Downed drone
+Transport
+Light Obstacle
+4
+Comms tower
+Artillery
+Heavy Obstacle
+5
+Satellite Relay
+Main Battle Tank
+Ruined Building
+
+ An objective can be destroyed either by an opponent’s model moving into base contact with it and spending an action or if they can draw a line of sight to it and make a ranged attack. The attack does not have to be rolled for it is assumed to automatically hit. In either case, the repair cost for the objective rises by one action (Example: 4 actions to repair is now 5 actions to repair). 
+If an action cost for an objective exceeds double its starting value, the objective is destroyed and the objective has failed. When the game begins, declare the victory points being risked then choose from the available options what to repair.
+</description>
+                    </rule>
+                  </rules>
+                  <costs>
+                    <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="0.0"/>
+                    <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="0.0"/>
+                <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="0.0"/>
         <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
@@ -472,7 +935,7 @@
     <selectionEntry id="1615-f853-c976-b3c8" name="Generic Command Cards" publicationId="33f2-a17a-6c67-dfa5" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5083-d092-f33d-43c9" type="max"/>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c36-1468-4ba2-122a" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c36-1468-4ba2-122a" type="min"/>
       </constraints>
       <selectionEntries>
         <selectionEntry id="ed3f-9b1f-80cd-9579" name="1 Command Point Cards" hidden="false" collective="false" import="true" type="upgrade">

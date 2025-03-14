@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1c71-8671-9af6-45c1" name="Federal Coalition Naval Fleet" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="a727-8425-36a9-9cd6" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1c71-8671-9af6-45c1" name="Federal Coalition Naval Fleet" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="a727-8425-36a9-9cd6" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="8151-3e35-1f4f-0a11" name="Midway-Class Battleship" publicationId="a53b-cebe-de49-bcbc" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -515,7 +515,7 @@
             <entryLink id="0cf7-84b1-4cfc-41a5" name="Task Force Leader" publicationId="33f2-a17a-6c67-dfa5" hidden="false" collective="false" import="true" targetId="d962-58a3-8acb-ee79" type="selectionEntry"/>
             <entryLink id="4212-de90-af0c-320c" name="Hanger Bay" hidden="false" collective="false" import="true" targetId="b971-5773-9be7-581c" type="selectionEntry">
               <selectionEntries>
-                <selectionEntry id="5830-5c71-663b-2fef" name="Boarding Ship" publicationId="a53b-cebe-de49-bcbc" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="5830-5c71-663b-2fef" name="FCA- 6 Boarding Ship" publicationId="a53b-cebe-de49-bcbc" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83c4-eacb-23aa-287f" type="max"/>
                   </constraints>
@@ -567,7 +567,7 @@
             <entryLink id="3cae-52eb-db3a-d137" name="Task Force Leader" publicationId="33f2-a17a-6c67-dfa5" hidden="false" collective="false" import="true" targetId="d962-58a3-8acb-ee79" type="selectionEntry"/>
             <entryLink id="278a-06d8-7af7-8eb0" name="Hanger Bay" hidden="false" collective="false" import="true" targetId="b971-5773-9be7-581c" type="selectionEntry">
               <selectionEntries>
-                <selectionEntry id="c864-0c21-d05d-5fa5" name="Boarding Ship" publicationId="a53b-cebe-de49-bcbc" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="c864-0c21-d05d-5fa5" name="FCA- 6 Boarding Ship" publicationId="a53b-cebe-de49-bcbc" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e258-01a0-44a8-8b57" type="max"/>
                   </constraints>
@@ -754,7 +754,7 @@
     <selectionEntry id="c2e8-06bd-85f3-2643" name="Federal Coalition Naval Forces Command Cards" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8845-ff26-943e-8ffe" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2651-bc84-2d08-78c4" type="min"/>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2651-bc84-2d08-78c4" type="min"/>
       </constraints>
       <selectionEntries>
         <selectionEntry id="136d-a0e5-93a1-b6b0" name="1 Command Point Cards" hidden="false" collective="false" import="true" type="upgrade">
@@ -1395,7 +1395,7 @@
         <entryLink id="39f9-174b-a813-962a" name="Medium Main Cannons" hidden="false" collective="false" import="true" targetId="3a05-0fdc-ce71-bba4" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="80a2-8977-d64b-454f" name="Battleships of Renown" publicationId="a53b-cebe-de49-bcbc" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="80a2-8977-d64b-454f" name="Ships of Renown" publicationId="a53b-cebe-de49-bcbc" hidden="false" collective="false" import="true">
       <selectionEntries>
         <selectionEntry id="03b7-1327-d043-ed3a" name="Mobile Bay" publicationId="a53b-cebe-de49-bcbc" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1617,7 +1617,7 @@
         <characteristic name="SIZE" typeId="80ac-ac42-0281-8c74"/>
       </characteristics>
     </profile>
-    <profile id="c523-d1ec-81ad-e713" name="FCA-1 Drone Fighter Squadron" hidden="false" typeId="d036-1502-eb10-94e0" typeName="Combat Drones">
+    <profile id="c523-d1ec-81ad-e713" name="FCA-1 Drone Fighter Squadron" publicationId="a53b-cebe-de49-bcbc" hidden="false" typeId="d036-1502-eb10-94e0" typeName="Combat Drones">
       <characteristics>
         <characteristic name="Key Traits" typeId="0114-9975-34de-e945">Flyer, Hover, Electronic</characteristic>
         <characteristic name="CMBT" typeId="d2d2-0f04-9ccf-c5f2">2</characteristic>
@@ -1632,7 +1632,7 @@
         <characteristic name="SIZE" typeId="1f3a-f95f-7791-e337">11-MA</characteristic>
       </characteristics>
     </profile>
-    <profile id="078c-32a9-07b5-0d34" name="FCA- 6 Boarding Ship" hidden="false" typeId="6ca8-b189-8255-fac0" typeName="HAVOC Squadron (High Altitude Void Operable Craft)">
+    <profile id="078c-32a9-07b5-0d34" name="FCA- 6 Boarding Ship" publicationId="a53b-cebe-de49-bcbc" hidden="false" typeId="6ca8-b189-8255-fac0" typeName="HAVOC Squadron (High Altitude Void Operable Craft)">
       <characteristics>
         <characteristic name="Key Traits" typeId="6275-71f5-2057-8d4f">Fly, Hover, Electronic, Transport: 10, </characteristic>
         <characteristic name="CMBT" typeId="14d9-083f-a167-403e"/>
@@ -1647,7 +1647,7 @@
         <characteristic name="SIZE" typeId="7e7f-f040-4c5b-0bea"/>
       </characteristics>
     </profile>
-    <profile id="af0d-6279-4b32-61c4" name="Meiji-Class Frigate" hidden="false" typeId="4487-44d7-2322-d781" typeName="Starship">
+    <profile id="af0d-6279-4b32-61c4" name="Meiji-Class Frigate" publicationId="a53b-cebe-de49-bcbc" hidden="false" typeId="4487-44d7-2322-d781" typeName="Starship">
       <characteristics>
         <characteristic name="Key Traits" typeId="5f5c-f13e-6aec-ade9">Stablized, Electronic, Hanger</characteristic>
         <characteristic name="CMBT" typeId="ad3b-8b26-47ba-c073"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="a727-8425-36a9-9cd6" name="Void War" revision="7" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="a727-8425-36a9-9cd6" name="Void War" revision="8" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="a53b-cebe-de49-bcbc" name="Forces of the Federal Coalition Navy"/>
     <publication id="25a0-f467-ac2c-01e6" name="Naval Forces of the Protectorate Defense League "/>
@@ -319,6 +319,9 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ffea-d957-56e0-21d8" type="min"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a32-2453-6467-1486" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="cbcd-7739-ad87-bd1d" name="Era of Play " hidden="false" targetId="bc73-45ed-a205-b541" primary="true"/>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="def6-09ce-4aa6-d871" name="First Void War Time Period" publicationId="33f2-a17a-6c67-dfa5" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -396,6 +399,10 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4285-0cbc-d15a-f16f" type="min"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6853-6fc6-659c-56fd" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="21f4-e70c-cf16-024b" name="Command Cards and Utilities" hidden="false" targetId="464a-37a5-42b3-3e9e" primary="false"/>
+        <categoryLink id="bb76-b9c1-e3ae-eb25" name="Mission Briefing" hidden="false" targetId="2ff3-0002-2441-7825" primary="true"/>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="cdee-0cae-ed4d-24dd" name="Casual" publicationId="33f2-a17a-6c67-dfa5" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -444,6 +451,9 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35bc-d8a6-aa0d-3666" type="min"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d463-5231-3546-0fce" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="bb2d-e1c3-c5ff-55cd" name="Mission Briefing" hidden="false" targetId="2ff3-0002-2441-7825" primary="true"/>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="192a-b515-2e87-7984" name="Face to Face (1-2)" publicationId="33f2-a17a-6c67-dfa5" hidden="false" collective="true" import="true" type="upgrade">
           <constraints>
@@ -917,6 +927,9 @@ If an action cost for an objective exceeds double its starting value, the object
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06c8-bf6d-de83-550f" type="min"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="324a-7e7b-cb13-e01f" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="f4e0-7841-0af5-5150" name="Mission Briefing" hidden="false" targetId="2ff3-0002-2441-7825" primary="true"/>
+      </categoryLinks>
       <costs>
         <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="0.0"/>
         <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
@@ -927,6 +940,10 @@ If an action cost for an objective exceeds double its starting value, the object
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d3f-5a94-8877-eeec" type="min"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0d0-3c61-f216-5747" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="17cc-4d58-dea1-63f6" name="Command Cards and Utilities" hidden="false" targetId="464a-37a5-42b3-3e9e" primary="false"/>
+        <categoryLink id="cb57-44db-43a9-944d" name="Mission Briefing" hidden="false" targetId="2ff3-0002-2441-7825" primary="true"/>
+      </categoryLinks>
       <costs>
         <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="0.0"/>
         <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
@@ -937,6 +954,9 @@ If an action cost for an objective exceeds double its starting value, the object
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5083-d092-f33d-43c9" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c36-1468-4ba2-122a" type="min"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="9a84-0115-72b3-1e1e" name="Command Cards and Utilities" hidden="false" targetId="464a-37a5-42b3-3e9e" primary="true"/>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="ed3f-9b1f-80cd-9579" name="1 Command Point Cards" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1458,14 +1478,14 @@ If the model moves, then it must spend another action to reengage the Stabilizer
         <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0fd7-e590-093a-fd60" name="Reconnaissance Drone" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="62ee-9ac2-ecad-c2b3" name="Reconnaissance Drone" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a38-a7a9-bde1-4df1" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdb6-9830-c9dd-1a32" type="max"/>
       </constraints>
       <profiles>
-        <profile id="3338-7ffb-5656-63ff" name="Reconnaissance Drone" hidden="false" typeId="d036-1502-eb10-94e0" typeName="Combat Drones">
+        <profile id="15e3-cb06-6c9f-ae8b" name="Reconnaissance Drone" publicationId="33f2-a17a-6c67-dfa5" hidden="false" typeId="d036-1502-eb10-94e0" typeName="Combat Drones">
           <characteristics>
-            <characteristic name="Key Traits" typeId="0114-9975-34de-e945"/>
+            <characteristic name="Key Traits" typeId="0114-9975-34de-e945">Drone, Electronic, Hover, Fly</characteristic>
             <characteristic name="CMBT" typeId="d2d2-0f04-9ccf-c5f2"/>
             <characteristic name="DEF" typeId="2631-bf57-0edf-8794"/>
             <characteristic name="ATHL" typeId="dfec-271b-ff72-d400"/>
@@ -1624,6 +1644,148 @@ If the model moves, then it must spend another action to reengage the Stabilizer
           </costs>
         </selectionEntry>
       </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="cc17-18c6-9b90-8a22" name="Battleship Front Weapons Batteries" publicationId="33f2-a17a-6c67-dfa5" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a123-80c1-3053-d6c4" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="bc38-6bd3-0c7a-4718" name="Beam Cannons" publicationId="33f2-a17a-6c67-dfa5" hidden="false" collective="false" import="true" targetId="746e-3524-ef05-7d86" type="selectionEntry"/>
+        <entryLink id="c3fe-3640-0ed4-6d9e" name="Medium Main Cannons" hidden="false" collective="false" import="true" targetId="3a05-0fdc-ce71-bba4" type="selectionEntry"/>
+        <entryLink id="d1df-7662-5699-c111" name="Rail Cannon" publicationId="33f2-a17a-6c67-dfa5" hidden="false" collective="false" import="true" targetId="a842-5a2e-1d31-2f42" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="7cc3-44e6-a439-1b53" name="Battleship Mid Battleries" publicationId="33f2-a17a-6c67-dfa5" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a42a-c012-8eda-d426" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="6ed0-45dd-2ead-2c3b" name="Missile Battery" hidden="false" collective="false" import="true" targetId="c597-e271-77be-fd44" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3070-f651-f167-e8d7" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="2a30-562f-a59f-7aed" name="Rail Cannon" hidden="false" collective="false" import="true" targetId="a842-5a2e-1d31-2f42" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f2c-1a45-c3b2-513d" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="1ca6-4bca-bb9b-f360" name="Battleship Rear Weapons Batteries" publicationId="33f2-a17a-6c67-dfa5" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29ca-b686-beca-de94" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="5809-5fd9-8816-6bf6" name="Beam Cannons" publicationId="33f2-a17a-6c67-dfa5" hidden="false" collective="false" import="true" targetId="746e-3524-ef05-7d86" type="selectionEntry"/>
+        <entryLink id="a8f4-2af6-fa58-1609" name="Medium Main Cannons" hidden="false" collective="false" import="true" targetId="3a05-0fdc-ce71-bba4" type="selectionEntry"/>
+        <entryLink id="3bc4-a86f-c494-7fee" name="Rail Cannon" publicationId="33f2-a17a-6c67-dfa5" hidden="false" collective="false" import="true" targetId="a842-5a2e-1d31-2f42" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="8106-ce63-48bf-9ee8" name="Carrier Front Weapons Batteries" publicationId="33f2-a17a-6c67-dfa5" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6130-40b1-c4e1-3e17" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="78c6-3ec3-b544-dfa9" name="Medium Main Cannons" hidden="false" collective="false" import="true" targetId="3a05-0fdc-ce71-bba4" type="selectionEntry"/>
+        <entryLink id="850a-ec05-d648-4db5" name="Missile Battery" hidden="false" collective="false" import="true" targetId="c597-e271-77be-fd44" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="448a-ba1e-5d45-426f" name="Carrier Rear Weapons Batteries" publicationId="33f2-a17a-6c67-dfa5" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a53-55f9-7e00-a2ff" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="165d-c393-2dda-44fc" name="Medium Main Cannons" hidden="false" collective="false" import="true" targetId="3a05-0fdc-ce71-bba4" type="selectionEntry"/>
+        <entryLink id="1d49-cde1-2343-fbab" name="Missile Battery" hidden="false" collective="false" import="true" targetId="c597-e271-77be-fd44" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="d1e3-a8fa-2768-4b2b" name="Corvette Back Weapons Batteries" publicationId="33f2-a17a-6c67-dfa5" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef55-825f-0db5-2356" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="48f6-b715-a8ff-266d" name="Missile Battery" hidden="false" collective="false" import="true" targetId="c597-e271-77be-fd44" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff07-ce57-451b-6edd" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="c445-0b54-ed96-67e9" name="Medium Main Cannons" hidden="false" collective="false" import="true" targetId="3a05-0fdc-ce71-bba4" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="e19e-1e03-cb91-f4e1" name="Corvette Front Weapons Batteries" publicationId="33f2-a17a-6c67-dfa5" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="817e-fb97-556f-de2c" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="8d98-5027-dfa1-c90c" name="Missile Battery" hidden="false" collective="false" import="true" targetId="c597-e271-77be-fd44" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="beac-fd82-4e3d-1295" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="b84f-3c97-700b-e6dc" name="Medium Main Cannons" hidden="false" collective="false" import="true" targetId="3a05-0fdc-ce71-bba4" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="60ec-d033-acd9-35e0" name="Dreadnought Front Weapons Batteries" publicationId="33f2-a17a-6c67-dfa5" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72aa-368e-af11-8800" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="42a1-6c8b-139f-ae83" name="Medium Main Cannons" hidden="false" collective="false" import="true" targetId="3a05-0fdc-ce71-bba4" type="selectionEntry"/>
+        <entryLink id="5357-f692-bf91-598b" name="Missile Battery" hidden="false" collective="false" import="true" targetId="c597-e271-77be-fd44" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="bbb4-e94a-90ba-66c4" name="Frigate Back Weapons Batteries" publicationId="33f2-a17a-6c67-dfa5" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2729-54db-ca4d-6294" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="04a5-11ad-f7fb-0bac" name="Missile Battery" hidden="false" collective="false" import="true" targetId="c597-e271-77be-fd44" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d271-a274-6623-75fb" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="ab64-e65b-9c04-a947" name="Medium Main Cannons" hidden="false" collective="false" import="true" targetId="3a05-0fdc-ce71-bba4" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="c88f-3ca0-2217-b870" name="Frigate Front Weapons Batteries" publicationId="33f2-a17a-6c67-dfa5" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f40-a1bd-f2ea-73df" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="40fe-2b20-2c70-1af8" name="Missile Battery" hidden="false" collective="false" import="true" targetId="c597-e271-77be-fd44" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f66-2227-6282-1910" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="1b95-3778-864f-a97b" name="Medium Main Cannons" hidden="false" collective="false" import="true" targetId="3a05-0fdc-ce71-bba4" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="45b2-cd54-e90e-a6ea" name="Gunship Front Weapons Batteries" publicationId="33f2-a17a-6c67-dfa5" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37ce-f04a-ef77-3436" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="9de0-1a2c-9701-f282" name="Missile Battery" hidden="false" collective="false" import="true" targetId="c597-e271-77be-fd44" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd46-795d-ba3a-29fc" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="9749-eed5-d6fa-6aac" name="Medium Main Cannons" hidden="false" collective="false" import="true" targetId="3a05-0fdc-ce71-bba4" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="b5c4-ddf8-03b1-70b3" name="Gunship Rear Weapons Batteries" publicationId="33f2-a17a-6c67-dfa5" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a5c2-ea77-5143-6eac" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="c37c-d895-60c7-a876" name="Missile Battery" hidden="false" collective="false" import="true" targetId="c597-e271-77be-fd44" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="745a-8349-d066-942a" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="b061-a81c-ecb3-8d46" name="Medium Main Cannons" hidden="false" collective="false" import="true" targetId="3a05-0fdc-ce71-bba4" type="selectionEntry"/>
+      </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>

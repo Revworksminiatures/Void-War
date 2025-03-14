@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="96fe-9367-6e0b-2d4c" name="Erland Royal Navy" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="a727-8425-36a9-9cd6" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="96fe-9367-6e0b-2d4c" name="Erland Royal Navy" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="a727-8425-36a9-9cd6" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="1651-ea31-a359-ba61" name="Liberator-Class Carrier" publicationId="2c42-f471-bf78-bef5" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -16,10 +16,14 @@
           </infoLinks>
           <entryLinks>
             <entryLink id="7a56-f5ea-1e9f-99df" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="d962-58a3-8acb-ee79" type="selectionEntry"/>
+            <entryLink id="6b0a-3da5-3bd2-6dd0" name="Carrier Front Weapons Batteries" hidden="false" collective="false" import="true" targetId="8106-ce63-48bf-9ee8" type="selectionEntryGroup"/>
+            <entryLink id="9355-fb14-d92b-c410" name="Carrier Rear Weapons Batteries" hidden="false" collective="false" import="true" targetId="448a-ba1e-5d45-426f" type="selectionEntryGroup"/>
+            <entryLink id="d9e6-66f6-cb1f-a618" name="Ship Modifications " hidden="false" collective="false" import="true" targetId="64d7-6d7f-699e-dfd7" type="selectionEntryGroup"/>
+            <entryLink id="c5cc-1ac3-0908-6be7" name="Hanger Bay" hidden="false" collective="false" import="true" targetId="b971-5773-9be7-581c" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="8.0"/>
-            <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+            <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="40.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -28,7 +32,7 @@
         <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2bb4-a694-1023-19e7" name="Sentry-Class Corvette" publicationId="2c42-f471-bf78-bef5" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="2bb4-a694-1023-19e7" name="Sentry-Class Corvette" publicationId="2c42-f471-bf78-bef5" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="dcb3-4b5c-60d5-a547" name="Light Core" hidden="false" targetId="c533-36dd-293a-b5d0" primary="true"/>
       </categoryLinks>
@@ -43,10 +47,14 @@
           </infoLinks>
           <entryLinks>
             <entryLink id="2d94-f08f-12e4-6a6b" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="d962-58a3-8acb-ee79" type="selectionEntry"/>
+            <entryLink id="17c9-9136-978a-947b" name="Corvette Front Weapons Batteries" hidden="false" collective="false" import="true" targetId="e19e-1e03-cb91-f4e1" type="selectionEntryGroup"/>
+            <entryLink id="61a8-64a3-eaa0-edb4" name="Corvette Back Weapons Batteries" hidden="false" collective="false" import="true" targetId="d1e3-a8fa-2768-4b2b" type="selectionEntryGroup"/>
+            <entryLink id="d785-7f6a-bbc4-6322" name="Ship Modifications " hidden="false" collective="false" import="true" targetId="64d7-6d7f-699e-dfd7" type="selectionEntryGroup"/>
+            <entryLink id="448e-3c14-ec9a-54b0" name="Hanger Bay" hidden="false" collective="false" import="true" targetId="b971-5773-9be7-581c" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="5.0"/>
-            <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+            <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="20.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -55,7 +63,7 @@
         <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b7a4-5122-80ad-321e" name="Watchman-Class Frigate" publicationId="2c42-f471-bf78-bef5" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="b7a4-5122-80ad-321e" name="Watchman-Class Frigate" publicationId="2c42-f471-bf78-bef5" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="1c8a-6198-0c24-5766" name="Heavy Core" hidden="false" targetId="ffc0-944b-4d47-2640" primary="true"/>
       </categoryLinks>
@@ -70,10 +78,12 @@
           </infoLinks>
           <entryLinks>
             <entryLink id="bfed-3344-1eac-74d9" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="d962-58a3-8acb-ee79" type="selectionEntry"/>
+            <entryLink id="b63d-23ee-88e4-4137" name="Ship Modifications " hidden="false" collective="false" import="true" targetId="64d7-6d7f-699e-dfd7" type="selectionEntryGroup"/>
+            <entryLink id="8d89-c274-e018-b18e" name="Hanger Bay" hidden="false" collective="false" import="true" targetId="b971-5773-9be7-581c" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="4.0"/>
-            <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+            <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="20.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -97,10 +107,15 @@
           </infoLinks>
           <entryLinks>
             <entryLink id="c381-bf1c-2353-eec4" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="d962-58a3-8acb-ee79" type="selectionEntry"/>
+            <entryLink id="9c29-d19f-62d0-bb1a" name="Battleship Front Weapons Batteries" hidden="false" collective="false" import="true" targetId="cc17-18c6-9b90-8a22" type="selectionEntryGroup"/>
+            <entryLink id="4351-dbdf-b90f-3fde" name="Battleship Mid Battleries" hidden="false" collective="false" import="true" targetId="7cc3-44e6-a439-1b53" type="selectionEntryGroup"/>
+            <entryLink id="6f9e-5f97-a236-0f7d" name="Battleship Rear Weapons Batteries" hidden="false" collective="false" import="true" targetId="1ca6-4bca-bb9b-f360" type="selectionEntryGroup"/>
+            <entryLink id="5a3f-5786-273f-86d4" name="Ship Modifications " hidden="false" collective="false" import="true" targetId="64d7-6d7f-699e-dfd7" type="selectionEntryGroup"/>
+            <entryLink id="1479-9e01-e4b3-1a2f" name="Ships of Renown" hidden="false" collective="false" import="true" targetId="6177-4b89-8ffe-2e25" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="6.0"/>
-            <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+            <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="20.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -109,7 +124,7 @@
         <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="83ba-ef94-ea36-7e2a" name="Gosta I Class Assault Carrier" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="83ba-ef94-ea36-7e2a" name="Gosta I Class Assault Carrier" publicationId="2c42-f471-bf78-bef5" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="1212-c573-b356-1e05" name="Heavy Support" hidden="false" targetId="fed3-7df7-4345-0ae0" primary="true"/>
       </categoryLinks>
@@ -121,10 +136,14 @@
           </constraints>
           <entryLinks>
             <entryLink id="f9c9-5e72-d4f6-3802" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="d962-58a3-8acb-ee79" type="selectionEntry"/>
+            <entryLink id="6872-0f59-4edc-be16" name="Carrier Front Weapons Batteries" hidden="false" collective="false" import="true" targetId="8106-ce63-48bf-9ee8" type="selectionEntryGroup"/>
+            <entryLink id="0bd8-9885-61fd-8736" name="Carrier Rear Weapons Batteries" hidden="false" collective="false" import="true" targetId="448a-ba1e-5d45-426f" type="selectionEntryGroup"/>
+            <entryLink id="aa3b-e345-1d96-30ab" name="Ship Modifications " hidden="false" collective="false" import="true" targetId="64d7-6d7f-699e-dfd7" type="selectionEntryGroup"/>
+            <entryLink id="0c95-5b22-c6ef-8fce" name="Hanger Bay" hidden="false" collective="false" import="true" targetId="b971-5773-9be7-581c" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="8.0"/>
-            <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+            <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="40.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -133,7 +152,7 @@
         <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d3f6-5b3a-0e31-70ad" name="Guardian Class Frigate" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="d3f6-5b3a-0e31-70ad" name="Guardian Class Frigate" publicationId="2c42-f471-bf78-bef5" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="ff8e-5b83-d7ee-c337" name="Heavy Core" hidden="false" targetId="ffc0-944b-4d47-2640" primary="true"/>
       </categoryLinks>
@@ -143,9 +162,15 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a35f-fd01-aae3-32cb" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3669-a717-8187-0943" type="min"/>
           </constraints>
+          <entryLinks>
+            <entryLink id="07e6-2a03-645c-e0ee" name="Hanger Bay" hidden="false" collective="false" import="true" targetId="b971-5773-9be7-581c" type="selectionEntry"/>
+            <entryLink id="acab-1602-676e-7681" name="Frigate Back Weapons Batteries" hidden="false" collective="false" import="true" targetId="bbb4-e94a-90ba-66c4" type="selectionEntryGroup"/>
+            <entryLink id="bda5-85ca-2598-6a37" name="Frigate Front Weapons Batteries" hidden="false" collective="false" import="true" targetId="c88f-3ca0-2217-b870" type="selectionEntryGroup"/>
+            <entryLink id="41ea-e235-22f7-c7f3" name="Ship Modifications " hidden="false" collective="false" import="true" targetId="64d7-6d7f-699e-dfd7" type="selectionEntryGroup"/>
+          </entryLinks>
           <costs>
             <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="4.0"/>
-            <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+            <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="20.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -154,7 +179,7 @@
         <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d160-9703-4216-e255" name="Mercy-Class Hospital Ship" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="d160-9703-4216-e255" name="Mercy-Class Hospital Ship" publicationId="2c42-f471-bf78-bef5" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="ad37-f8d9-620f-a150" name="Special Issue" hidden="false" targetId="73f5-c8d9-e281-6d17" primary="true"/>
       </categoryLinks>
@@ -164,6 +189,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5efd-2fc6-2880-c60d" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4175-2d89-5b6c-3e76" type="min"/>
           </constraints>
+          <entryLinks>
+            <entryLink id="9444-43c0-5d1e-1d2e" name="Ship Modifications " hidden="false" collective="false" import="true" targetId="64d7-6d7f-699e-dfd7" type="selectionEntryGroup"/>
+          </entryLinks>
           <costs>
             <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="10.0"/>
             <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
@@ -185,9 +213,17 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b228-c577-0c13-7ff6" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc8a-042e-e504-ed64" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="7697-b6c7-6a3a-23f6" name="Immobile" hidden="false" targetId="2018-2bce-98cd-0abf" type="rule"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="5893-62ca-99fc-a1b3" name="Ship Modifications " hidden="false" collective="false" import="true" targetId="64d7-6d7f-699e-dfd7" type="selectionEntryGroup"/>
+            <entryLink id="0627-c303-291e-3e61" name="Hanger Bay" hidden="false" collective="false" import="true" targetId="b971-5773-9be7-581c" type="selectionEntry"/>
+            <entryLink id="44a2-dc04-da49-c345" name="Metal Storm Cannon" hidden="false" collective="false" import="true" targetId="f0d2-c865-d7f8-eacb" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="10.0"/>
-            <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+            <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="40.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -196,7 +232,7 @@
         <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="887d-0465-9ccd-9d7e" name="Dominator-Class Battleship" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="887d-0465-9ccd-9d7e" name="Dominator-Class Battleship" publicationId="2c42-f471-bf78-bef5" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="8452-52c8-6c69-f81a" name="Light Support" hidden="false" targetId="317b-7b08-d144-c5bf" primary="true"/>
       </categoryLinks>
@@ -212,9 +248,118 @@
           <entryLinks>
             <entryLink id="a91e-3004-3bd8-0d1d" name="Task Force Leader" hidden="false" collective="false" import="true" targetId="d962-58a3-8acb-ee79" type="selectionEntry"/>
             <entryLink id="6168-8788-cbbc-247b" name="Ship Modifications " hidden="false" collective="false" import="true" targetId="64d7-6d7f-699e-dfd7" type="selectionEntryGroup"/>
+            <entryLink id="1b77-a98d-d379-d8e8" name="Battleship Front Weapons Batteries" hidden="false" collective="false" import="true" targetId="cc17-18c6-9b90-8a22" type="selectionEntryGroup"/>
+            <entryLink id="f62c-a16c-e3df-9069" name="Battleship Mid Battleries" hidden="false" collective="false" import="true" targetId="7cc3-44e6-a439-1b53" type="selectionEntryGroup"/>
+            <entryLink id="868c-5ea8-2ee4-a374" name="Battleship Rear Weapons Batteries" hidden="false" collective="false" import="true" targetId="1ca6-4bca-bb9b-f360" type="selectionEntryGroup"/>
+            <entryLink id="ca55-8643-d025-892a" name="Ships of Renown" hidden="false" collective="false" import="true" targetId="6177-4b89-8ffe-2e25" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="6.0"/>
+            <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="20.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="0.0"/>
+        <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b9d2-4242-e2ca-e4f7" name="Erland Royal Naval Forces Command Cards" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c24-2976-db36-f966" type="max"/>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d21c-34df-bfde-2bc0" type="min"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="4dae-3a4a-93cb-84a4" name="Command Cards and Utilities" hidden="false" targetId="464a-37a5-42b3-3e9e" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="8959-cd6a-c62b-4aa1" name="1 Command Point Cards" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ac8-88b7-57b9-d0cc" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b786-6b9b-d659-6681" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="b454-a94c-2481-4939" name="Card 1" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f4a-3b6a-7dce-2051" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="1.0"/>
+                <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="56db-e9a3-74f3-b353" name="Card 2" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13ad-eef6-4f66-cbbe" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="1.0"/>
+                <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="0.0"/>
+            <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f491-c2ba-7de8-48af" name="2 Command Point Cards" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a79c-2429-f0d7-d9d9" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30c1-6fc6-8eaf-0fa3" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="a6e7-9cf2-dbef-3ca7" name="Card 1" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e9b-311e-fe28-bd5b" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="2.0"/>
+                <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="029b-7b75-0288-04a0" name="Card 2" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6f5-3c57-6dbc-1786" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="2.0"/>
+                <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="0.0"/>
+            <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="37b3-8dc8-ef29-79cd" name="3 Command Point Cards" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="212b-61f4-30e1-9fc9" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2148-8177-56e8-1c9e" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="d205-d838-4b0f-c10e" name="Card 2" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3707-8bc2-45f5-3862" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="3.0"/>
+                <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="484a-31b2-9977-b982" name="Card 1" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1206-bb5e-00b7-4b2a" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="3.0"/>
+                <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="Command Points" typeId="c8f4-e049-f551-b319" value="0.0"/>
             <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -225,6 +370,9 @@
       </costs>
     </selectionEntry>
   </selectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="6177-4b89-8ffe-2e25" name="Ships of Renown" hidden="false" collective="false" import="true"/>
+  </sharedSelectionEntryGroups>
   <sharedProfiles>
     <profile id="89d1-3663-310e-77ab" name="Fortress-Class Battleship" publicationId="2c42-f471-bf78-bef5" hidden="false" typeId="4487-44d7-2322-d781" typeName="Starship">
       <characteristics>

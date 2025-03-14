@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="a727-8425-36a9-9cd6" name="Void War" revision="8" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="a727-8425-36a9-9cd6" name="Void War" revision="9" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="a53b-cebe-de49-bcbc" name="Forces of the Federal Coalition Navy"/>
     <publication id="25a0-f467-ac2c-01e6" name="Naval Forces of the Protectorate Defense League "/>
@@ -949,10 +949,10 @@ If an action cost for an objective exceeds double its starting value, the object
         <cost name="Resource Points" typeId="ba8e-c9ca-122e-08da" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1615-f853-c976-b3c8" name="Generic Command Cards" publicationId="33f2-a17a-6c67-dfa5" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="1615-f853-c976-b3c8" name="Generic Command Cards" publicationId="33f2-a17a-6c67-dfa5" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5083-d092-f33d-43c9" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c36-1468-4ba2-122a" type="min"/>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c36-1468-4ba2-122a" type="min"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="9a84-0115-72b3-1e1e" name="Command Cards and Utilities" hidden="false" targetId="464a-37a5-42b3-3e9e" primary="true"/>

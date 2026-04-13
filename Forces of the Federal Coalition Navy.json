@@ -5,7 +5,7 @@
     "name": "Forces of the Federal Coalition Navy",
     "gameSystemId": "sys-38ec-1e0f-59dc-bb47",
     "gameSystemRevision": 4,
-    "revision": 7,
+    "revision": 8,
     "battleScribeVersion": "2.03",
     "type": "catalogue",
     "selectionEntries": [
@@ -2348,6 +2348,16 @@
             "costs": [
               {
                 "name": "Command Points",
+                "typeId": "6928-861d-fe09-02e7",
+                "value": 8
+              },
+              {
+                "name": "Resource Points",
+                "typeId": "6857-2916-102c-e582",
+                "value": 40
+              },
+              {
+                "name": "Command Points",
                 "typeId": "c8f4-e049-f551-b319",
                 "value": 8
               },
@@ -2777,6 +2787,16 @@
               }
             ],
             "costs": [
+              {
+                "name": "Command Points",
+                "typeId": "6928-861d-fe09-02e7",
+                "value": 5
+              },
+              {
+                "name": "Resource Points",
+                "typeId": "6857-2916-102c-e582",
+                "value": 20
+              },
               {
                 "name": "Command Points",
                 "typeId": "c8f4-e049-f551-b319",

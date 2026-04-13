@@ -3,7 +3,7 @@
     "id": "sys-38ec-1e0f-59dc-bb47",
     "name": "General Quarters",
     "battleScribeVersion": "2.03",
-    "revision": 6,
+    "revision": 7,
     "categoryEntries": [
       {
         "name": "Armed Forces Selector",
@@ -855,6 +855,12 @@
                 "id": "ade2-5d87-ba21-baa2"
               }
             ]
+          },
+          {
+            "name": "Command Cards and Utilities",
+            "hidden": false,
+            "id": "bf90-d3ba-c4c5-1ebd",
+            "targetId": "acb1-e01b-51f0-2fab"
           }
         ]
       }

@@ -3,7 +3,7 @@
     "id": "sys-38ec-1e0f-59dc-bb47",
     "name": "General Quarters",
     "battleScribeVersion": "2.03",
-    "revision": 7,
+    "revision": 9,
     "categoryEntries": [
       {
         "name": "Armed Forces Selector",
@@ -141,6 +141,12 @@
             "targetId": "d9ac-c300-7049-d100"
           },
           {
+            "name": "Mission Briefing",
+            "hidden": false,
+            "id": "9c63-09d1-de00-6280",
+            "targetId": "9705-c4c5-adb2-bf71"
+          },
+          {
             "name": "Light Core",
             "hidden": false,
             "id": "35c1-9421-5900-7118",
@@ -259,12 +265,6 @@
                 "id": "0987-1d0d-8619-49ef"
               }
             ]
-          },
-          {
-            "name": "Mission Briefing",
-            "hidden": false,
-            "id": "9c63-09d1-de00-6280",
-            "targetId": "9705-c4c5-adb2-bf71"
           }
         ]
       },
@@ -281,6 +281,12 @@
             "targetId": "default-category"
           },
           {
+            "name": "Command Cards and Utilities",
+            "hidden": false,
+            "id": "349d-d263-e392-0383",
+            "targetId": "acb1-e01b-51f0-2fab"
+          },
+          {
             "name": "Mission Briefing",
             "hidden": false,
             "id": "8274-cbea-4fce-f3ae",
@@ -290,12 +296,6 @@
             "name": "Era of Play ",
             "hidden": false,
             "id": "1853-d0ef-31c1-8040",
-            "targetId": "d9ac-c300-7049-d100"
-          },
-          {
-            "name": "Era of Play ",
-            "hidden": false,
-            "id": "608b-b398-39c9-e81d",
             "targetId": "d9ac-c300-7049-d100"
           },
           {
@@ -431,6 +431,12 @@
             "hidden": false,
             "id": "0f1d-0676-e0e4-3869",
             "targetId": "default-category"
+          },
+          {
+            "name": "Command Cards and Utilities",
+            "hidden": false,
+            "id": "772e-7d54-5fe5-6abe",
+            "targetId": "acb1-e01b-51f0-2fab"
           },
           {
             "name": "Mission Briefing",
@@ -579,6 +585,12 @@
             "targetId": "default-category"
           },
           {
+            "name": "Command Cards and Utilities",
+            "hidden": false,
+            "id": "a4d3-2408-5665-2d7a",
+            "targetId": "acb1-e01b-51f0-2fab"
+          },
+          {
             "name": "Mission Briefing",
             "hidden": false,
             "id": "8c5a-0ac5-7ffd-2683",
@@ -725,6 +737,12 @@
             "targetId": "default-category"
           },
           {
+            "name": "Command Cards and Utilities",
+            "hidden": false,
+            "id": "bf90-d3ba-c4c5-1ebd",
+            "targetId": "acb1-e01b-51f0-2fab"
+          },
+          {
             "name": "Mission Briefing",
             "hidden": false,
             "id": "a72b-f7d1-5a84-b7c6",
@@ -855,12 +873,6 @@
                 "id": "ade2-5d87-ba21-baa2"
               }
             ]
-          },
-          {
-            "name": "Command Cards and Utilities",
-            "hidden": false,
-            "id": "bf90-d3ba-c4c5-1ebd",
-            "targetId": "acb1-e01b-51f0-2fab"
           }
         ]
       }
@@ -1158,6 +1170,24 @@
             "publicationId": "33f2-a17a-6c67-dfa5",
             "collective": false,
             "sortIndex": 5
+          }
+        ],
+        "constraints": [
+          {
+            "type": "min",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "d770-befb-2d73-95d6"
+          },
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "a3a1-2820-07ff-0405"
           }
         ]
       },
@@ -8955,6 +8985,24 @@
             "publicationId": "33f2-a17a-6c67-dfa5",
             "collective": false
           }
+        ],
+        "constraints": [
+          {
+            "type": "min",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "98c2-507d-c565-c4ad"
+          },
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "81e2-f820-ba98-bc5c"
+          }
         ]
       }
     ],
@@ -9788,6 +9836,16 @@
         ],
         "costs": [
           {
+            "name": "Command Points",
+            "typeId": "6928-861d-fe09-02e7",
+            "value": 0
+          },
+          {
+            "name": "Resource Points",
+            "typeId": "6857-2916-102c-e582",
+            "value": -3
+          },
+          {
             "name": "Resource Points",
             "typeId": "ba8e-c9ca-122e-08da",
             "value": -3
@@ -9870,6 +9928,16 @@
         ],
         "costs": [
           {
+            "name": "Command Points",
+            "typeId": "6928-861d-fe09-02e7",
+            "value": 0
+          },
+          {
+            "name": "Resource Points",
+            "typeId": "6857-2916-102c-e582",
+            "value": -10
+          },
+          {
             "name": "Resource Points",
             "typeId": "ba8e-c9ca-122e-08da",
             "value": -10
@@ -9951,6 +10019,16 @@
           }
         ],
         "costs": [
+          {
+            "name": "Command Points",
+            "typeId": "6928-861d-fe09-02e7",
+            "value": 0
+          },
+          {
+            "name": "Resource Points",
+            "typeId": "6857-2916-102c-e582",
+            "value": -10
+          },
           {
             "name": "Resource Points",
             "typeId": "ba8e-c9ca-122e-08da",
@@ -10363,6 +10441,16 @@
         ],
         "costs": [
           {
+            "name": "Command Points",
+            "typeId": "6928-861d-fe09-02e7",
+            "value": 0
+          },
+          {
+            "name": "Resource Points",
+            "typeId": "6857-2916-102c-e582",
+            "value": -3
+          },
+          {
             "name": "Resource Points",
             "typeId": "ba8e-c9ca-122e-08da",
             "value": -3
@@ -10530,6 +10618,16 @@
         "costs": [
           {
             "name": "Command Points",
+            "typeId": "6928-861d-fe09-02e7",
+            "value": 0
+          },
+          {
+            "name": "Resource Points",
+            "typeId": "6857-2916-102c-e582",
+            "value": -9
+          },
+          {
+            "name": "Command Points",
             "typeId": "c8f4-e049-f551-b319",
             "value": 0
           },
@@ -10578,7 +10676,7 @@
             "id": "56fd-0a27-731b-faac",
             "hidden": false,
             "description": "This Starship or Station may carry up to 3 Squadrons of HAVOCs.",
-            "publicationId": "33f2-a17a-6c67-dfa5"
+            "publicationId": "0f1d-1bdd-f721-6453"
           }
         ],
         "costs": [
@@ -10825,6 +10923,16 @@
         ],
         "costs": [
           {
+            "name": "Command Points",
+            "typeId": "6928-861d-fe09-02e7",
+            "value": 0
+          },
+          {
+            "name": "Resource Points",
+            "typeId": "6857-2916-102c-e582",
+            "value": -9
+          },
+          {
             "name": "Resource Points",
             "typeId": "ba8e-c9ca-122e-08da",
             "value": -9
@@ -10911,6 +11019,16 @@
           }
         ],
         "costs": [
+          {
+            "name": "Command Points",
+            "typeId": "6928-861d-fe09-02e7",
+            "value": 0
+          },
+          {
+            "name": "Resource Points",
+            "typeId": "6857-2916-102c-e582",
+            "value": -9
+          },
           {
             "name": "Resource Points",
             "typeId": "ba8e-c9ca-122e-08da",
@@ -11073,6 +11191,16 @@
         ],
         "costs": [
           {
+            "name": "Command Points",
+            "typeId": "6928-861d-fe09-02e7",
+            "value": 0
+          },
+          {
+            "name": "Resource Points",
+            "typeId": "6857-2916-102c-e582",
+            "value": -9
+          },
+          {
             "name": "Resource Points",
             "typeId": "ba8e-c9ca-122e-08da",
             "value": -9
@@ -11164,6 +11292,16 @@
         "costs": [
           {
             "name": "Command Points",
+            "typeId": "6928-861d-fe09-02e7",
+            "value": 1
+          },
+          {
+            "name": "Resource Points",
+            "typeId": "6857-2916-102c-e582",
+            "value": 0
+          },
+          {
+            "name": "Command Points",
             "typeId": "c8f4-e049-f551-b319",
             "value": 1
           },
@@ -11200,6 +11338,16 @@
           }
         ],
         "costs": [
+          {
+            "name": "Command Points",
+            "typeId": "6928-861d-fe09-02e7",
+            "value": 0
+          },
+          {
+            "name": "Resource Points",
+            "typeId": "6857-2916-102c-e582",
+            "value": -3
+          },
           {
             "name": "Resource Points",
             "typeId": "ba8e-c9ca-122e-08da",
@@ -11318,6 +11466,16 @@
         "costs": [
           {
             "name": "Command Points",
+            "typeId": "6928-861d-fe09-02e7",
+            "value": 0
+          },
+          {
+            "name": "Resource Points",
+            "typeId": "6857-2916-102c-e582",
+            "value": -3
+          },
+          {
+            "name": "Command Points",
             "typeId": "c8f4-e049-f551-b319",
             "value": -3
           },
@@ -11359,6 +11517,16 @@
           }
         ],
         "costs": [
+          {
+            "name": "Command Points",
+            "typeId": "6928-861d-fe09-02e7",
+            "value": 0
+          },
+          {
+            "name": "Resource Points",
+            "typeId": "6857-2916-102c-e582",
+            "value": -3
+          },
           {
             "name": "Resource Points",
             "typeId": "118c-125b-468b-4b84",
@@ -13274,7 +13442,14 @@
             ],
             "collective": false,
             "targetId": "8ee6-4231-5c7c-2634",
-            "type": "selectionEntry"
+            "type": "selectionEntry",
+            "costs": [
+              {
+                "name": "Resource Points",
+                "typeId": "6857-2916-102c-e582",
+                "value": -3
+              }
+            ]
           }
         ],
         "collective": true,

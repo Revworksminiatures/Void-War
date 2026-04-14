@@ -5,7 +5,7 @@
     "name": "Forces of the Federal Coalition Navy",
     "gameSystemId": "sys-38ec-1e0f-59dc-bb47",
     "gameSystemRevision": 4,
-    "revision": 8,
+    "revision": 10,
     "battleScribeVersion": "2.03",
     "type": "catalogue",
     "selectionEntries": [
@@ -171,15 +171,15 @@
                     "import": true,
                     "name": "FCA- 6 Boarding Ship",
                     "hidden": false,
-                    "id": "b229-60e5-ccfa-d452",
+                    "id": "70ad-b99f-745a-002c",
                     "constraints": [
                       {
                         "type": "max",
-                        "value": 2,
+                        "value": 3,
                         "field": "selections",
                         "scope": "parent",
                         "shared": true,
-                        "id": "c2d7-61e2-3b99-11e7",
+                        "id": "8684-1651-6618-b441",
                         "percentValue": false,
                         "includeChildSelections": false,
                         "includeChildForces": false
@@ -188,30 +188,40 @@
                     "rules": [
                       {
                         "name": "Boarding Clamps",
-                        "id": "165e-2039-396c-351f",
+                        "id": "9fb8-dd2b-2c53-bb3b",
                         "hidden": false,
                         "description": "A unit equipped with Boarding Clamps can make a Melee Attack against a target ship. If the attack is successful, the target ship is considered boarded. This action does not deal damage to the target but counts as one of the unit's actions for the turn.",
-                        "publicationId": "0f1d-1bdd-f721-6453"
+                        "publicationId": "a53b-cebe-de49-bcbc"
                       }
                     ],
                     "costs": [
                       {
+                        "name": "Command Points",
+                        "typeId": "6928-861d-fe09-02e7",
+                        "value": 0
+                      },
+                      {
                         "name": "Resource Points",
-                        "typeId": "ba8e-c9ca-122e-08da",
+                        "typeId": "6857-2916-102c-e582",
                         "value": -6
                       },
                       {
                         "name": "Command Points",
                         "typeId": "c8f4-e049-f551-b319",
                         "value": 0
+                      },
+                      {
+                        "name": "Resource Points",
+                        "typeId": "ba8e-c9ca-122e-08da",
+                        "value": 0
                       }
                     ],
-                    "publicationId": "d6e4-868e-76d9-6397",
+                    "publicationId": "a53b-cebe-de49-bcbc",
                     "collective": false,
                     "infoLinks": [
                       {
                         "name": "FCA- 6 Boarding Ship",
-                        "id": "2e11-db31-84b4-d29b",
+                        "id": "4e7c-86f0-4090-5940",
                         "hidden": false,
                         "type": "profile",
                         "targetId": "ad66-ab7f-0da0-5404"
@@ -258,6 +268,16 @@
               }
             ],
             "costs": [
+              {
+                "name": "Command Points",
+                "typeId": "6928-861d-fe09-02e7",
+                "value": 10
+              },
+              {
+                "name": "Resource Points",
+                "typeId": "6857-2916-102c-e582",
+                "value": 38
+              },
               {
                 "name": "Command Points",
                 "typeId": "c8f4-e049-f551-b319",
@@ -398,6 +418,16 @@
                 "costs": [
                   {
                     "name": "Command Points",
+                    "typeId": "6928-861d-fe09-02e7",
+                    "value": 1
+                  },
+                  {
+                    "name": "Resource Points",
+                    "typeId": "6857-2916-102c-e582",
+                    "value": 0
+                  },
+                  {
+                    "name": "Command Points",
                     "typeId": "c8f4-e049-f551-b319",
                     "value": 1
                   },
@@ -438,6 +468,16 @@
                   }
                 ],
                 "costs": [
+                  {
+                    "name": "Command Points",
+                    "typeId": "6928-861d-fe09-02e7",
+                    "value": 1
+                  },
+                  {
+                    "name": "Resource Points",
+                    "typeId": "6857-2916-102c-e582",
+                    "value": 0
+                  },
                   {
                     "name": "Command Points",
                     "typeId": "c8f4-e049-f551-b319",
@@ -482,6 +522,16 @@
                 "costs": [
                   {
                     "name": "Command Points",
+                    "typeId": "6928-861d-fe09-02e7",
+                    "value": 1
+                  },
+                  {
+                    "name": "Resource Points",
+                    "typeId": "6857-2916-102c-e582",
+                    "value": 0
+                  },
+                  {
+                    "name": "Command Points",
                     "typeId": "c8f4-e049-f551-b319",
                     "value": 1
                   },
@@ -522,6 +572,16 @@
                   }
                 ],
                 "costs": [
+                  {
+                    "name": "Command Points",
+                    "typeId": "6928-861d-fe09-02e7",
+                    "value": 1
+                  },
+                  {
+                    "name": "Resource Points",
+                    "typeId": "6857-2916-102c-e582",
+                    "value": 0
+                  },
                   {
                     "name": "Command Points",
                     "typeId": "c8f4-e049-f551-b319",
@@ -566,6 +626,16 @@
                 "costs": [
                   {
                     "name": "Command Points",
+                    "typeId": "6928-861d-fe09-02e7",
+                    "value": 1
+                  },
+                  {
+                    "name": "Resource Points",
+                    "typeId": "6857-2916-102c-e582",
+                    "value": 0
+                  },
+                  {
+                    "name": "Command Points",
                     "typeId": "c8f4-e049-f551-b319",
                     "value": 1
                   },
@@ -606,6 +676,16 @@
                   }
                 ],
                 "costs": [
+                  {
+                    "name": "Command Points",
+                    "typeId": "6928-861d-fe09-02e7",
+                    "value": 1
+                  },
+                  {
+                    "name": "Resource Points",
+                    "typeId": "6857-2916-102c-e582",
+                    "value": 0
+                  },
                   {
                     "name": "Command Points",
                     "typeId": "c8f4-e049-f551-b319",
@@ -650,6 +730,16 @@
                 "costs": [
                   {
                     "name": "Command Points",
+                    "typeId": "6928-861d-fe09-02e7",
+                    "value": 1
+                  },
+                  {
+                    "name": "Resource Points",
+                    "typeId": "6857-2916-102c-e582",
+                    "value": 0
+                  },
+                  {
+                    "name": "Command Points",
                     "typeId": "c8f4-e049-f551-b319",
                     "value": 1
                   },
@@ -690,6 +780,16 @@
                   }
                 ],
                 "costs": [
+                  {
+                    "name": "Command Points",
+                    "typeId": "6928-861d-fe09-02e7",
+                    "value": 1
+                  },
+                  {
+                    "name": "Resource Points",
+                    "typeId": "6857-2916-102c-e582",
+                    "value": 0
+                  },
                   {
                     "name": "Command Points",
                     "typeId": "c8f4-e049-f551-b319",
@@ -779,6 +879,16 @@
                 "costs": [
                   {
                     "name": "Command Points",
+                    "typeId": "6928-861d-fe09-02e7",
+                    "value": 2
+                  },
+                  {
+                    "name": "Resource Points",
+                    "typeId": "6857-2916-102c-e582",
+                    "value": 0
+                  },
+                  {
+                    "name": "Command Points",
                     "typeId": "c8f4-e049-f551-b319",
                     "value": 2
                   },
@@ -819,6 +929,16 @@
                   }
                 ],
                 "costs": [
+                  {
+                    "name": "Command Points",
+                    "typeId": "6928-861d-fe09-02e7",
+                    "value": 2
+                  },
+                  {
+                    "name": "Resource Points",
+                    "typeId": "6857-2916-102c-e582",
+                    "value": 0
+                  },
                   {
                     "name": "Command Points",
                     "typeId": "c8f4-e049-f551-b319",
@@ -863,6 +983,16 @@
                 "costs": [
                   {
                     "name": "Command Points",
+                    "typeId": "6928-861d-fe09-02e7",
+                    "value": 2
+                  },
+                  {
+                    "name": "Resource Points",
+                    "typeId": "6857-2916-102c-e582",
+                    "value": 0
+                  },
+                  {
+                    "name": "Command Points",
                     "typeId": "c8f4-e049-f551-b319",
                     "value": 2
                   },
@@ -903,6 +1033,16 @@
                   }
                 ],
                 "costs": [
+                  {
+                    "name": "Command Points",
+                    "typeId": "6928-861d-fe09-02e7",
+                    "value": 2
+                  },
+                  {
+                    "name": "Resource Points",
+                    "typeId": "6857-2916-102c-e582",
+                    "value": 0
+                  },
                   {
                     "name": "Command Points",
                     "typeId": "c8f4-e049-f551-b319",
@@ -947,6 +1087,16 @@
                 "costs": [
                   {
                     "name": "Command Points",
+                    "typeId": "6928-861d-fe09-02e7",
+                    "value": 2
+                  },
+                  {
+                    "name": "Resource Points",
+                    "typeId": "6857-2916-102c-e582",
+                    "value": 0
+                  },
+                  {
+                    "name": "Command Points",
                     "typeId": "c8f4-e049-f551-b319",
                     "value": 2
                   },
@@ -987,6 +1137,16 @@
                   }
                 ],
                 "costs": [
+                  {
+                    "name": "Command Points",
+                    "typeId": "6928-861d-fe09-02e7",
+                    "value": 2
+                  },
+                  {
+                    "name": "Resource Points",
+                    "typeId": "6857-2916-102c-e582",
+                    "value": 0
+                  },
                   {
                     "name": "Command Points",
                     "typeId": "c8f4-e049-f551-b319",
@@ -1031,6 +1191,16 @@
                 "costs": [
                   {
                     "name": "Command Points",
+                    "typeId": "6928-861d-fe09-02e7",
+                    "value": 2
+                  },
+                  {
+                    "name": "Resource Points",
+                    "typeId": "6857-2916-102c-e582",
+                    "value": 0
+                  },
+                  {
+                    "name": "Command Points",
                     "typeId": "c8f4-e049-f551-b319",
                     "value": 2
                   },
@@ -1071,6 +1241,16 @@
                   }
                 ],
                 "costs": [
+                  {
+                    "name": "Command Points",
+                    "typeId": "6928-861d-fe09-02e7",
+                    "value": 2
+                  },
+                  {
+                    "name": "Resource Points",
+                    "typeId": "6857-2916-102c-e582",
+                    "value": 0
+                  },
                   {
                     "name": "Command Points",
                     "typeId": "c8f4-e049-f551-b319",
@@ -1136,6 +1316,16 @@
                 "costs": [
                   {
                     "name": "Command Points",
+                    "typeId": "6928-861d-fe09-02e7",
+                    "value": 3
+                  },
+                  {
+                    "name": "Resource Points",
+                    "typeId": "6857-2916-102c-e582",
+                    "value": 0
+                  },
+                  {
+                    "name": "Command Points",
                     "typeId": "c8f4-e049-f551-b319",
                     "value": 3
                   },
@@ -1176,6 +1366,16 @@
                   }
                 ],
                 "costs": [
+                  {
+                    "name": "Command Points",
+                    "typeId": "6928-861d-fe09-02e7",
+                    "value": 3
+                  },
+                  {
+                    "name": "Resource Points",
+                    "typeId": "6857-2916-102c-e582",
+                    "value": 0
+                  },
                   {
                     "name": "Command Points",
                     "typeId": "c8f4-e049-f551-b319",
@@ -1220,6 +1420,16 @@
                 "costs": [
                   {
                     "name": "Command Points",
+                    "typeId": "6928-861d-fe09-02e7",
+                    "value": 3
+                  },
+                  {
+                    "name": "Resource Points",
+                    "typeId": "6857-2916-102c-e582",
+                    "value": 0
+                  },
+                  {
+                    "name": "Command Points",
                     "typeId": "c8f4-e049-f551-b319",
                     "value": 3
                   },
@@ -1259,6 +1469,16 @@
                   }
                 ],
                 "costs": [
+                  {
+                    "name": "Command Points",
+                    "typeId": "6928-861d-fe09-02e7",
+                    "value": 3
+                  },
+                  {
+                    "name": "Resource Points",
+                    "typeId": "6857-2916-102c-e582",
+                    "value": 0
+                  },
                   {
                     "name": "Command Points",
                     "typeId": "c8f4-e049-f551-b319",
@@ -1408,15 +1628,6 @@
               },
               {
                 "import": true,
-                "name": "Ships of Renown",
-                "hidden": false,
-                "id": "fdfe-2184-e11e-8fa9",
-                "collective": false,
-                "targetId": "80a2-8977-d64b-454f",
-                "type": "selectionEntryGroup"
-              },
-              {
-                "import": true,
                 "name": "Point-Defence Weapons",
                 "hidden": false,
                 "id": "3252-e427-7e8e-7b63",
@@ -1447,9 +1658,27 @@
                 "collective": false,
                 "targetId": "ff90-3fb2-33d9-011b",
                 "type": "selectionEntry"
+              },
+              {
+                "import": true,
+                "name": "Ships of Renown (Midway-Class)",
+                "hidden": false,
+                "id": "8259-3ae5-8a16-d0da",
+                "type": "selectionEntryGroup",
+                "targetId": "d4e4-b4aa-186d-673a"
               }
             ],
             "costs": [
+              {
+                "name": "Command Points",
+                "typeId": "6928-861d-fe09-02e7",
+                "value": 6
+              },
+              {
+                "name": "Resource Points",
+                "typeId": "6857-2916-102c-e582",
+                "value": 20
+              },
               {
                 "name": "Command Points",
                 "typeId": "c8f4-e049-f551-b319",
@@ -1470,7 +1699,8 @@
                 "type": "profile",
                 "targetId": "e6e7-b3e2-691e-5125"
               }
-            ]
+            ],
+            "publicationId": "d6e4-868e-76d9-6397"
           }
         ],
         "costs": [
@@ -1614,9 +1844,27 @@
                 "collective": false,
                 "targetId": "ff90-3fb2-33d9-011b",
                 "type": "selectionEntry"
+              },
+              {
+                "import": true,
+                "name": "Ships of Renown (Gallipoli-Class)",
+                "hidden": false,
+                "id": "3aa6-042b-f514-1f5c",
+                "type": "selectionEntryGroup",
+                "targetId": "cd0a-2571-6de9-d37c"
               }
             ],
             "costs": [
+              {
+                "name": "Command Points",
+                "typeId": "6928-861d-fe09-02e7",
+                "value": 6
+              },
+              {
+                "name": "Resource Points",
+                "typeId": "6857-2916-102c-e582",
+                "value": 20
+              },
               {
                 "name": "Command Points",
                 "typeId": "c8f4-e049-f551-b319",
@@ -1785,6 +2033,16 @@
             "costs": [
               {
                 "name": "Command Points",
+                "typeId": "6928-861d-fe09-02e7",
+                "value": 6
+              },
+              {
+                "name": "Resource Points",
+                "typeId": "6857-2916-102c-e582",
+                "value": 20
+              },
+              {
+                "name": "Command Points",
                 "typeId": "c8f4-e049-f551-b319",
                 "value": 6
               },
@@ -1822,7 +2080,7 @@
         "collective": false
       },
       {
-        "type": "upgrade",
+        "type": "unit",
         "import": true,
         "name": "Jupiter-Class Carrier",
         "hidden": false,
@@ -1996,6 +2254,16 @@
                     "costs": [
                       {
                         "name": "Command Points",
+                        "typeId": "6928-861d-fe09-02e7",
+                        "value": 0
+                      },
+                      {
+                        "name": "Resource Points",
+                        "typeId": "6857-2916-102c-e582",
+                        "value": -6
+                      },
+                      {
+                        "name": "Command Points",
                         "typeId": "c8f4-e049-f551-b319",
                         "value": 0
                       },
@@ -2117,6 +2385,16 @@
                       }
                     ],
                     "costs": [
+                      {
+                        "name": "Command Points",
+                        "typeId": "6928-861d-fe09-02e7",
+                        "value": 0
+                      },
+                      {
+                        "name": "Resource Points",
+                        "typeId": "6857-2916-102c-e582",
+                        "value": -6
+                      },
                       {
                         "name": "Command Points",
                         "typeId": "c8f4-e049-f551-b319",
@@ -2241,6 +2519,11 @@
                       }
                     ],
                     "costs": [
+                      {
+                        "name": "Resource Points",
+                        "typeId": "6857-2916-102c-e582",
+                        "value": -6
+                      },
                       {
                         "name": "Resource Points",
                         "typeId": "ba8e-c9ca-122e-08da",
@@ -2559,6 +2842,16 @@
             "costs": [
               {
                 "name": "Command Points",
+                "typeId": "6928-861d-fe09-02e7",
+                "value": 10
+              },
+              {
+                "name": "Resource Points",
+                "typeId": "6857-2916-102c-e582",
+                "value": 38
+              },
+              {
+                "name": "Command Points",
                 "typeId": "c8f4-e049-f551-b319",
                 "value": 10
               },
@@ -2597,7 +2890,7 @@
         "collective": false
       },
       {
-        "type": "upgrade",
+        "type": "unit",
         "import": true,
         "name": "Meiji-Class Frigate",
         "hidden": false,
@@ -2808,7 +3101,16 @@
                 "value": 20
               }
             ],
-            "collective": false
+            "collective": false,
+            "infoLinks": [
+              {
+                "name": "Meiji-Class Frigate",
+                "id": "324b-1aeb-05c4-e0b3",
+                "hidden": false,
+                "type": "profile",
+                "targetId": "b0fc-4615-8d8b-16b0"
+              }
+            ]
           }
         ],
         "costs": [
@@ -2823,19 +3125,10 @@
             "value": 0
           }
         ],
-        "collective": false,
-        "infoLinks": [
-          {
-            "name": "Meiji-Class Frigate",
-            "id": "324b-1aeb-05c4-e0b3",
-            "hidden": false,
-            "type": "profile",
-            "targetId": "b0fc-4615-8d8b-16b0"
-          }
-        ]
+        "collective": false
       },
       {
-        "type": "upgrade",
+        "type": "unit",
         "import": true,
         "name": "Paris-Class Corvette",
         "hidden": false,
@@ -2938,15 +3231,15 @@
                     "import": true,
                     "name": "FCA- 6 Boarding Ship",
                     "hidden": false,
-                    "id": "5830-5c71-663b-2fef",
+                    "id": "3342-a391-2ee0-2946",
                     "constraints": [
                       {
                         "type": "max",
-                        "value": 1,
+                        "value": 3,
                         "field": "selections",
                         "scope": "parent",
                         "shared": true,
-                        "id": "83c4-eacb-23aa-287f",
+                        "id": "20fe-445b-300e-ce73",
                         "percentValue": false,
                         "includeChildSelections": false,
                         "includeChildForces": false
@@ -2955,35 +3248,45 @@
                     "rules": [
                       {
                         "name": "Boarding Clamps",
-                        "id": "f962-0ea9-8af9-84cd",
+                        "id": "84fa-fd9d-5c3f-45a1",
                         "hidden": false,
                         "description": "A unit equipped with Boarding Clamps can make a Melee Attack against a target ship. If the attack is successful, the target ship is considered boarded. This action does not deal damage to the target but counts as one of the unit's actions for the turn.",
                         "publicationId": "a53b-cebe-de49-bcbc"
                       }
                     ],
-                    "infoLinks": [
-                      {
-                        "name": "FCA- 6 Boarding Ship",
-                        "id": "c99e-1111-432d-b6f2",
-                        "hidden": false,
-                        "targetId": "ad66-ab7f-0da0-5404",
-                        "type": "profile"
-                      }
-                    ],
                     "costs": [
                       {
+                        "name": "Command Points",
+                        "typeId": "6928-861d-fe09-02e7",
+                        "value": 0
+                      },
+                      {
                         "name": "Resource Points",
-                        "typeId": "ba8e-c9ca-122e-08da",
+                        "typeId": "6857-2916-102c-e582",
                         "value": -6
                       },
                       {
                         "name": "Command Points",
                         "typeId": "c8f4-e049-f551-b319",
                         "value": 0
+                      },
+                      {
+                        "name": "Resource Points",
+                        "typeId": "ba8e-c9ca-122e-08da",
+                        "value": 0
                       }
                     ],
                     "publicationId": "a53b-cebe-de49-bcbc",
-                    "collective": false
+                    "collective": false,
+                    "infoLinks": [
+                      {
+                        "name": "FCA- 6 Boarding Ship",
+                        "id": "969e-e2ea-f48f-e8b3",
+                        "hidden": false,
+                        "type": "profile",
+                        "targetId": "ad66-ab7f-0da0-5404"
+                      }
+                    ]
                   }
                 ],
                 "collective": false,
@@ -3025,6 +3328,16 @@
               }
             ],
             "costs": [
+              {
+                "name": "Command Points",
+                "typeId": "6928-861d-fe09-02e7",
+                "value": 4
+              },
+              {
+                "name": "Resource Points",
+                "typeId": "6857-2916-102c-e582",
+                "value": 20
+              },
               {
                 "name": "Command Points",
                 "typeId": "c8f4-e049-f551-b319",
@@ -3071,10 +3384,10 @@
         "id": "c61a-c09c-4b42-a6e2",
         "categoryLinks": [
           {
-            "name": "Heavy Support",
+            "name": "Light Core",
             "hidden": false,
-            "id": "7f7b-f2a4-5f23-353c",
-            "targetId": "ab63-205a-11bb-1a1e",
+            "id": "46a2-7d4f-d429-78ff",
+            "targetId": "5e3c-da3e-210d-0398",
             "primary": true
           }
         ],
@@ -3202,6 +3515,16 @@
             "costs": [
               {
                 "name": "Command Points",
+                "typeId": "6928-861d-fe09-02e7",
+                "value": 4
+              },
+              {
+                "name": "Resource Points",
+                "typeId": "6857-2916-102c-e582",
+                "value": 20
+              },
+              {
+                "name": "Command Points",
                 "typeId": "c8f4-e049-f551-b319",
                 "value": 4
               },
@@ -3238,7 +3561,7 @@
         "collective": false
       },
       {
-        "type": "upgrade",
+        "type": "unit",
         "import": true,
         "name": "Terran-Class Carrier",
         "hidden": false,
@@ -3439,6 +3762,16 @@
                     "costs": [
                       {
                         "name": "Command Points",
+                        "typeId": "6928-861d-fe09-02e7",
+                        "value": 0
+                      },
+                      {
+                        "name": "Resource Points",
+                        "typeId": "6857-2916-102c-e582",
+                        "value": -6
+                      },
+                      {
+                        "name": "Command Points",
                         "typeId": "c8f4-e049-f551-b319",
                         "value": 0
                       },
@@ -3562,6 +3895,16 @@
                     "costs": [
                       {
                         "name": "Command Points",
+                        "typeId": "6928-861d-fe09-02e7",
+                        "value": 0
+                      },
+                      {
+                        "name": "Resource Points",
+                        "typeId": "6857-2916-102c-e582",
+                        "value": -6
+                      },
+                      {
+                        "name": "Command Points",
                         "typeId": "c8f4-e049-f551-b319",
                         "value": 0
                       },
@@ -3579,7 +3922,7 @@
                     "import": true,
                     "name": "FCA-1 Drone Fighter Squadron",
                     "hidden": false,
-                    "id": "8d3e-ab7c-880e-20ec",
+                    "id": "33ce-a6ee-4fcb-ae8b",
                     "constraints": [
                       {
                         "type": "max",
@@ -3587,7 +3930,7 @@
                         "field": "selections",
                         "scope": "parent",
                         "shared": true,
-                        "id": "90c8-41ae-98bf-bda2",
+                        "id": "3d03-bcc6-c4f2-c3c2",
                         "percentValue": false,
                         "includeChildSelections": false,
                         "includeChildForces": false
@@ -3599,7 +3942,7 @@
                         "import": true,
                         "name": "FCA-1 Drone Fighter Squadron",
                         "hidden": false,
-                        "id": "2877-7b07-9fc7-ce90",
+                        "id": "96dc-a5c5-4964-84a7",
                         "constraints": [
                           {
                             "type": "max",
@@ -3607,7 +3950,7 @@
                             "field": "selections",
                             "scope": "parent",
                             "shared": true,
-                            "id": "cc59-ed74-2b0d-71f1",
+                            "id": "b8da-c177-ed10-c0ab",
                             "percentValue": false,
                             "includeChildSelections": false,
                             "includeChildForces": false
@@ -3618,19 +3961,10 @@
                             "field": "selections",
                             "scope": "parent",
                             "shared": true,
-                            "id": "00e8-2423-e8bc-a562",
+                            "id": "33b2-9ef4-a825-52cf",
                             "percentValue": false,
                             "includeChildSelections": false,
                             "includeChildForces": false
-                          }
-                        ],
-                        "infoLinks": [
-                          {
-                            "name": "FCA-1 Drone Fighter Squadron",
-                            "id": "28fd-64d1-312a-3819",
-                            "hidden": false,
-                            "targetId": "f696-3ebc-f9c0-45ca",
-                            "type": "profile"
                           }
                         ],
                         "entryLinks": [
@@ -3638,7 +3972,7 @@
                             "import": true,
                             "name": "2x Anti-Armor Missiles",
                             "hidden": false,
-                            "id": "5490-21d3-ca84-99eb",
+                            "id": "7938-10a3-1424-ce43",
                             "constraints": [
                               {
                                 "type": "max",
@@ -3646,7 +3980,7 @@
                                 "field": "selections",
                                 "scope": "parent",
                                 "shared": true,
-                                "id": "f3a9-e7e5-ede4-4c16",
+                                "id": "bf03-9c54-3f58-a1eb",
                                 "percentValue": false,
                                 "includeChildSelections": false,
                                 "includeChildForces": false
@@ -3657,7 +3991,7 @@
                                 "field": "selections",
                                 "scope": "parent",
                                 "shared": true,
-                                "id": "4a32-34a4-19f7-c7c6",
+                                "id": "1e42-67ee-7ea8-5511",
                                 "percentValue": false,
                                 "includeChildSelections": false,
                                 "includeChildForces": false
@@ -3670,24 +4004,38 @@
                         ],
                         "costs": [
                           {
-                            "name": "Resource Points",
-                            "typeId": "ba8e-c9ca-122e-08da",
-                            "value": 10
-                          },
-                          {
                             "name": "Command Points",
                             "typeId": "c8f4-e049-f551-b319",
                             "value": 0
+                          },
+                          {
+                            "name": "Resource Points",
+                            "typeId": "ba8e-c9ca-122e-08da",
+                            "value": 0
                           }
                         ],
-                        "collective": false
+                        "collective": false,
+                        "infoLinks": [
+                          {
+                            "name": "FCA-1 Drone Fighter Squadron",
+                            "id": "8828-4034-4777-bcdc",
+                            "hidden": false,
+                            "targetId": "f696-3ebc-f9c0-45ca",
+                            "type": "profile"
+                          }
+                        ]
                       }
                     ],
                     "costs": [
                       {
                         "name": "Resource Points",
-                        "typeId": "ba8e-c9ca-122e-08da",
+                        "typeId": "6857-2916-102c-e582",
                         "value": -6
+                      },
+                      {
+                        "name": "Resource Points",
+                        "typeId": "ba8e-c9ca-122e-08da",
+                        "value": 4
                       }
                     ],
                     "collective": false,
@@ -3745,6 +4093,16 @@
             "costs": [
               {
                 "name": "Command Points",
+                "typeId": "6928-861d-fe09-02e7",
+                "value": 8
+              },
+              {
+                "name": "Resource Points",
+                "typeId": "6857-2916-102c-e582",
+                "value": 20
+              },
+              {
+                "name": "Command Points",
                 "typeId": "c8f4-e049-f551-b319",
                 "value": 8
               },
@@ -3754,7 +4112,7 @@
                 "value": 40
               }
             ],
-            "publicationId": "33f2-a17a-6c67-dfa5",
+            "publicationId": "d6e4-868e-76d9-6397",
             "collective": false,
             "infoLinks": [
               {
@@ -3799,7 +4157,7 @@
         ],
         "selectionEntries": [
           {
-            "type": "upgrade",
+            "type": "unit",
             "import": true,
             "name": "Vesta-Class Space Station",
             "hidden": false,
@@ -3973,6 +4331,16 @@
                     "costs": [
                       {
                         "name": "Command Points",
+                        "typeId": "6928-861d-fe09-02e7",
+                        "value": 0
+                      },
+                      {
+                        "name": "Resource Points",
+                        "typeId": "6857-2916-102c-e582",
+                        "value": -6
+                      },
+                      {
+                        "name": "Command Points",
                         "typeId": "c8f4-e049-f551-b319",
                         "value": 0
                       },
@@ -4096,6 +4464,16 @@
                     "costs": [
                       {
                         "name": "Command Points",
+                        "typeId": "6928-861d-fe09-02e7",
+                        "value": 0
+                      },
+                      {
+                        "name": "Resource Points",
+                        "typeId": "6857-2916-102c-e582",
+                        "value": -6
+                      },
+                      {
+                        "name": "Command Points",
                         "typeId": "c8f4-e049-f551-b319",
                         "value": 0
                       },
@@ -4146,6 +4524,16 @@
                     ],
                     "costs": [
                       {
+                        "name": "Command Points",
+                        "typeId": "6928-861d-fe09-02e7",
+                        "value": 0
+                      },
+                      {
+                        "name": "Resource Points",
+                        "typeId": "6857-2916-102c-e582",
+                        "value": -6
+                      },
+                      {
                         "name": "Resource Points",
                         "typeId": "ba8e-c9ca-122e-08da",
                         "value": -6
@@ -4158,6 +4546,47 @@
                     ],
                     "publicationId": "a53b-cebe-de49-bcbc",
                     "collective": false
+                  },
+                  {
+                    "type": "upgrade",
+                    "import": true,
+                    "name": "M81A1 Mercury II RIG Team",
+                    "hidden": false,
+                    "id": "0dad-7fe2-9bd0-c6ac",
+                    "constraints": [
+                      {
+                        "type": "max",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "d1cc-b314-e0e1-ad78",
+                        "percentValue": false,
+                        "includeChildSelections": false,
+                        "includeChildForces": false
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "name": "M81A1 Mercury II RIG Team",
+                        "id": "b193-4168-1600-4666",
+                        "hidden": false,
+                        "type": "profile",
+                        "targetId": "e717-c524-ff8e-ebc0"
+                      }
+                    ],
+                    "costs": [
+                      {
+                        "name": "Command Points",
+                        "typeId": "6928-861d-fe09-02e7",
+                        "value": 0
+                      },
+                      {
+                        "name": "Resource Points",
+                        "typeId": "6857-2916-102c-e582",
+                        "value": -6
+                      }
+                    ]
                   }
                 ],
                 "entryLinks": [
@@ -4272,6 +4701,11 @@
                     "costs": [
                       {
                         "name": "Resource Points",
+                        "typeId": "6857-2916-102c-e582",
+                        "value": -6
+                      },
+                      {
+                        "name": "Resource Points",
                         "typeId": "ba8e-c9ca-122e-08da",
                         "value": 4
                       }
@@ -4364,6 +4798,16 @@
             "costs": [
               {
                 "name": "Command Points",
+                "typeId": "6928-861d-fe09-02e7",
+                "value": 10
+              },
+              {
+                "name": "Resource Points",
+                "typeId": "6857-2916-102c-e582",
+                "value": 29
+              },
+              {
+                "name": "Command Points",
                 "typeId": "c8f4-e049-f551-b319",
                 "value": 10
               },
@@ -4373,7 +4817,8 @@
                 "value": 29
               }
             ],
-            "collective": false
+            "collective": false,
+            "publicationId": "d6e4-868e-76d9-6397"
           }
         ],
         "costs": [
@@ -4424,6 +4869,16 @@
         "costs": [
           {
             "name": "Command Points",
+            "typeId": "6928-861d-fe09-02e7",
+            "value": 0
+          },
+          {
+            "name": "Resource Points",
+            "typeId": "6857-2916-102c-e582",
+            "value": -6
+          },
+          {
+            "name": "Command Points",
             "typeId": "c8f4-e049-f551-b319",
             "value": 0
           },
@@ -4435,71 +4890,13 @@
         ],
         "publicationId": "a53b-cebe-de49-bcbc",
         "collective": false,
-        "profiles": [
+        "infoLinks": [
           {
             "name": "FCA- 6 Boarding Ship",
-            "typeId": "1e89-9b5a-5df4-2e60",
-            "typeName": "HAVOC Squadron (High Altitude Void Operable Craft)",
+            "id": "eca9-db1f-e474-41d8",
             "hidden": false,
-            "id": "fee8-5588-349b-fc81",
-            "characteristics": [
-              {
-                "name": "Key Traits",
-                "typeId": "ffe7-15cb-37f4-9bba",
-                "$text": ""
-              },
-              {
-                "name": "CMBT",
-                "typeId": "e8aa-f4e4-1e81-687c",
-                "$text": ""
-              },
-              {
-                "name": "DEF",
-                "typeId": "7229-240f-2b7d-54a7",
-                "$text": ""
-              },
-              {
-                "name": "ATHL",
-                "typeId": "aecc-ad00-bb75-7cd6",
-                "$text": ""
-              },
-              {
-                "name": "INT",
-                "typeId": "5cdc-9c54-4ba6-d8f2",
-                "$text": ""
-              },
-              {
-                "name": "LD",
-                "typeId": "c3f9-6ed1-c910-c263",
-                "$text": ""
-              },
-              {
-                "name": "ARMOR",
-                "typeId": "0973-5745-9a3b-890b",
-                "$text": ""
-              },
-              {
-                "name": "END",
-                "typeId": "2782-60fa-c60d-6e03",
-                "$text": ""
-              },
-              {
-                "name": "NERVE",
-                "typeId": "c37c-42fa-6c0f-c769",
-                "$text": ""
-              },
-              {
-                "name": "MOVE",
-                "typeId": "de93-ab45-2c22-ab4c",
-                "$text": ""
-              },
-              {
-                "name": "SIZE",
-                "typeId": "3697-d30e-2fbc-4fa7",
-                "$text": ""
-              }
-            ],
-            "publicationId": "d6e4-868e-76d9-6397"
+            "type": "profile",
+            "targetId": "ad66-ab7f-0da0-5404"
           }
         ]
       },
@@ -4523,6 +4920,16 @@
           }
         ],
         "costs": [
+          {
+            "name": "Command Points",
+            "typeId": "6928-861d-fe09-02e7",
+            "value": 0
+          },
+          {
+            "name": "Resource Points",
+            "typeId": "6857-2916-102c-e582",
+            "value": -6
+          },
           {
             "name": "Command Points",
             "typeId": "c8f4-e049-f551-b319",
@@ -4634,6 +5041,16 @@
         "costs": [
           {
             "name": "Command Points",
+            "typeId": "6928-861d-fe09-02e7",
+            "value": 1
+          },
+          {
+            "name": "Resource Points",
+            "typeId": "6857-2916-102c-e582",
+            "value": 0
+          },
+          {
+            "name": "Command Points",
             "typeId": "c8f4-e049-f551-b319",
             "value": 1
           },
@@ -4672,21 +5089,127 @@
             "type": "profile",
             "targetId": "e717-c524-ff8e-ebc0"
           }
+        ],
+        "costs": [
+          {
+            "name": "Command Points",
+            "typeId": "6928-861d-fe09-02e7",
+            "value": 0
+          },
+          {
+            "name": "Resource Points",
+            "typeId": "6857-2916-102c-e582",
+            "value": -6
+          }
         ]
       }
     ],
     "sharedSelectionEntryGroups": [
       {
-        "name": "Ships of Renown",
-        "id": "80a2-8977-d64b-454f",
+        "name": "Ships of Renown (Gallipoli-Class)",
+        "id": "cd0a-2571-6de9-d37c",
+        "hidden": false,
+        "publicationId": "d6e4-868e-76d9-6397",
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "FCS Port Arthur",
+            "hidden": false,
+            "id": "1544-08f2-f181-acfe",
+            "costs": [
+              {
+                "name": "Command Points",
+                "typeId": "6928-861d-fe09-02e7",
+                "value": 0
+              },
+              {
+                "name": "Resource Points",
+                "typeId": "6857-2916-102c-e582",
+                "value": -3
+              }
+            ],
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "7378-3a9b-2e93-0f33"
+              }
+            ],
+            "rules": [
+              {
+                "name": "FCS Port Arthur",
+                "id": "d379-426b-0eaa-6d94",
+                "hidden": false
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "FCS Poltava",
+            "hidden": false,
+            "id": "38b5-feca-509b-750e",
+            "costs": [
+              {
+                "name": "Command Points",
+                "typeId": "6928-861d-fe09-02e7",
+                "value": 0
+              },
+              {
+                "name": "Resource Points",
+                "typeId": "6857-2916-102c-e582",
+                "value": -3
+              }
+            ],
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "d45e-a424-12d1-bc3e"
+              }
+            ],
+            "rules": [
+              {
+                "name": "FCS Poltava",
+                "id": "91fe-3def-c4c6-3161",
+                "hidden": false,
+                "publicationId": "d6e4-868e-76d9-6397"
+              }
+            ],
+            "publicationId": "d6e4-868e-76d9-6397"
+          }
+        ]
+      },
+      {
+        "name": "Ships of Renown (Midway-Class)",
+        "id": "d4e4-b4aa-186d-673a",
         "hidden": false,
         "selectionEntries": [
           {
             "type": "upgrade",
             "import": true,
-            "name": "Mobile Bay",
+            "name": "FCS Mobile Bay",
             "hidden": false,
-            "id": "03b7-1327-d043-ed3a",
+            "id": "b32c-abd8-6f73-3d23",
+            "costs": [
+              {
+                "name": "Command Points",
+                "typeId": "6928-861d-fe09-02e7",
+                "value": 0
+              },
+              {
+                "name": "Resource Points",
+                "typeId": "6857-2916-102c-e582",
+                "value": -3
+              }
+            ],
             "constraints": [
               {
                 "type": "max",
@@ -4694,122 +5217,21 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "70ca-6ace-3757-d7ca",
-                "percentValue": false,
-                "includeChildSelections": false,
-                "includeChildForces": false
+                "id": "0314-50fc-6319-7506"
               }
             ],
             "rules": [
               {
-                "name": "Mobile Bay",
-                "id": "874b-3bd1-4ec2-4ea7",
+                "name": "FCS Mobile Bay",
+                "id": "7d6f-5ca9-e777-fc8c",
                 "hidden": false,
-                "publicationId": "a53b-cebe-de49-bcbc"
+                "publicationId": "d6e4-868e-76d9-6397"
               }
             ],
-            "costs": [
-              {
-                "name": "Resource Points",
-                "typeId": "ba8e-c9ca-122e-08da",
-                "value": -3
-              },
-              {
-                "name": "Command Points",
-                "typeId": "c8f4-e049-f551-b319",
-                "value": 0
-              }
-            ],
-            "publicationId": "a53b-cebe-de49-bcbc",
-            "collective": false
-          },
-          {
-            "type": "upgrade",
-            "import": true,
-            "name": "Poltava",
-            "hidden": false,
-            "id": "4e1d-aa46-7801-2625",
-            "constraints": [
-              {
-                "type": "max",
-                "value": 1,
-                "field": "selections",
-                "scope": "parent",
-                "shared": true,
-                "id": "e322-10c6-5d4b-5b92",
-                "percentValue": false,
-                "includeChildSelections": false,
-                "includeChildForces": false
-              }
-            ],
-            "rules": [
-              {
-                "name": "Poltava",
-                "id": "685e-9fe7-1c50-b345",
-                "hidden": false,
-                "publicationId": "a53b-cebe-de49-bcbc"
-              }
-            ],
-            "costs": [
-              {
-                "name": "Resource Points",
-                "typeId": "ba8e-c9ca-122e-08da",
-                "value": -3
-              },
-              {
-                "name": "Command Points",
-                "typeId": "c8f4-e049-f551-b319",
-                "value": 0
-              }
-            ],
-            "publicationId": "a53b-cebe-de49-bcbc",
-            "collective": false
-          },
-          {
-            "type": "upgrade",
-            "import": true,
-            "name": "Port Arthur",
-            "hidden": false,
-            "id": "3f17-1650-cf80-9a30",
-            "constraints": [
-              {
-                "type": "max",
-                "value": 1,
-                "field": "selections",
-                "scope": "parent",
-                "shared": true,
-                "id": "f6e0-eb4d-dc78-6fe4",
-                "percentValue": false,
-                "includeChildSelections": false,
-                "includeChildForces": false
-              }
-            ],
-            "rules": [
-              {
-                "name": "Port Arthur",
-                "id": "7b99-5bb5-ad4d-45cd",
-                "hidden": false
-              }
-            ],
-            "costs": [
-              {
-                "name": "Resource Points",
-                "typeId": "ba8e-c9ca-122e-08da",
-                "value": -3
-              },
-              {
-                "name": "Command Points",
-                "typeId": "c8f4-e049-f551-b319",
-                "value": 0
-              }
-            ],
-            "publicationId": "a53b-cebe-de49-bcbc",
-            "collective": false
+            "publicationId": "d6e4-868e-76d9-6397"
           }
         ],
-        "publicationId": "a53b-cebe-de49-bcbc",
-        "collective": false,
-        "import": true
+        "publicationId": "d6e4-868e-76d9-6397"
       }
     ],
     "publicationId": "d6e4-868e-76d9-6397",

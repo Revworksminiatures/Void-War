@@ -5,7 +5,7 @@
     "name": "Forces of the Federal Coalition Navy",
     "gameSystemId": "sys-38ec-1e0f-59dc-bb47",
     "gameSystemRevision": 4,
-    "revision": 12,
+    "revision": 13,
     "battleScribeVersion": "2.03",
     "type": "catalogue",
     "selectionEntries": [
@@ -2245,7 +2245,14 @@
                             "id": "8b61-8b21-20fa-1f01",
                             "collective": false,
                             "targetId": "f0d2-c865-d7f8-eacb",
-                            "type": "selectionEntry"
+                            "type": "selectionEntry",
+                            "costs": [
+                              {
+                                "name": "Resource Points",
+                                "typeId": "6857-2916-102c-e582",
+                                "value": -9
+                              }
+                            ]
                           },
                           {
                             "import": true,
@@ -2278,10 +2285,27 @@
                             ],
                             "collective": false,
                             "targetId": "156e-f7c4-d013-9514",
-                            "type": "selectionEntry"
+                            "type": "selectionEntry",
+                            "costs": [
+                              {
+                                "name": "Resource Points",
+                                "typeId": "6857-2916-102c-e582",
+                                "value": -10
+                              }
+                            ]
                           }
                         ],
                         "costs": [
+                          {
+                            "name": "Command Points",
+                            "typeId": "6928-861d-fe09-02e7",
+                            "value": 0
+                          },
+                          {
+                            "name": "Resource Points",
+                            "typeId": "6857-2916-102c-e582",
+                            "value": 19
+                          },
                           {
                             "name": "Command Points",
                             "typeId": "c8f4-e049-f551-b319",
@@ -2411,10 +2435,27 @@
                             ],
                             "collective": false,
                             "targetId": "156e-f7c4-d013-9514",
-                            "type": "selectionEntry"
+                            "type": "selectionEntry",
+                            "costs": [
+                              {
+                                "name": "Resource Points",
+                                "typeId": "6857-2916-102c-e582",
+                                "value": -10
+                              }
+                            ]
                           }
                         ],
                         "costs": [
+                          {
+                            "name": "Command Points",
+                            "typeId": "6928-861d-fe09-02e7",
+                            "value": 0
+                          },
+                          {
+                            "name": "Resource Points",
+                            "typeId": "6857-2916-102c-e582",
+                            "value": 10
+                          },
                           {
                             "name": "Command Points",
                             "typeId": "c8f4-e049-f551-b319",
@@ -2536,7 +2577,14 @@
                             ],
                             "collective": false,
                             "targetId": "156e-f7c4-d013-9514",
-                            "type": "selectionEntry"
+                            "type": "selectionEntry",
+                            "costs": [
+                              {
+                                "name": "Resource Points",
+                                "typeId": "6857-2916-102c-e582",
+                                "value": -10
+                              }
+                            ]
                           }
                         ],
                         "costs": [
@@ -2567,7 +2615,7 @@
                       {
                         "name": "Resource Points",
                         "typeId": "6857-2916-102c-e582",
-                        "value": -6
+                        "value": 4
                       },
                       {
                         "name": "Resource Points",
@@ -3885,7 +3933,7 @@
                       {
                         "name": "Resource Points",
                         "typeId": "6857-2916-102c-e582",
-                        "value": -6
+                        "value": 0
                       },
                       {
                         "name": "Command Points",
@@ -4018,7 +4066,7 @@
                       {
                         "name": "Resource Points",
                         "typeId": "6857-2916-102c-e582",
-                        "value": -6
+                        "value": 0
                       },
                       {
                         "name": "Command Points",
@@ -4147,7 +4195,7 @@
                       {
                         "name": "Resource Points",
                         "typeId": "6857-2916-102c-e582",
-                        "value": -6
+                        "value": 0
                       },
                       {
                         "name": "Resource Points",

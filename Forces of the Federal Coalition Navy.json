@@ -5,7 +5,7 @@
     "name": "Forces of the Federal Coalition Navy",
     "gameSystemId": "sys-38ec-1e0f-59dc-bb47",
     "gameSystemRevision": 4,
-    "revision": 10,
+    "revision": 12,
     "battleScribeVersion": "2.03",
     "type": "catalogue",
     "selectionEntries": [
@@ -88,7 +88,14 @@
                 "publicationId": "33f2-a17a-6c67-dfa5",
                 "collective": false,
                 "targetId": "a842-5a2e-1d31-2f42",
-                "type": "selectionEntry"
+                "type": "selectionEntry",
+                "costs": [
+                  {
+                    "name": "Resource Points",
+                    "typeId": "6857-2916-102c-e582",
+                    "value": -9
+                  }
+                ]
               },
               {
                 "import": true,
@@ -121,15 +128,22 @@
                 ],
                 "collective": false,
                 "targetId": "746e-3524-ef05-7d86",
-                "type": "selectionEntry"
+                "type": "selectionEntry",
+                "costs": [
+                  {
+                    "name": "Resource Points",
+                    "typeId": "6857-2916-102c-e582",
+                    "value": -9
+                  }
+                ]
               },
               {
                 "import": true,
-                "name": "Destroyer Front Weapons Batteries",
+                "name": "Dreadnought Front Weapons Batteries",
                 "hidden": false,
                 "id": "e27d-234c-d05f-89a7",
                 "collective": false,
-                "targetId": "f242-99ed-0a39-13f6",
+                "targetId": "60ec-d033-acd9-35e0",
                 "type": "selectionEntryGroup"
               },
               {
@@ -158,7 +172,19 @@
                 "publicationId": "33f2-a17a-6c67-dfa5",
                 "collective": false,
                 "targetId": "d962-58a3-8acb-ee79",
-                "type": "selectionEntry"
+                "type": "selectionEntry",
+                "costs": [
+                  {
+                    "name": "Command Points",
+                    "typeId": "6928-861d-fe09-02e7",
+                    "value": -3
+                  },
+                  {
+                    "name": "Resource Points",
+                    "typeId": "6857-2916-102c-e582",
+                    "value": 0
+                  }
+                ]
               },
               {
                 "import": true,
@@ -1614,7 +1640,14 @@
                 "id": "4d08-5ba9-cfd7-43eb",
                 "collective": false,
                 "targetId": "d076-cdd1-bd17-9894",
-                "type": "selectionEntry"
+                "type": "selectionEntry",
+                "costs": [
+                  {
+                    "name": "Resource Points",
+                    "typeId": "6857-2916-102c-e582",
+                    "value": 0
+                  }
+                ]
               },
               {
                 "import": true,
@@ -1624,7 +1657,19 @@
                 "publicationId": "0f1d-1bdd-f721-6453",
                 "collective": false,
                 "targetId": "d962-58a3-8acb-ee79",
-                "type": "selectionEntry"
+                "type": "selectionEntry",
+                "costs": [
+                  {
+                    "name": "Command Points",
+                    "typeId": "6928-861d-fe09-02e7",
+                    "value": -3
+                  },
+                  {
+                    "name": "Resource Points",
+                    "typeId": "6857-2916-102c-e582",
+                    "value": 0
+                  }
+                ]
               },
               {
                 "import": true,
@@ -2592,7 +2637,19 @@
                 "publicationId": "33f2-a17a-6c67-dfa5",
                 "collective": false,
                 "targetId": "d962-58a3-8acb-ee79",
-                "type": "selectionEntry"
+                "type": "selectionEntry",
+                "costs": [
+                  {
+                    "name": "Command Points",
+                    "typeId": "6928-861d-fe09-02e7",
+                    "value": -3
+                  },
+                  {
+                    "name": "Resource Points",
+                    "typeId": "6857-2916-102c-e582",
+                    "value": 0
+                  }
+                ]
               },
               {
                 "import": true,
@@ -2752,7 +2809,19 @@
                 "publicationId": "33f2-a17a-6c67-dfa5",
                 "collective": false,
                 "targetId": "d962-58a3-8acb-ee79",
-                "type": "selectionEntry"
+                "type": "selectionEntry",
+                "costs": [
+                  {
+                    "name": "Command Points",
+                    "typeId": "6928-861d-fe09-02e7",
+                    "value": -3
+                  },
+                  {
+                    "name": "Resource Points",
+                    "typeId": "6857-2916-102c-e582",
+                    "value": 0
+                  }
+                ]
               },
               {
                 "import": true,
@@ -2803,7 +2872,14 @@
                 ],
                 "collective": false,
                 "targetId": "746e-3524-ef05-7d86",
-                "type": "selectionEntry"
+                "type": "selectionEntry",
+                "costs": [
+                  {
+                    "name": "Resource Points",
+                    "typeId": "6857-2916-102c-e582",
+                    "value": -9
+                  }
+                ]
               },
               {
                 "import": true,
@@ -2980,7 +3056,19 @@
                 "publicationId": "33f2-a17a-6c67-dfa5",
                 "collective": false,
                 "targetId": "d962-58a3-8acb-ee79",
-                "type": "selectionEntry"
+                "type": "selectionEntry",
+                "costs": [
+                  {
+                    "name": "Command Points",
+                    "typeId": "6928-861d-fe09-02e7",
+                    "value": -3
+                  },
+                  {
+                    "name": "Resource Points",
+                    "typeId": "6857-2916-102c-e582",
+                    "value": 0
+                  }
+                ]
               },
               {
                 "import": true,
@@ -3026,6 +3114,16 @@
                       }
                     ],
                     "costs": [
+                      {
+                        "name": "Command Points",
+                        "typeId": "6928-861d-fe09-02e7",
+                        "value": 0
+                      },
+                      {
+                        "name": "Resource Points",
+                        "typeId": "6857-2916-102c-e582",
+                        "value": -6
+                      },
                       {
                         "name": "Resource Points",
                         "typeId": "ba8e-c9ca-122e-08da",
@@ -3218,7 +3316,14 @@
                 "publicationId": "33f2-a17a-6c67-dfa5",
                 "collective": false,
                 "targetId": "d962-58a3-8acb-ee79",
-                "type": "selectionEntry"
+                "type": "selectionEntry",
+                "costs": [
+                  {
+                    "name": "Resource Points",
+                    "typeId": "6857-2916-102c-e582",
+                    "value": -3
+                  }
+                ]
               },
               {
                 "import": true,
@@ -3476,7 +3581,19 @@
                 "publicationId": "33f2-a17a-6c67-dfa5",
                 "collective": false,
                 "targetId": "d962-58a3-8acb-ee79",
-                "type": "selectionEntry"
+                "type": "selectionEntry",
+                "costs": [
+                  {
+                    "name": "Command Points",
+                    "typeId": "6928-861d-fe09-02e7",
+                    "value": -3
+                  },
+                  {
+                    "name": "Resource Points",
+                    "typeId": "6857-2916-102c-e582",
+                    "value": 0
+                  }
+                ]
               },
               {
                 "import": true,
@@ -4088,6 +4205,28 @@
                 "collective": false,
                 "targetId": "ff90-3fb2-33d9-011b",
                 "type": "selectionEntry"
+              },
+              {
+                "import": true,
+                "name": "Task Force Flagship",
+                "hidden": false,
+                "id": "6a1c-67d4-e092-683f",
+                "publicationId": "33f2-a17a-6c67-dfa5",
+                "collective": false,
+                "targetId": "d962-58a3-8acb-ee79",
+                "type": "selectionEntry",
+                "costs": [
+                  {
+                    "name": "Command Points",
+                    "typeId": "6928-861d-fe09-02e7",
+                    "value": -3
+                  },
+                  {
+                    "name": "Resource Points",
+                    "typeId": "6857-2916-102c-e582",
+                    "value": 0
+                  }
+                ]
               }
             ],
             "costs": [

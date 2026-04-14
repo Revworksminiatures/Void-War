@@ -3,7 +3,7 @@
     "id": "sys-38ec-1e0f-59dc-bb47",
     "name": "General Quarters",
     "battleScribeVersion": "2.03",
-    "revision": 9,
+    "revision": 11,
     "categoryEntries": [
       {
         "name": "Armed Forces Selector",
@@ -11569,7 +11569,14 @@
             "publicationId": "33f2-a17a-6c67-dfa5",
             "collective": false,
             "targetId": "746e-3524-ef05-7d86",
-            "type": "selectionEntry"
+            "type": "selectionEntry",
+            "costs": [
+              {
+                "name": "Resource Points",
+                "typeId": "6857-2916-102c-e582",
+                "value": -9
+              }
+            ]
           },
           {
             "import": true,
@@ -11588,7 +11595,14 @@
             "publicationId": "33f2-a17a-6c67-dfa5",
             "collective": false,
             "targetId": "a842-5a2e-1d31-2f42",
-            "type": "selectionEntry"
+            "type": "selectionEntry",
+            "costs": [
+              {
+                "name": "Resource Points",
+                "typeId": "6857-2916-102c-e582",
+                "value": -9
+              }
+            ]
           }
         ],
         "publicationId": "33f2-a17a-6c67-dfa5",
@@ -11633,7 +11647,14 @@
             ],
             "collective": false,
             "targetId": "c597-e271-77be-fd44",
-            "type": "selectionEntry"
+            "type": "selectionEntry",
+            "costs": [
+              {
+                "name": "Resource Points",
+                "typeId": "6857-2916-102c-e582",
+                "value": -9
+              }
+            ]
           },
           {
             "import": true,
@@ -11655,7 +11676,14 @@
             ],
             "collective": false,
             "targetId": "a842-5a2e-1d31-2f42",
-            "type": "selectionEntry"
+            "type": "selectionEntry",
+            "costs": [
+              {
+                "name": "Resource Points",
+                "typeId": "6857-2916-102c-e582",
+                "value": -9
+              }
+            ]
           }
         ],
         "publicationId": "33f2-a17a-6c67-dfa5",
@@ -11688,7 +11716,14 @@
             "publicationId": "33f2-a17a-6c67-dfa5",
             "collective": false,
             "targetId": "746e-3524-ef05-7d86",
-            "type": "selectionEntry"
+            "type": "selectionEntry",
+            "costs": [
+              {
+                "name": "Resource Points",
+                "typeId": "6857-2916-102c-e582",
+                "value": -9
+              }
+            ]
           },
           {
             "import": true,
@@ -11707,7 +11742,14 @@
             "publicationId": "33f2-a17a-6c67-dfa5",
             "collective": false,
             "targetId": "a842-5a2e-1d31-2f42",
-            "type": "selectionEntry"
+            "type": "selectionEntry",
+            "costs": [
+              {
+                "name": "Resource Points",
+                "typeId": "6857-2916-102c-e582",
+                "value": -9
+              }
+            ]
           }
         ],
         "publicationId": "33f2-a17a-6c67-dfa5",
@@ -11748,7 +11790,14 @@
             "id": "850a-ec05-d648-4db5",
             "collective": false,
             "targetId": "c597-e271-77be-fd44",
-            "type": "selectionEntry"
+            "type": "selectionEntry",
+            "costs": [
+              {
+                "name": "Resource Points",
+                "typeId": "6857-2916-102c-e582",
+                "value": -9
+              }
+            ]
           }
         ],
         "publicationId": "33f2-a17a-6c67-dfa5",
@@ -11789,7 +11838,14 @@
             "id": "1d49-cde1-2343-fbab",
             "collective": false,
             "targetId": "c597-e271-77be-fd44",
-            "type": "selectionEntry"
+            "type": "selectionEntry",
+            "costs": [
+              {
+                "name": "Resource Points",
+                "typeId": "6857-2916-102c-e582",
+                "value": -9
+              }
+            ]
           }
         ],
         "publicationId": "33f2-a17a-6c67-dfa5",
@@ -11834,7 +11890,14 @@
             ],
             "collective": false,
             "targetId": "c597-e271-77be-fd44",
-            "type": "selectionEntry"
+            "type": "selectionEntry",
+            "costs": [
+              {
+                "name": "Resource Points",
+                "typeId": "6857-2916-102c-e582",
+                "value": -9
+              }
+            ]
           },
           {
             "import": true,
@@ -11888,7 +11951,14 @@
             ],
             "collective": false,
             "targetId": "c597-e271-77be-fd44",
-            "type": "selectionEntry"
+            "type": "selectionEntry",
+            "costs": [
+              {
+                "name": "Resource Points",
+                "typeId": "6857-2916-102c-e582",
+                "value": -9
+              }
+            ]
           },
           {
             "import": true,
@@ -11930,7 +12000,14 @@
             "publicationId": "33f2-a17a-6c67-dfa5",
             "collective": false,
             "targetId": "746e-3524-ef05-7d86",
-            "type": "selectionEntry"
+            "type": "selectionEntry",
+            "costs": [
+              {
+                "name": "Resource Points",
+                "typeId": "6857-2916-102c-e582",
+                "value": -9
+              }
+            ]
           },
           {
             "import": true,
@@ -12024,7 +12101,14 @@
             "id": "5357-f692-bf91-598b",
             "collective": false,
             "targetId": "c597-e271-77be-fd44",
-            "type": "selectionEntry"
+            "type": "selectionEntry",
+            "costs": [
+              {
+                "name": "Resource Points",
+                "typeId": "6857-2916-102c-e582",
+                "value": -9
+              }
+            ]
           }
         ],
         "publicationId": "33f2-a17a-6c67-dfa5",
@@ -12177,7 +12261,14 @@
             ],
             "collective": false,
             "targetId": "c597-e271-77be-fd44",
-            "type": "selectionEntry"
+            "type": "selectionEntry",
+            "costs": [
+              {
+                "name": "Resource Points",
+                "typeId": "6857-2916-102c-e582",
+                "value": -9
+              }
+            ]
           },
           {
             "import": true,
@@ -12231,7 +12322,14 @@
             ],
             "collective": false,
             "targetId": "c597-e271-77be-fd44",
-            "type": "selectionEntry"
+            "type": "selectionEntry",
+            "costs": [
+              {
+                "name": "Resource Points",
+                "typeId": "6857-2916-102c-e582",
+                "value": -9
+              }
+            ]
           },
           {
             "import": true,
@@ -12294,6 +12392,16 @@
             "costs": [
               {
                 "name": "Command Points",
+                "typeId": "6928-861d-fe09-02e7",
+                "value": 0
+              },
+              {
+                "name": "Resource Points",
+                "typeId": "6857-2916-102c-e582",
+                "value": -2
+              },
+              {
+                "name": "Command Points",
                 "typeId": "c8f4-e049-f551-b319",
                 "value": 0
               },
@@ -12344,6 +12452,16 @@
               }
             ],
             "costs": [
+              {
+                "name": "Command Points",
+                "typeId": "6928-861d-fe09-02e7",
+                "value": 0
+              },
+              {
+                "name": "Resource Points",
+                "typeId": "6857-2916-102c-e582",
+                "value": -5
+              },
               {
                 "name": "Command Points",
                 "typeId": "c8f4-e049-f551-b319",
@@ -12399,6 +12517,16 @@
             "costs": [
               {
                 "name": "Command Points",
+                "typeId": "6928-861d-fe09-02e7",
+                "value": 0
+              },
+              {
+                "name": "Resource Points",
+                "typeId": "6857-2916-102c-e582",
+                "value": -3
+              },
+              {
+                "name": "Command Points",
                 "typeId": "c8f4-e049-f551-b319",
                 "value": 0
               },
@@ -12449,6 +12577,16 @@
               }
             ],
             "costs": [
+              {
+                "name": "Command Points",
+                "typeId": "6928-861d-fe09-02e7",
+                "value": 0
+              },
+              {
+                "name": "Resource Points",
+                "typeId": "6857-2916-102c-e582",
+                "value": -5
+              },
               {
                 "name": "Command Points",
                 "typeId": "c8f4-e049-f551-b319",
@@ -12502,6 +12640,16 @@
               }
             ],
             "costs": [
+              {
+                "name": "Command Points",
+                "typeId": "6928-861d-fe09-02e7",
+                "value": 0
+              },
+              {
+                "name": "Resource Points",
+                "typeId": "6857-2916-102c-e582",
+                "value": -1
+              },
               {
                 "name": "Command Points",
                 "typeId": "c8f4-e049-f551-b319",
@@ -12616,6 +12764,16 @@
             "costs": [
               {
                 "name": "Command Points",
+                "typeId": "6928-861d-fe09-02e7",
+                "value": 4
+              },
+              {
+                "name": "Resource Points",
+                "typeId": "6857-2916-102c-e582",
+                "value": 3
+              },
+              {
+                "name": "Command Points",
                 "typeId": "c8f4-e049-f551-b319",
                 "value": 4
               },
@@ -12650,7 +12808,6 @@
               {
                 "name": "Well Trained Crew",
                 "typeId": "133d-9c08-b2fb-3086",
-                "typeName": "Trooper ",
                 "hidden": false,
                 "id": "c728-9ddf-69d9-43c3",
                 "characteristics": [
@@ -12703,6 +12860,16 @@
               }
             ],
             "costs": [
+              {
+                "name": "Command Points",
+                "typeId": "6928-861d-fe09-02e7",
+                "value": 2
+              },
+              {
+                "name": "Resource Points",
+                "typeId": "6857-2916-102c-e582",
+                "value": 2
+              },
               {
                 "name": "Command Points",
                 "typeId": "c8f4-e049-f551-b319",

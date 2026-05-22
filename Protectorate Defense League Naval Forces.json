@@ -5,7 +5,7 @@
     "name": "Protectorate Defense League Naval Forces",
     "gameSystemId": "sys-38ec-1e0f-59dc-bb47",
     "gameSystemRevision": 11,
-    "revision": 7,
+    "revision": 10,
     "battleScribeVersion": "2.03",
     "selectionEntries": [
       {
@@ -51,6 +51,14 @@
                 "scope": "parent",
                 "shared": true,
                 "id": "8f2b-2631-8eee-a8f1"
+              },
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "28d2-0214-2b74-b8e9"
               }
             ],
             "entryLinks": [
@@ -192,17 +200,25 @@
                 "type": "profile",
                 "targetId": "b8a7-b557-032f-5f7f"
               }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "4902-ce60-a0c0-3689"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "e86b-c700-629c-3fd0"
+              }
             ]
-          }
-        ],
-        "constraints": [
-          {
-            "type": "max",
-            "value": 1,
-            "field": "selections",
-            "scope": "parent",
-            "shared": true,
-            "id": "4794-bba1-7f7a-6069"
           }
         ]
       },
@@ -283,17 +299,25 @@
                 "type": "profile",
                 "targetId": "ce96-6348-54ce-b1e5"
               }
+            ],
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "51bf-1d6e-a409-a0f1"
+              },
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "b6ea-8620-338a-a5f3"
+              }
             ]
-          }
-        ],
-        "constraints": [
-          {
-            "type": "max",
-            "value": 1,
-            "field": "selections",
-            "scope": "parent",
-            "shared": true,
-            "id": "ddb6-08e3-c6f4-642e"
           }
         ]
       },
@@ -677,17 +701,25 @@
                   }
                 ]
               }
+            ],
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "780d-aba6-b926-0934"
+              },
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "2f31-3b01-beb1-123e"
+              }
             ]
-          }
-        ],
-        "constraints": [
-          {
-            "type": "max",
-            "value": 1,
-            "field": "selections",
-            "scope": "parent",
-            "shared": true,
-            "id": "780d-aba6-b926-0934"
           }
         ]
       },
@@ -775,26 +807,26 @@
                 "id": "156e-a4b8-2329-2cb0",
                 "type": "selectionEntryGroup",
                 "targetId": "44d0-181c-4e1d-2e8c"
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "d980-f8e8-572e-5b71"
               },
               {
-                "import": true,
-                "name": "Task Force Flagship",
-                "hidden": false,
-                "id": "364d-d93d-707c-6b49",
-                "type": "selectionEntry",
-                "targetId": "d962-58a3-8acb-ee79"
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "68e7-dd29-320b-7d13"
               }
             ]
-          }
-        ],
-        "constraints": [
-          {
-            "type": "max",
-            "value": 1,
-            "field": "selections",
-            "scope": "parent",
-            "shared": true,
-            "id": "a3d3-447c-a126-07fe"
           }
         ]
       },
@@ -882,165 +914,6 @@
                 "type": "selectionEntry",
                 "targetId": "b971-5773-9be7-581c",
                 "selectionEntries": [
-                  {
-                    "type": "upgrade",
-                    "import": true,
-                    "name": "JP-7 \"BlackStar\" HAVOC Squadron",
-                    "hidden": false,
-                    "id": "8b48-fa7b-33f2-3e45",
-                    "constraints": [
-                      {
-                        "type": "max",
-                        "value": 3,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "191f-f650-00f6-e698"
-                      }
-                    ],
-                    "infoLinks": [
-                      {
-                        "name": "JP-7 \"BlackStar\" HAVOC Squadron",
-                        "id": "6c9e-e2f7-ab13-9598",
-                        "hidden": false,
-                        "type": "profile",
-                        "targetId": "bd9c-35b4-7c3a-0905"
-                      }
-                    ],
-                    "selectionEntries": [
-                      {
-                        "type": "upgrade",
-                        "import": true,
-                        "name": "JP-7 \"BlackStar\" HAVOC Squadron",
-                        "hidden": false,
-                        "id": "af46-b63e-28f5-a11f",
-                        "constraints": [
-                          {
-                            "type": "min",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "f5c9-4c36-3bce-89fa"
-                          },
-                          {
-                            "type": "max",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "e065-c305-2971-2b5b"
-                          }
-                        ],
-                        "costs": [
-                          {
-                            "name": "Command Points",
-                            "typeId": "6928-861d-fe09-02e7",
-                            "value": 0
-                          },
-                          {
-                            "name": "Resource Points",
-                            "typeId": "6857-2916-102c-e582",
-                            "value": 20
-                          }
-                        ],
-                        "entryLinks": [
-                          {
-                            "import": true,
-                            "name": "2x Anti-Armor Missiles",
-                            "hidden": false,
-                            "id": "843c-c93b-125d-f7ba",
-                            "constraints": [
-                              {
-                                "type": "max",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "parent",
-                                "shared": true,
-                                "id": "172e-2ae8-d25d-7be4",
-                                "percentValue": false,
-                                "includeChildSelections": false,
-                                "includeChildForces": false
-                              },
-                              {
-                                "type": "min",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "parent",
-                                "shared": true,
-                                "id": "f106-389e-cac6-84b5",
-                                "percentValue": false,
-                                "includeChildSelections": false,
-                                "includeChildForces": false
-                              }
-                            ],
-                            "collective": false,
-                            "targetId": "156e-f7c4-d013-9514",
-                            "type": "selectionEntry",
-                            "costs": [
-                              {
-                                "name": "Resource Points",
-                                "typeId": "6857-2916-102c-e582",
-                                "value": -10
-                              }
-                            ]
-                          },
-                          {
-                            "import": true,
-                            "name": "2x Anti-Armor Missiles",
-                            "hidden": false,
-                            "id": "49ef-b8be-e41a-3fa2",
-                            "constraints": [
-                              {
-                                "type": "max",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "parent",
-                                "shared": true,
-                                "id": "2c21-a647-6d90-c050",
-                                "percentValue": false,
-                                "includeChildSelections": false,
-                                "includeChildForces": false
-                              },
-                              {
-                                "type": "min",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "parent",
-                                "shared": true,
-                                "id": "e522-8e4b-eff8-800d",
-                                "percentValue": false,
-                                "includeChildSelections": false,
-                                "includeChildForces": false
-                              }
-                            ],
-                            "collective": false,
-                            "targetId": "156e-f7c4-d013-9514",
-                            "type": "selectionEntry",
-                            "costs": [
-                              {
-                                "name": "Resource Points",
-                                "typeId": "6857-2916-102c-e582",
-                                "value": -10
-                              }
-                            ]
-                          }
-                        ]
-                      }
-                    ],
-                    "costs": [
-                      {
-                        "name": "Command Points",
-                        "typeId": "6928-861d-fe09-02e7",
-                        "value": 0
-                      },
-                      {
-                        "name": "Resource Points",
-                        "typeId": "6857-2916-102c-e582",
-                        "value": -6
-                      }
-                    ]
-                  },
                   {
                     "type": "upgrade",
                     "import": true,
@@ -1175,20 +1048,169 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "type": "upgrade",
+                    "import": true,
+                    "name": "JP-7 \"BlackStar\" HAVOC Squadron",
+                    "hidden": false,
+                    "id": "f5a7-e598-3794-61be",
+                    "constraints": [
+                      {
+                        "type": "max",
+                        "value": 3,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "5a2c-3a73-2c34-17e4"
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "name": "JP-7 \"BlackStar\" HAVOC Squadron",
+                        "id": "9ccd-c306-f4ad-dc88",
+                        "hidden": false,
+                        "type": "profile",
+                        "targetId": "bd9c-35b4-7c3a-0905"
+                      }
+                    ],
+                    "selectionEntries": [
+                      {
+                        "type": "upgrade",
+                        "import": true,
+                        "name": "JP-7 \"BlackStar\" HAVOC Squadron",
+                        "hidden": false,
+                        "id": "4a3a-f2b8-37a1-9f12",
+                        "costs": [
+                          {
+                            "name": "Command Points",
+                            "typeId": "6928-861d-fe09-02e7",
+                            "value": 0
+                          },
+                          {
+                            "name": "Resource Points",
+                            "typeId": "6857-2916-102c-e582",
+                            "value": 20
+                          }
+                        ],
+                        "entryLinks": [
+                          {
+                            "import": true,
+                            "name": "2x Anti-Armor Missiles",
+                            "hidden": false,
+                            "id": "735b-bd22-87cf-38c4",
+                            "constraints": [
+                              {
+                                "type": "max",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "id": "f6e4-7ac5-1738-0218",
+                                "percentValue": false,
+                                "includeChildSelections": false,
+                                "includeChildForces": false
+                              },
+                              {
+                                "type": "min",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "id": "ec7b-6525-df24-4b32",
+                                "percentValue": false,
+                                "includeChildSelections": false,
+                                "includeChildForces": false
+                              }
+                            ],
+                            "collective": false,
+                            "targetId": "156e-f7c4-d013-9514",
+                            "type": "selectionEntry",
+                            "costs": [
+                              {
+                                "name": "Resource Points",
+                                "typeId": "6857-2916-102c-e582",
+                                "value": -10
+                              }
+                            ]
+                          },
+                          {
+                            "import": true,
+                            "name": "2x Anti-Air Missile",
+                            "hidden": false,
+                            "id": "4075-91d5-c7d5-3ae3",
+                            "constraints": [
+                              {
+                                "type": "max",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "id": "62fd-7302-372b-cd80",
+                                "percentValue": false,
+                                "includeChildSelections": false,
+                                "includeChildForces": false
+                              },
+                              {
+                                "type": "min",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "id": "dcca-48de-0dc8-80da",
+                                "percentValue": false,
+                                "includeChildSelections": false,
+                                "includeChildForces": false
+                              }
+                            ],
+                            "collective": false,
+                            "targetId": "c930-547a-6f71-0aa3",
+                            "type": "selectionEntry",
+                            "costs": [
+                              {
+                                "name": "Resource Points",
+                                "typeId": "6857-2916-102c-e582",
+                                "value": -10
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "costs": [
+                      {
+                        "name": "Command Points",
+                        "typeId": "6928-861d-fe09-02e7",
+                        "value": 0
+                      },
+                      {
+                        "name": "Resource Points",
+                        "typeId": "6857-2916-102c-e582",
+                        "value": -6
+                      }
+                    ]
                   }
                 ]
               }
+            ],
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "0b73-f6e3-5825-9b95"
+              },
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "b3ee-b640-691b-371e"
+              }
             ]
-          }
-        ],
-        "constraints": [
-          {
-            "type": "max",
-            "value": 1,
-            "field": "selections",
-            "scope": "parent",
-            "shared": true,
-            "id": "b2c3-d036-3abd-08e3"
           }
         ]
       },
@@ -2366,24 +2388,6 @@
             "name": "JP-7 \"BlackStar\" HAVOC Squadron",
             "hidden": false,
             "id": "e136-fc0f-498e-6574",
-            "constraints": [
-              {
-                "type": "min",
-                "value": 1,
-                "field": "selections",
-                "scope": "parent",
-                "shared": true,
-                "id": "4002-6624-35c3-9139"
-              },
-              {
-                "type": "max",
-                "value": 1,
-                "field": "selections",
-                "scope": "parent",
-                "shared": true,
-                "id": "441d-8cf1-2235-76af"
-              }
-            ],
             "costs": [
               {
                 "name": "Command Points",
@@ -2401,7 +2405,7 @@
                 "import": true,
                 "name": "2x Anti-Armor Missiles",
                 "hidden": false,
-                "id": "7893-5e2c-f22c-dd11",
+                "id": "a6d6-31b6-e7d8-de5b",
                 "constraints": [
                   {
                     "type": "max",
@@ -2409,7 +2413,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "818f-2cf0-70fb-26c9",
+                    "id": "25b9-baa1-bf2d-12ea",
                     "percentValue": false,
                     "includeChildSelections": false,
                     "includeChildForces": false
@@ -2420,7 +2424,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "50c4-94e6-e79d-d4c7",
+                    "id": "c100-f80a-9124-b18e",
                     "percentValue": false,
                     "includeChildSelections": false,
                     "includeChildForces": false
@@ -2439,9 +2443,9 @@
               },
               {
                 "import": true,
-                "name": "2x Anti-Armor Missiles",
+                "name": "2x Anti-Air Missile",
                 "hidden": false,
-                "id": "59f2-c77e-f735-5b48",
+                "id": "6847-9a74-d7c0-8125",
                 "constraints": [
                   {
                     "type": "max",
@@ -2449,7 +2453,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "b374-2da4-fa79-e6e3",
+                    "id": "5ebe-029b-658b-7f92",
                     "percentValue": false,
                     "includeChildSelections": false,
                     "includeChildForces": false
@@ -2460,14 +2464,14 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "b050-d993-9247-9dcd",
+                    "id": "cb0e-8a21-8d64-df3a",
                     "percentValue": false,
                     "includeChildSelections": false,
                     "includeChildForces": false
                   }
                 ],
                 "collective": false,
-                "targetId": "156e-f7c4-d013-9514",
+                "targetId": "c930-547a-6f71-0aa3",
                 "type": "selectionEntry",
                 "costs": [
                   {

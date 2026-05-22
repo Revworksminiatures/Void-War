@@ -5,7 +5,7 @@
     "name": "Forces of the Federal Coalition Navy",
     "gameSystemId": "sys-38ec-1e0f-59dc-bb47",
     "gameSystemRevision": 4,
-    "revision": 13,
+    "revision": 17,
     "battleScribeVersion": "2.03",
     "type": "catalogue",
     "selectionEntries": [
@@ -3801,419 +3801,6 @@
               },
               {
                 "import": true,
-                "name": "Hanger Bay",
-                "hidden": false,
-                "id": "da9d-6817-a0d8-bfea",
-                "selectionEntries": [
-                  {
-                    "type": "upgrade",
-                    "import": true,
-                    "name": "A-9 \"Outlaw\" Squadron",
-                    "hidden": false,
-                    "id": "fbf8-676e-9994-6be5",
-                    "constraints": [
-                      {
-                        "type": "max",
-                        "value": 3,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "3d34-99ed-810b-9ad2",
-                        "percentValue": false,
-                        "includeChildSelections": false,
-                        "includeChildForces": false
-                      }
-                    ],
-                    "infoLinks": [
-                      {
-                        "name": "A-9 \"Outlaw\" Squadron",
-                        "id": "8b69-874c-1223-afbc",
-                        "hidden": false,
-                        "publicationId": "33f2-a17a-6c67-dfa5",
-                        "targetId": "120f-9850-abb0-98cf",
-                        "type": "profile"
-                      }
-                    ],
-                    "selectionEntries": [
-                      {
-                        "type": "upgrade",
-                        "import": true,
-                        "name": "A-9 \"Outlaw\" Squadron",
-                        "hidden": false,
-                        "id": "269a-ce21-8812-29d0",
-                        "constraints": [
-                          {
-                            "type": "max",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "04d2-91f8-8d83-a243",
-                            "percentValue": false,
-                            "includeChildSelections": false,
-                            "includeChildForces": false
-                          },
-                          {
-                            "type": "min",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "3818-23b3-d9b1-8947",
-                            "percentValue": false,
-                            "includeChildSelections": false,
-                            "includeChildForces": false
-                          }
-                        ],
-                        "entryLinks": [
-                          {
-                            "import": true,
-                            "name": "Metal Storm Cannon",
-                            "hidden": false,
-                            "id": "4d34-9428-0fd9-8413",
-                            "collective": false,
-                            "targetId": "f0d2-c865-d7f8-eacb",
-                            "type": "selectionEntry"
-                          },
-                          {
-                            "import": true,
-                            "name": "2x Anti-Armor Missiles",
-                            "hidden": false,
-                            "id": "90ab-fb2d-26fd-68cd",
-                            "constraints": [
-                              {
-                                "type": "max",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "parent",
-                                "shared": true,
-                                "id": "788e-dbe6-beaf-597f",
-                                "percentValue": false,
-                                "includeChildSelections": false,
-                                "includeChildForces": false
-                              },
-                              {
-                                "type": "min",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "parent",
-                                "shared": true,
-                                "id": "4825-1d3a-8ebd-0180",
-                                "percentValue": false,
-                                "includeChildSelections": false,
-                                "includeChildForces": false
-                              }
-                            ],
-                            "collective": false,
-                            "targetId": "156e-f7c4-d013-9514",
-                            "type": "selectionEntry"
-                          }
-                        ],
-                        "costs": [
-                          {
-                            "name": "Command Points",
-                            "typeId": "c8f4-e049-f551-b319",
-                            "value": 0
-                          },
-                          {
-                            "name": "Resource Points",
-                            "typeId": "ba8e-c9ca-122e-08da",
-                            "value": 19
-                          }
-                        ],
-                        "collective": false
-                      }
-                    ],
-                    "costs": [
-                      {
-                        "name": "Command Points",
-                        "typeId": "6928-861d-fe09-02e7",
-                        "value": 0
-                      },
-                      {
-                        "name": "Resource Points",
-                        "typeId": "6857-2916-102c-e582",
-                        "value": 0
-                      },
-                      {
-                        "name": "Command Points",
-                        "typeId": "c8f4-e049-f551-b319",
-                        "value": 0
-                      },
-                      {
-                        "name": "Resource Points",
-                        "typeId": "ba8e-c9ca-122e-08da",
-                        "value": -6
-                      }
-                    ],
-                    "collective": false
-                  },
-                  {
-                    "type": "upgrade",
-                    "import": true,
-                    "name": "AV-52 \"Harbringer\" Bomber Squadron",
-                    "hidden": false,
-                    "id": "fd9f-d8ad-6410-10bd",
-                    "constraints": [
-                      {
-                        "type": "max",
-                        "value": 3,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "0c54-bce5-82aa-9add",
-                        "percentValue": false,
-                        "includeChildSelections": false,
-                        "includeChildForces": false
-                      }
-                    ],
-                    "infoLinks": [
-                      {
-                        "name": "AV-52 \"Harbringer\" Bomber Squadron",
-                        "id": "97f0-c1f2-8426-5d0d",
-                        "hidden": false,
-                        "targetId": "161b-c8d7-a535-5427",
-                        "type": "profile"
-                      }
-                    ],
-                    "selectionEntries": [
-                      {
-                        "type": "upgrade",
-                        "import": true,
-                        "name": "AV-52 \"Harbringer\" Bomber Squadron",
-                        "hidden": false,
-                        "id": "5094-6e9f-f101-4113",
-                        "constraints": [
-                          {
-                            "type": "max",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "a534-4d5b-825b-e6e4",
-                            "percentValue": false,
-                            "includeChildSelections": false,
-                            "includeChildForces": false
-                          },
-                          {
-                            "type": "min",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "6379-6f6e-a730-fc04",
-                            "percentValue": false,
-                            "includeChildSelections": false,
-                            "includeChildForces": false
-                          }
-                        ],
-                        "entryLinks": [
-                          {
-                            "import": true,
-                            "name": "2x Anti-Armor Missiles",
-                            "hidden": false,
-                            "id": "a253-e42d-1c63-a17a",
-                            "constraints": [
-                              {
-                                "type": "max",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "parent",
-                                "shared": true,
-                                "id": "c975-e1e3-ff88-ca5d",
-                                "percentValue": false,
-                                "includeChildSelections": false,
-                                "includeChildForces": false
-                              },
-                              {
-                                "type": "min",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "parent",
-                                "shared": true,
-                                "id": "eb9b-75b1-32cc-0e46",
-                                "percentValue": false,
-                                "includeChildSelections": false,
-                                "includeChildForces": false
-                              }
-                            ],
-                            "collective": false,
-                            "targetId": "156e-f7c4-d013-9514",
-                            "type": "selectionEntry"
-                          }
-                        ],
-                        "costs": [
-                          {
-                            "name": "Command Points",
-                            "typeId": "c8f4-e049-f551-b319",
-                            "value": 0
-                          },
-                          {
-                            "name": "Resource Points",
-                            "typeId": "ba8e-c9ca-122e-08da",
-                            "value": 10
-                          }
-                        ],
-                        "collective": false
-                      }
-                    ],
-                    "costs": [
-                      {
-                        "name": "Command Points",
-                        "typeId": "6928-861d-fe09-02e7",
-                        "value": 0
-                      },
-                      {
-                        "name": "Resource Points",
-                        "typeId": "6857-2916-102c-e582",
-                        "value": 0
-                      },
-                      {
-                        "name": "Command Points",
-                        "typeId": "c8f4-e049-f551-b319",
-                        "value": 0
-                      },
-                      {
-                        "name": "Resource Points",
-                        "typeId": "ba8e-c9ca-122e-08da",
-                        "value": -6
-                      }
-                    ],
-                    "collective": false
-                  }
-                ],
-                "entryLinks": [
-                  {
-                    "import": true,
-                    "name": "FCA-1 Drone Fighter Squadron",
-                    "hidden": false,
-                    "id": "33ce-a6ee-4fcb-ae8b",
-                    "constraints": [
-                      {
-                        "type": "max",
-                        "value": 3,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "3d03-bcc6-c4f2-c3c2",
-                        "percentValue": false,
-                        "includeChildSelections": false,
-                        "includeChildForces": false
-                      }
-                    ],
-                    "selectionEntries": [
-                      {
-                        "type": "upgrade",
-                        "import": true,
-                        "name": "FCA-1 Drone Fighter Squadron",
-                        "hidden": false,
-                        "id": "96dc-a5c5-4964-84a7",
-                        "constraints": [
-                          {
-                            "type": "max",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "b8da-c177-ed10-c0ab",
-                            "percentValue": false,
-                            "includeChildSelections": false,
-                            "includeChildForces": false
-                          },
-                          {
-                            "type": "min",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "33b2-9ef4-a825-52cf",
-                            "percentValue": false,
-                            "includeChildSelections": false,
-                            "includeChildForces": false
-                          }
-                        ],
-                        "entryLinks": [
-                          {
-                            "import": true,
-                            "name": "2x Anti-Armor Missiles",
-                            "hidden": false,
-                            "id": "7938-10a3-1424-ce43",
-                            "constraints": [
-                              {
-                                "type": "max",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "parent",
-                                "shared": true,
-                                "id": "bf03-9c54-3f58-a1eb",
-                                "percentValue": false,
-                                "includeChildSelections": false,
-                                "includeChildForces": false
-                              },
-                              {
-                                "type": "min",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "parent",
-                                "shared": true,
-                                "id": "1e42-67ee-7ea8-5511",
-                                "percentValue": false,
-                                "includeChildSelections": false,
-                                "includeChildForces": false
-                              }
-                            ],
-                            "collective": false,
-                            "targetId": "156e-f7c4-d013-9514",
-                            "type": "selectionEntry"
-                          }
-                        ],
-                        "costs": [
-                          {
-                            "name": "Command Points",
-                            "typeId": "c8f4-e049-f551-b319",
-                            "value": 0
-                          },
-                          {
-                            "name": "Resource Points",
-                            "typeId": "ba8e-c9ca-122e-08da",
-                            "value": 0
-                          }
-                        ],
-                        "collective": false,
-                        "infoLinks": [
-                          {
-                            "name": "FCA-1 Drone Fighter Squadron",
-                            "id": "8828-4034-4777-bcdc",
-                            "hidden": false,
-                            "targetId": "f696-3ebc-f9c0-45ca",
-                            "type": "profile"
-                          }
-                        ]
-                      }
-                    ],
-                    "costs": [
-                      {
-                        "name": "Resource Points",
-                        "typeId": "6857-2916-102c-e582",
-                        "value": 0
-                      },
-                      {
-                        "name": "Resource Points",
-                        "typeId": "ba8e-c9ca-122e-08da",
-                        "value": 4
-                      }
-                    ],
-                    "collective": false,
-                    "targetId": "1648-e46b-91c8-3e9d",
-                    "type": "selectionEntry"
-                  }
-                ],
-                "collective": false,
-                "targetId": "b971-5773-9be7-581c",
-                "type": "selectionEntry"
-              },
-              {
-                "import": true,
                 "name": "Ship Modifications ",
                 "hidden": false,
                 "id": "05be-328b-2ec6-9d0f",
@@ -4275,6 +3862,467 @@
                     "value": 0
                   }
                 ]
+              },
+              {
+                "import": true,
+                "name": "Hanger Bay",
+                "hidden": false,
+                "id": "cfd0-b04a-20f1-a483",
+                "selectionEntries": [
+                  {
+                    "type": "upgrade",
+                    "import": true,
+                    "name": "A-9 \"Outlaw\" Squadron",
+                    "hidden": false,
+                    "id": "e3f7-c3ae-aa30-08f7",
+                    "constraints": [
+                      {
+                        "type": "max",
+                        "value": 3,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "d34f-4831-48a9-99b7",
+                        "percentValue": false,
+                        "includeChildSelections": false,
+                        "includeChildForces": false
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "name": "A-9 \"Outlaw\" Squadron",
+                        "id": "d42f-f47e-a646-a22d",
+                        "hidden": false,
+                        "publicationId": "33f2-a17a-6c67-dfa5",
+                        "targetId": "120f-9850-abb0-98cf",
+                        "type": "profile"
+                      }
+                    ],
+                    "selectionEntries": [
+                      {
+                        "type": "upgrade",
+                        "import": true,
+                        "name": "A-9 \"Outlaw\" Squadron",
+                        "hidden": false,
+                        "id": "2b50-c9d8-2175-8466",
+                        "constraints": [
+                          {
+                            "type": "max",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "bf24-d11a-64ee-2a77",
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false
+                          },
+                          {
+                            "type": "min",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "fbad-8ee4-a2fb-ce30",
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false
+                          }
+                        ],
+                        "entryLinks": [
+                          {
+                            "import": true,
+                            "name": "Metal Storm Cannon",
+                            "hidden": false,
+                            "id": "f3b4-3ad9-2f85-fe5b",
+                            "collective": false,
+                            "targetId": "f0d2-c865-d7f8-eacb",
+                            "type": "selectionEntry",
+                            "costs": [
+                              {
+                                "name": "Resource Points",
+                                "typeId": "6857-2916-102c-e582",
+                                "value": -9
+                              }
+                            ]
+                          },
+                          {
+                            "import": true,
+                            "name": "2x Anti-Armor Missiles",
+                            "hidden": false,
+                            "id": "c0bb-42fe-5fd1-c964",
+                            "constraints": [
+                              {
+                                "type": "max",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "id": "71a9-82d8-8e2c-150f",
+                                "percentValue": false,
+                                "includeChildSelections": false,
+                                "includeChildForces": false
+                              },
+                              {
+                                "type": "min",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "id": "68fc-3de8-f0e7-8dc9",
+                                "percentValue": false,
+                                "includeChildSelections": false,
+                                "includeChildForces": false
+                              }
+                            ],
+                            "collective": false,
+                            "targetId": "156e-f7c4-d013-9514",
+                            "type": "selectionEntry",
+                            "costs": [
+                              {
+                                "name": "Resource Points",
+                                "typeId": "6857-2916-102c-e582",
+                                "value": -10
+                              }
+                            ]
+                          }
+                        ],
+                        "costs": [
+                          {
+                            "name": "Command Points",
+                            "typeId": "6928-861d-fe09-02e7",
+                            "value": 0
+                          },
+                          {
+                            "name": "Resource Points",
+                            "typeId": "6857-2916-102c-e582",
+                            "value": 19
+                          },
+                          {
+                            "name": "Command Points",
+                            "typeId": "c8f4-e049-f551-b319",
+                            "value": 0
+                          },
+                          {
+                            "name": "Resource Points",
+                            "typeId": "ba8e-c9ca-122e-08da",
+                            "value": 19
+                          }
+                        ],
+                        "collective": false
+                      }
+                    ],
+                    "costs": [
+                      {
+                        "name": "Command Points",
+                        "typeId": "6928-861d-fe09-02e7",
+                        "value": 0
+                      },
+                      {
+                        "name": "Resource Points",
+                        "typeId": "6857-2916-102c-e582",
+                        "value": -6
+                      },
+                      {
+                        "name": "Command Points",
+                        "typeId": "c8f4-e049-f551-b319",
+                        "value": 0
+                      },
+                      {
+                        "name": "Resource Points",
+                        "typeId": "ba8e-c9ca-122e-08da",
+                        "value": -6
+                      }
+                    ],
+                    "collective": false
+                  },
+                  {
+                    "type": "upgrade",
+                    "import": true,
+                    "name": "AV-52 \"Harbringer\" Bomber Squadron",
+                    "hidden": false,
+                    "id": "65ee-6ce3-937a-ca0c",
+                    "constraints": [
+                      {
+                        "type": "max",
+                        "value": 3,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "d1de-0cce-614c-6b7b",
+                        "percentValue": false,
+                        "includeChildSelections": false,
+                        "includeChildForces": false
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "name": "AV-52 \"Harbringer\" Bomber Squadron",
+                        "id": "5858-f2a4-c8b5-0f5c",
+                        "hidden": false,
+                        "targetId": "161b-c8d7-a535-5427",
+                        "type": "profile"
+                      }
+                    ],
+                    "selectionEntries": [
+                      {
+                        "type": "upgrade",
+                        "import": true,
+                        "name": "AV-52 \"Harbringer\" Bomber Squadron",
+                        "hidden": false,
+                        "id": "4ce0-1b10-4abf-9d18",
+                        "constraints": [
+                          {
+                            "type": "max",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "3077-37a1-bd96-b83e",
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false
+                          },
+                          {
+                            "type": "min",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "313a-1286-3b7f-69b2",
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false
+                          }
+                        ],
+                        "entryLinks": [
+                          {
+                            "import": true,
+                            "name": "2x Anti-Armor Missiles",
+                            "hidden": false,
+                            "id": "70b1-4426-934f-9a46",
+                            "constraints": [
+                              {
+                                "type": "max",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "id": "cc80-e534-63e8-1c80",
+                                "percentValue": false,
+                                "includeChildSelections": false,
+                                "includeChildForces": false
+                              },
+                              {
+                                "type": "min",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "id": "344a-63ab-9dd6-68a4",
+                                "percentValue": false,
+                                "includeChildSelections": false,
+                                "includeChildForces": false
+                              }
+                            ],
+                            "collective": false,
+                            "targetId": "156e-f7c4-d013-9514",
+                            "type": "selectionEntry",
+                            "costs": [
+                              {
+                                "name": "Resource Points",
+                                "typeId": "6857-2916-102c-e582",
+                                "value": -10
+                              }
+                            ]
+                          }
+                        ],
+                        "costs": [
+                          {
+                            "name": "Command Points",
+                            "typeId": "6928-861d-fe09-02e7",
+                            "value": 0
+                          },
+                          {
+                            "name": "Resource Points",
+                            "typeId": "6857-2916-102c-e582",
+                            "value": 10
+                          },
+                          {
+                            "name": "Command Points",
+                            "typeId": "c8f4-e049-f551-b319",
+                            "value": 0
+                          },
+                          {
+                            "name": "Resource Points",
+                            "typeId": "ba8e-c9ca-122e-08da",
+                            "value": 10
+                          }
+                        ],
+                        "collective": false
+                      }
+                    ],
+                    "costs": [
+                      {
+                        "name": "Command Points",
+                        "typeId": "6928-861d-fe09-02e7",
+                        "value": 0
+                      },
+                      {
+                        "name": "Resource Points",
+                        "typeId": "6857-2916-102c-e582",
+                        "value": -6
+                      },
+                      {
+                        "name": "Command Points",
+                        "typeId": "c8f4-e049-f551-b319",
+                        "value": 0
+                      },
+                      {
+                        "name": "Resource Points",
+                        "typeId": "ba8e-c9ca-122e-08da",
+                        "value": -6
+                      }
+                    ],
+                    "collective": false
+                  }
+                ],
+                "entryLinks": [
+                  {
+                    "import": true,
+                    "name": "FCA-1 Drone Fighter Squadron",
+                    "hidden": false,
+                    "id": "d25e-0271-f535-87a5",
+                    "constraints": [
+                      {
+                        "type": "max",
+                        "value": 3,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "e381-9f02-e772-2bc9",
+                        "percentValue": false,
+                        "includeChildSelections": false,
+                        "includeChildForces": false
+                      }
+                    ],
+                    "selectionEntries": [
+                      {
+                        "type": "upgrade",
+                        "import": true,
+                        "name": "FCA-1 Drone Fighter Squadron",
+                        "hidden": false,
+                        "id": "da70-c216-2222-4e68",
+                        "constraints": [
+                          {
+                            "type": "max",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "4cb0-c6c9-4b29-3a42",
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false
+                          },
+                          {
+                            "type": "min",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "435b-8e23-09ae-d30b",
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false
+                          }
+                        ],
+                        "entryLinks": [
+                          {
+                            "import": true,
+                            "name": "2x Anti-Armor Missiles",
+                            "hidden": false,
+                            "id": "12fb-4dd3-669b-5fb9",
+                            "constraints": [
+                              {
+                                "type": "max",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "id": "a8f5-1c06-c879-a457",
+                                "percentValue": false,
+                                "includeChildSelections": false,
+                                "includeChildForces": false
+                              },
+                              {
+                                "type": "min",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "id": "f9ba-0da0-0568-29df",
+                                "percentValue": false,
+                                "includeChildSelections": false,
+                                "includeChildForces": false
+                              }
+                            ],
+                            "collective": false,
+                            "targetId": "156e-f7c4-d013-9514",
+                            "type": "selectionEntry",
+                            "costs": [
+                              {
+                                "name": "Resource Points",
+                                "typeId": "6857-2916-102c-e582",
+                                "value": -10
+                              }
+                            ]
+                          }
+                        ],
+                        "costs": [
+                          {
+                            "name": "Command Points",
+                            "typeId": "c8f4-e049-f551-b319",
+                            "value": 0
+                          },
+                          {
+                            "name": "Resource Points",
+                            "typeId": "ba8e-c9ca-122e-08da",
+                            "value": 0
+                          }
+                        ],
+                        "collective": false,
+                        "infoLinks": [
+                          {
+                            "name": "FCA-1 Drone Fighter Squadron",
+                            "id": "24fb-4d4a-df1d-6b6f",
+                            "hidden": false,
+                            "targetId": "f696-3ebc-f9c0-45ca",
+                            "type": "profile"
+                          }
+                        ]
+                      }
+                    ],
+                    "costs": [
+                      {
+                        "name": "Resource Points",
+                        "typeId": "6857-2916-102c-e582",
+                        "value": 4
+                      },
+                      {
+                        "name": "Resource Points",
+                        "typeId": "ba8e-c9ca-122e-08da",
+                        "value": 4
+                      }
+                    ],
+                    "collective": false,
+                    "targetId": "1648-e46b-91c8-3e9d",
+                    "type": "selectionEntry"
+                  }
+                ],
+                "collective": false,
+                "targetId": "b971-5773-9be7-581c",
+                "type": "selectionEntry"
               }
             ],
             "costs": [
@@ -4392,522 +4440,6 @@
             "entryLinks": [
               {
                 "import": true,
-                "name": "Hanger Bay",
-                "hidden": false,
-                "id": "363b-85aa-874b-545f",
-                "selectionEntries": [
-                  {
-                    "type": "upgrade",
-                    "import": true,
-                    "name": "A-9 \"Outlaw\" Squadron",
-                    "hidden": false,
-                    "id": "d070-b0cd-ef0f-3f6c",
-                    "constraints": [
-                      {
-                        "type": "max",
-                        "value": 3,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "bc81-8bee-4448-8f5b",
-                        "percentValue": false,
-                        "includeChildSelections": false,
-                        "includeChildForces": false
-                      }
-                    ],
-                    "infoLinks": [
-                      {
-                        "name": "A-9 \"Outlaw\" Squadron",
-                        "id": "64ce-62b4-af71-ea94",
-                        "hidden": false,
-                        "publicationId": "33f2-a17a-6c67-dfa5",
-                        "targetId": "120f-9850-abb0-98cf",
-                        "type": "profile"
-                      }
-                    ],
-                    "selectionEntries": [
-                      {
-                        "type": "upgrade",
-                        "import": true,
-                        "name": "A-9 \"Outlaw\" Squadron",
-                        "hidden": false,
-                        "id": "b02b-a8af-04f6-81bc",
-                        "constraints": [
-                          {
-                            "type": "max",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "aed3-b5d9-3a2d-7dbf",
-                            "percentValue": false,
-                            "includeChildSelections": false,
-                            "includeChildForces": false
-                          },
-                          {
-                            "type": "min",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "c68f-c621-40e6-eccd",
-                            "percentValue": false,
-                            "includeChildSelections": false,
-                            "includeChildForces": false
-                          }
-                        ],
-                        "entryLinks": [
-                          {
-                            "import": true,
-                            "name": "Metal Storm Cannon",
-                            "hidden": false,
-                            "id": "991a-1fc7-8701-3f34",
-                            "collective": false,
-                            "targetId": "f0d2-c865-d7f8-eacb",
-                            "type": "selectionEntry"
-                          },
-                          {
-                            "import": true,
-                            "name": "2x Anti-Armor Missiles",
-                            "hidden": false,
-                            "id": "4dc5-07ec-6775-884c",
-                            "constraints": [
-                              {
-                                "type": "max",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "parent",
-                                "shared": true,
-                                "id": "d7ad-182f-5997-b9ed",
-                                "percentValue": false,
-                                "includeChildSelections": false,
-                                "includeChildForces": false
-                              },
-                              {
-                                "type": "min",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "parent",
-                                "shared": true,
-                                "id": "b3a1-7a19-bb61-9a27",
-                                "percentValue": false,
-                                "includeChildSelections": false,
-                                "includeChildForces": false
-                              }
-                            ],
-                            "collective": false,
-                            "targetId": "156e-f7c4-d013-9514",
-                            "type": "selectionEntry"
-                          }
-                        ],
-                        "costs": [
-                          {
-                            "name": "Command Points",
-                            "typeId": "c8f4-e049-f551-b319",
-                            "value": 0
-                          },
-                          {
-                            "name": "Resource Points",
-                            "typeId": "ba8e-c9ca-122e-08da",
-                            "value": 19
-                          }
-                        ],
-                        "collective": false
-                      }
-                    ],
-                    "costs": [
-                      {
-                        "name": "Command Points",
-                        "typeId": "6928-861d-fe09-02e7",
-                        "value": 0
-                      },
-                      {
-                        "name": "Resource Points",
-                        "typeId": "6857-2916-102c-e582",
-                        "value": -6
-                      },
-                      {
-                        "name": "Command Points",
-                        "typeId": "c8f4-e049-f551-b319",
-                        "value": 0
-                      },
-                      {
-                        "name": "Resource Points",
-                        "typeId": "ba8e-c9ca-122e-08da",
-                        "value": -6
-                      }
-                    ],
-                    "collective": false
-                  },
-                  {
-                    "type": "upgrade",
-                    "import": true,
-                    "name": "AV-52 \"Harbringer\" Bomber Squadron",
-                    "hidden": false,
-                    "id": "8f49-07a9-a934-2f66",
-                    "constraints": [
-                      {
-                        "type": "max",
-                        "value": 3,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "6d65-b9e6-7a76-3f26",
-                        "percentValue": false,
-                        "includeChildSelections": false,
-                        "includeChildForces": false
-                      }
-                    ],
-                    "infoLinks": [
-                      {
-                        "name": "AV-52 \"Harbringer\" Bomber Squadron",
-                        "id": "74cf-b0d2-8b98-7333",
-                        "hidden": false,
-                        "targetId": "161b-c8d7-a535-5427",
-                        "type": "profile"
-                      }
-                    ],
-                    "selectionEntries": [
-                      {
-                        "type": "upgrade",
-                        "import": true,
-                        "name": "AV-52 \"Harbringer\" Bomber Squadron",
-                        "hidden": false,
-                        "id": "67c7-6a1f-eccc-012b",
-                        "constraints": [
-                          {
-                            "type": "max",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "3af0-ffc9-1e43-c400",
-                            "percentValue": false,
-                            "includeChildSelections": false,
-                            "includeChildForces": false
-                          },
-                          {
-                            "type": "min",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "ce10-fb10-108d-97d9",
-                            "percentValue": false,
-                            "includeChildSelections": false,
-                            "includeChildForces": false
-                          }
-                        ],
-                        "entryLinks": [
-                          {
-                            "import": true,
-                            "name": "2x Anti-Armor Missiles",
-                            "hidden": false,
-                            "id": "ff97-0611-5695-39f6",
-                            "constraints": [
-                              {
-                                "type": "max",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "parent",
-                                "shared": true,
-                                "id": "4652-8c58-984c-b8a0",
-                                "percentValue": false,
-                                "includeChildSelections": false,
-                                "includeChildForces": false
-                              },
-                              {
-                                "type": "min",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "parent",
-                                "shared": true,
-                                "id": "6dad-cb47-7692-aeb4",
-                                "percentValue": false,
-                                "includeChildSelections": false,
-                                "includeChildForces": false
-                              }
-                            ],
-                            "collective": false,
-                            "targetId": "156e-f7c4-d013-9514",
-                            "type": "selectionEntry"
-                          }
-                        ],
-                        "costs": [
-                          {
-                            "name": "Command Points",
-                            "typeId": "c8f4-e049-f551-b319",
-                            "value": 0
-                          },
-                          {
-                            "name": "Resource Points",
-                            "typeId": "ba8e-c9ca-122e-08da",
-                            "value": 10
-                          }
-                        ],
-                        "collective": false
-                      }
-                    ],
-                    "costs": [
-                      {
-                        "name": "Command Points",
-                        "typeId": "6928-861d-fe09-02e7",
-                        "value": 0
-                      },
-                      {
-                        "name": "Resource Points",
-                        "typeId": "6857-2916-102c-e582",
-                        "value": -6
-                      },
-                      {
-                        "name": "Command Points",
-                        "typeId": "c8f4-e049-f551-b319",
-                        "value": 0
-                      },
-                      {
-                        "name": "Resource Points",
-                        "typeId": "ba8e-c9ca-122e-08da",
-                        "value": -6
-                      }
-                    ],
-                    "collective": false
-                  },
-                  {
-                    "type": "upgrade",
-                    "import": true,
-                    "name": "FCA- 6 Boarding Ship",
-                    "hidden": false,
-                    "id": "a0ff-1feb-cd26-6b59",
-                    "constraints": [
-                      {
-                        "type": "max",
-                        "value": 3,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "56e1-327c-4a64-9086",
-                        "percentValue": false,
-                        "includeChildSelections": false,
-                        "includeChildForces": false
-                      }
-                    ],
-                    "rules": [
-                      {
-                        "name": "Boarding Clamps",
-                        "id": "b7aa-2090-f266-56f8",
-                        "hidden": false,
-                        "description": "A unit equipped with Boarding Clamps can make a Melee Attack against a target ship. If the attack is successful, the target ship is considered boarded. This action does not deal damage to the target but counts as one of the unit's actions for the turn.",
-                        "publicationId": "a53b-cebe-de49-bcbc"
-                      }
-                    ],
-                    "infoLinks": [
-                      {
-                        "name": "FCA- 6 Boarding Ship",
-                        "id": "187d-9cc7-ac86-82b8",
-                        "hidden": false,
-                        "targetId": "ad66-ab7f-0da0-5404",
-                        "type": "profile"
-                      }
-                    ],
-                    "costs": [
-                      {
-                        "name": "Command Points",
-                        "typeId": "6928-861d-fe09-02e7",
-                        "value": 0
-                      },
-                      {
-                        "name": "Resource Points",
-                        "typeId": "6857-2916-102c-e582",
-                        "value": -6
-                      },
-                      {
-                        "name": "Resource Points",
-                        "typeId": "ba8e-c9ca-122e-08da",
-                        "value": -6
-                      },
-                      {
-                        "name": "Command Points",
-                        "typeId": "c8f4-e049-f551-b319",
-                        "value": 0
-                      }
-                    ],
-                    "publicationId": "a53b-cebe-de49-bcbc",
-                    "collective": false
-                  },
-                  {
-                    "type": "upgrade",
-                    "import": true,
-                    "name": "M81A1 Mercury II RIG Team",
-                    "hidden": false,
-                    "id": "0dad-7fe2-9bd0-c6ac",
-                    "constraints": [
-                      {
-                        "type": "max",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "d1cc-b314-e0e1-ad78",
-                        "percentValue": false,
-                        "includeChildSelections": false,
-                        "includeChildForces": false
-                      }
-                    ],
-                    "infoLinks": [
-                      {
-                        "name": "M81A1 Mercury II RIG Team",
-                        "id": "b193-4168-1600-4666",
-                        "hidden": false,
-                        "type": "profile",
-                        "targetId": "e717-c524-ff8e-ebc0"
-                      }
-                    ],
-                    "costs": [
-                      {
-                        "name": "Command Points",
-                        "typeId": "6928-861d-fe09-02e7",
-                        "value": 0
-                      },
-                      {
-                        "name": "Resource Points",
-                        "typeId": "6857-2916-102c-e582",
-                        "value": -6
-                      }
-                    ]
-                  }
-                ],
-                "entryLinks": [
-                  {
-                    "import": true,
-                    "name": "FCA-1 Drone Fighter Squadron",
-                    "hidden": false,
-                    "id": "98c4-9a88-4999-77c7",
-                    "constraints": [
-                      {
-                        "type": "max",
-                        "value": 3,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "ddda-effa-6ebc-bf23",
-                        "percentValue": false,
-                        "includeChildSelections": false,
-                        "includeChildForces": false
-                      }
-                    ],
-                    "infoLinks": [
-                      {
-                        "name": "FCA-1 Drone Fighter Squadron",
-                        "id": "42c8-8528-e9fe-0f55",
-                        "hidden": false,
-                        "targetId": "f696-3ebc-f9c0-45ca",
-                        "type": "profile"
-                      }
-                    ],
-                    "selectionEntries": [
-                      {
-                        "type": "upgrade",
-                        "import": true,
-                        "name": "FCA-1 Drone Fighter Squadron",
-                        "hidden": false,
-                        "id": "7972-ed05-bd6b-29aa",
-                        "constraints": [
-                          {
-                            "type": "max",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "2c99-61d0-f14e-8eab",
-                            "percentValue": false,
-                            "includeChildSelections": false,
-                            "includeChildForces": false
-                          },
-                          {
-                            "type": "min",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "110e-683f-4403-d5f9",
-                            "percentValue": false,
-                            "includeChildSelections": false,
-                            "includeChildForces": false
-                          }
-                        ],
-                        "entryLinks": [
-                          {
-                            "import": true,
-                            "name": "2x Anti-Armor Missiles",
-                            "hidden": false,
-                            "id": "3b79-01aa-643c-6352",
-                            "constraints": [
-                              {
-                                "type": "max",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "parent",
-                                "shared": true,
-                                "id": "24ba-2c20-29e9-f145",
-                                "percentValue": false,
-                                "includeChildSelections": false,
-                                "includeChildForces": false
-                              },
-                              {
-                                "type": "min",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "parent",
-                                "shared": true,
-                                "id": "d052-4e49-bbb5-9497",
-                                "percentValue": false,
-                                "includeChildSelections": false,
-                                "includeChildForces": false
-                              }
-                            ],
-                            "collective": false,
-                            "targetId": "156e-f7c4-d013-9514",
-                            "type": "selectionEntry"
-                          }
-                        ],
-                        "costs": [
-                          {
-                            "name": "Command Points",
-                            "typeId": "c8f4-e049-f551-b319",
-                            "value": 0
-                          },
-                          {
-                            "name": "Resource Points",
-                            "typeId": "ba8e-c9ca-122e-08da",
-                            "value": 0
-                          }
-                        ],
-                        "collective": false
-                      }
-                    ],
-                    "costs": [
-                      {
-                        "name": "Resource Points",
-                        "typeId": "6857-2916-102c-e582",
-                        "value": -6
-                      },
-                      {
-                        "name": "Resource Points",
-                        "typeId": "ba8e-c9ca-122e-08da",
-                        "value": 4
-                      }
-                    ],
-                    "collective": false,
-                    "targetId": "1648-e46b-91c8-3e9d",
-                    "type": "selectionEntry"
-                  }
-                ],
-                "collective": false,
-                "targetId": "b971-5773-9be7-581c",
-                "type": "selectionEntry"
-              },
-              {
-                "import": true,
                 "name": "Metal Storm Cannon",
                 "hidden": false,
                 "id": "838d-ed40-75b0-780f",
@@ -4979,6 +4511,538 @@
                 ],
                 "collective": false,
                 "targetId": "ff90-3fb2-33d9-011b",
+                "type": "selectionEntry"
+              },
+              {
+                "import": true,
+                "name": "Hanger Bay",
+                "hidden": false,
+                "id": "422b-e84b-7ca4-0d3f",
+                "selectionEntries": [
+                  {
+                    "type": "upgrade",
+                    "import": true,
+                    "name": "A-9 \"Outlaw\" Squadron",
+                    "hidden": false,
+                    "id": "b284-ddf3-1d2e-7ca7",
+                    "constraints": [
+                      {
+                        "type": "max",
+                        "value": 3,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "fe28-ed5e-a0b9-7593",
+                        "percentValue": false,
+                        "includeChildSelections": false,
+                        "includeChildForces": false
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "name": "A-9 \"Outlaw\" Squadron",
+                        "id": "5e42-427c-4164-2c95",
+                        "hidden": false,
+                        "publicationId": "33f2-a17a-6c67-dfa5",
+                        "targetId": "120f-9850-abb0-98cf",
+                        "type": "profile"
+                      }
+                    ],
+                    "selectionEntries": [
+                      {
+                        "type": "upgrade",
+                        "import": true,
+                        "name": "A-9 \"Outlaw\" Squadron",
+                        "hidden": false,
+                        "id": "1b26-7233-1e7c-3068",
+                        "constraints": [
+                          {
+                            "type": "max",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "9ab4-206f-3fca-766f",
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false
+                          },
+                          {
+                            "type": "min",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "fc50-d352-25c7-40c7",
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false
+                          }
+                        ],
+                        "entryLinks": [
+                          {
+                            "import": true,
+                            "name": "Metal Storm Cannon",
+                            "hidden": false,
+                            "id": "a933-5634-36d3-7bb6",
+                            "collective": false,
+                            "targetId": "f0d2-c865-d7f8-eacb",
+                            "type": "selectionEntry",
+                            "costs": [
+                              {
+                                "name": "Resource Points",
+                                "typeId": "6857-2916-102c-e582",
+                                "value": -9
+                              }
+                            ]
+                          },
+                          {
+                            "import": true,
+                            "name": "2x Anti-Armor Missiles",
+                            "hidden": false,
+                            "id": "430e-7513-4421-a248",
+                            "constraints": [
+                              {
+                                "type": "max",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "id": "e561-664a-b2c9-ffa8",
+                                "percentValue": false,
+                                "includeChildSelections": false,
+                                "includeChildForces": false
+                              },
+                              {
+                                "type": "min",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "id": "a6a4-88b4-116d-1b19",
+                                "percentValue": false,
+                                "includeChildSelections": false,
+                                "includeChildForces": false
+                              }
+                            ],
+                            "collective": false,
+                            "targetId": "156e-f7c4-d013-9514",
+                            "type": "selectionEntry",
+                            "costs": [
+                              {
+                                "name": "Resource Points",
+                                "typeId": "6857-2916-102c-e582",
+                                "value": -10
+                              }
+                            ]
+                          }
+                        ],
+                        "costs": [
+                          {
+                            "name": "Command Points",
+                            "typeId": "6928-861d-fe09-02e7",
+                            "value": 0
+                          },
+                          {
+                            "name": "Resource Points",
+                            "typeId": "6857-2916-102c-e582",
+                            "value": 19
+                          },
+                          {
+                            "name": "Command Points",
+                            "typeId": "c8f4-e049-f551-b319",
+                            "value": 0
+                          },
+                          {
+                            "name": "Resource Points",
+                            "typeId": "ba8e-c9ca-122e-08da",
+                            "value": 19
+                          }
+                        ],
+                        "collective": false
+                      }
+                    ],
+                    "costs": [
+                      {
+                        "name": "Command Points",
+                        "typeId": "6928-861d-fe09-02e7",
+                        "value": 0
+                      },
+                      {
+                        "name": "Resource Points",
+                        "typeId": "6857-2916-102c-e582",
+                        "value": -6
+                      },
+                      {
+                        "name": "Command Points",
+                        "typeId": "c8f4-e049-f551-b319",
+                        "value": 0
+                      },
+                      {
+                        "name": "Resource Points",
+                        "typeId": "ba8e-c9ca-122e-08da",
+                        "value": -6
+                      }
+                    ],
+                    "collective": false
+                  },
+                  {
+                    "type": "upgrade",
+                    "import": true,
+                    "name": "AV-52 \"Harbringer\" Bomber Squadron",
+                    "hidden": false,
+                    "id": "bd7b-b3f3-2737-0750",
+                    "constraints": [
+                      {
+                        "type": "max",
+                        "value": 3,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "9a09-b8b9-e403-4eaa",
+                        "percentValue": false,
+                        "includeChildSelections": false,
+                        "includeChildForces": false
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "name": "AV-52 \"Harbringer\" Bomber Squadron",
+                        "id": "0999-b47b-f68c-918c",
+                        "hidden": false,
+                        "targetId": "161b-c8d7-a535-5427",
+                        "type": "profile"
+                      }
+                    ],
+                    "selectionEntries": [
+                      {
+                        "type": "upgrade",
+                        "import": true,
+                        "name": "AV-52 \"Harbringer\" Bomber Squadron",
+                        "hidden": false,
+                        "id": "31d9-3bec-fdab-6ba6",
+                        "constraints": [
+                          {
+                            "type": "max",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "fbf7-29ca-0a1c-81f4",
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false
+                          },
+                          {
+                            "type": "min",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "9171-8f70-f6dc-969e",
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false
+                          }
+                        ],
+                        "entryLinks": [
+                          {
+                            "import": true,
+                            "name": "2x Anti-Armor Missiles",
+                            "hidden": false,
+                            "id": "df9d-6718-b721-aa37",
+                            "constraints": [
+                              {
+                                "type": "max",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "id": "12a6-9b27-b48c-c240",
+                                "percentValue": false,
+                                "includeChildSelections": false,
+                                "includeChildForces": false
+                              },
+                              {
+                                "type": "min",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "id": "cab7-70b3-4f69-daf7",
+                                "percentValue": false,
+                                "includeChildSelections": false,
+                                "includeChildForces": false
+                              }
+                            ],
+                            "collective": false,
+                            "targetId": "156e-f7c4-d013-9514",
+                            "type": "selectionEntry",
+                            "costs": [
+                              {
+                                "name": "Resource Points",
+                                "typeId": "6857-2916-102c-e582",
+                                "value": -10
+                              }
+                            ]
+                          }
+                        ],
+                        "costs": [
+                          {
+                            "name": "Command Points",
+                            "typeId": "6928-861d-fe09-02e7",
+                            "value": 0
+                          },
+                          {
+                            "name": "Resource Points",
+                            "typeId": "6857-2916-102c-e582",
+                            "value": 10
+                          },
+                          {
+                            "name": "Command Points",
+                            "typeId": "c8f4-e049-f551-b319",
+                            "value": 0
+                          },
+                          {
+                            "name": "Resource Points",
+                            "typeId": "ba8e-c9ca-122e-08da",
+                            "value": 10
+                          }
+                        ],
+                        "collective": false
+                      }
+                    ],
+                    "costs": [
+                      {
+                        "name": "Command Points",
+                        "typeId": "6928-861d-fe09-02e7",
+                        "value": 0
+                      },
+                      {
+                        "name": "Resource Points",
+                        "typeId": "6857-2916-102c-e582",
+                        "value": -6
+                      },
+                      {
+                        "name": "Command Points",
+                        "typeId": "c8f4-e049-f551-b319",
+                        "value": 0
+                      },
+                      {
+                        "name": "Resource Points",
+                        "typeId": "ba8e-c9ca-122e-08da",
+                        "value": -6
+                      }
+                    ],
+                    "collective": false
+                  },
+                  {
+                    "type": "upgrade",
+                    "import": true,
+                    "name": "M81A1 Mercury II RIG Team",
+                    "hidden": false,
+                    "id": "aae9-f7cc-45b9-26c2",
+                    "costs": [
+                      {
+                        "name": "Command Points",
+                        "typeId": "6928-861d-fe09-02e7",
+                        "value": 0
+                      },
+                      {
+                        "name": "Resource Points",
+                        "typeId": "6857-2916-102c-e582",
+                        "value": -6
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "type": "max",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "f3eb-d589-4fd5-ec3f",
+                        "percentValue": false,
+                        "includeChildSelections": false,
+                        "includeChildForces": false
+                      }
+                    ],
+                    "selectionEntries": [
+                      {
+                        "type": "upgrade",
+                        "import": true,
+                        "name": "M81A1 Mercury II RIG Team",
+                        "hidden": false,
+                        "id": "a52f-8058-6f6c-cf10",
+                        "constraints": [
+                          {
+                            "type": "max",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "51a0-34e9-e7e6-0eae",
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false
+                          },
+                          {
+                            "type": "min",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "1d42-59d5-b3d8-1304"
+                          }
+                        ],
+                        "infoLinks": [
+                          {
+                            "name": "M81A1 Mercury II RIG Team",
+                            "id": "a4eb-6c8b-3d9f-0fc1",
+                            "hidden": false,
+                            "type": "profile",
+                            "targetId": "e717-c524-ff8e-ebc0"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "entryLinks": [
+                  {
+                    "import": true,
+                    "name": "FCA-1 Drone Fighter Squadron",
+                    "hidden": false,
+                    "id": "d8ab-dff7-86c4-4a0c",
+                    "constraints": [
+                      {
+                        "type": "max",
+                        "value": 3,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "ed07-64a1-2d26-d086",
+                        "percentValue": false,
+                        "includeChildSelections": false,
+                        "includeChildForces": false
+                      }
+                    ],
+                    "selectionEntries": [
+                      {
+                        "type": "upgrade",
+                        "import": true,
+                        "name": "FCA-1 Drone Fighter Squadron",
+                        "hidden": false,
+                        "id": "66c6-6e54-e4af-6473",
+                        "constraints": [
+                          {
+                            "type": "max",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "496f-b50a-4108-e759",
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false
+                          },
+                          {
+                            "type": "min",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "ca31-3c90-ab88-e7be",
+                            "percentValue": false,
+                            "includeChildSelections": false,
+                            "includeChildForces": false
+                          }
+                        ],
+                        "entryLinks": [
+                          {
+                            "import": true,
+                            "name": "2x Anti-Armor Missiles",
+                            "hidden": false,
+                            "id": "740e-667c-206f-3fa0",
+                            "constraints": [
+                              {
+                                "type": "max",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "id": "7511-bb3b-08b9-1d2c",
+                                "percentValue": false,
+                                "includeChildSelections": false,
+                                "includeChildForces": false
+                              },
+                              {
+                                "type": "min",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "id": "146f-a349-70c4-d0a2",
+                                "percentValue": false,
+                                "includeChildSelections": false,
+                                "includeChildForces": false
+                              }
+                            ],
+                            "collective": false,
+                            "targetId": "156e-f7c4-d013-9514",
+                            "type": "selectionEntry",
+                            "costs": [
+                              {
+                                "name": "Resource Points",
+                                "typeId": "6857-2916-102c-e582",
+                                "value": -10
+                              }
+                            ]
+                          }
+                        ],
+                        "costs": [
+                          {
+                            "name": "Command Points",
+                            "typeId": "c8f4-e049-f551-b319",
+                            "value": 0
+                          },
+                          {
+                            "name": "Resource Points",
+                            "typeId": "ba8e-c9ca-122e-08da",
+                            "value": 0
+                          }
+                        ],
+                        "collective": false,
+                        "infoLinks": [
+                          {
+                            "name": "FCA-1 Drone Fighter Squadron",
+                            "id": "75b8-601f-b694-7b4b",
+                            "hidden": false,
+                            "targetId": "f696-3ebc-f9c0-45ca",
+                            "type": "profile"
+                          }
+                        ]
+                      }
+                    ],
+                    "costs": [
+                      {
+                        "name": "Resource Points",
+                        "typeId": "6857-2916-102c-e582",
+                        "value": 4
+                      },
+                      {
+                        "name": "Resource Points",
+                        "typeId": "ba8e-c9ca-122e-08da",
+                        "value": 4
+                      }
+                    ],
+                    "collective": false,
+                    "targetId": "1648-e46b-91c8-3e9d",
+                    "type": "selectionEntry"
+                  }
+                ],
+                "collective": false,
+                "targetId": "b971-5773-9be7-581c",
                 "type": "selectionEntry"
               }
             ],

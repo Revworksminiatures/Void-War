@@ -1,0 +1,2633 @@
+{
+  "catalogue": {
+    "library": false,
+    "id": "9174-0648-0bf4-6419",
+    "name": "Protectorate Defense League Naval Forces",
+    "gameSystemId": "sys-38ec-1e0f-59dc-bb47",
+    "gameSystemRevision": 11,
+    "revision": 7,
+    "battleScribeVersion": "2.03",
+    "selectionEntries": [
+      {
+        "type": "unit",
+        "import": true,
+        "name": "Dipaluba Class Destroyer ",
+        "hidden": false,
+        "id": "fc4d-daf6-0343-e055",
+        "publicationId": "34f4-81d3-96c3-4c65",
+        "categoryLinks": [
+          {
+            "name": "Light Core",
+            "hidden": false,
+            "id": "fc56-e405-cbb7-3774",
+            "targetId": "5e3c-da3e-210d-0398",
+            "primary": true
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Dipaluba Class Destroyer ",
+            "hidden": false,
+            "id": "02c0-ce82-e04e-f182",
+            "costs": [
+              {
+                "name": "Command Points",
+                "typeId": "6928-861d-fe09-02e7",
+                "value": 5
+              },
+              {
+                "name": "Resource Points",
+                "typeId": "6857-2916-102c-e582",
+                "value": 20
+              }
+            ],
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "8f2b-2631-8eee-a8f1"
+              }
+            ],
+            "entryLinks": [
+              {
+                "import": true,
+                "name": "Destroyer Front Weapons Batteries",
+                "hidden": false,
+                "id": "b0c6-9708-c6ab-a6b7",
+                "type": "selectionEntryGroup",
+                "targetId": "f242-99ed-0a39-13f6"
+              },
+              {
+                "import": true,
+                "name": "Destroyer Rear Weapons Batteries",
+                "hidden": false,
+                "id": "b552-9dc1-276e-8952",
+                "type": "selectionEntryGroup",
+                "targetId": "611c-e767-6bf8-0acc"
+              },
+              {
+                "import": true,
+                "name": "Ship Modifications ",
+                "hidden": false,
+                "id": "2aaa-1262-9acb-0097",
+                "type": "selectionEntryGroup",
+                "targetId": "64d7-6d7f-699e-dfd7"
+              },
+              {
+                "import": true,
+                "name": "Fleet Communications",
+                "hidden": false,
+                "id": "8814-9cfc-1b2e-d129",
+                "type": "selectionEntryGroup",
+                "targetId": "44d0-181c-4e1d-2e8c"
+              },
+              {
+                "import": true,
+                "name": "Task Force Flagship",
+                "hidden": false,
+                "id": "b002-b389-deac-14d6",
+                "type": "selectionEntry",
+                "targetId": "d962-58a3-8acb-ee79"
+              },
+              {
+                "import": true,
+                "name": "Hanger Bay",
+                "hidden": false,
+                "id": "532d-a19d-0d31-06ec",
+                "type": "selectionEntry",
+                "targetId": "b971-5773-9be7-581c"
+              }
+            ],
+            "infoLinks": [
+              {
+                "name": "Dipaluba Class Destroyer ",
+                "id": "fdde-0de1-ceb2-7714",
+                "hidden": false,
+                "type": "profile",
+                "targetId": "d29b-3c37-79c7-f6c3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "unit",
+        "import": true,
+        "name": "Firebrand Class Corvette",
+        "hidden": false,
+        "id": "d343-cf0d-ed74-e6d9",
+        "publicationId": "34f4-81d3-96c3-4c65",
+        "categoryLinks": [
+          {
+            "name": "Heavy Core",
+            "hidden": false,
+            "id": "b039-8c0e-b580-1817",
+            "targetId": "8b6d-799c-8c5f-a19b",
+            "primary": true
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Firebrand Class Corvette",
+            "hidden": false,
+            "id": "ec3e-3c01-6dcc-b40e",
+            "costs": [
+              {
+                "name": "Command Points",
+                "typeId": "6928-861d-fe09-02e7",
+                "value": 4
+              },
+              {
+                "name": "Resource Points",
+                "typeId": "6857-2916-102c-e582",
+                "value": 20
+              }
+            ],
+            "entryLinks": [
+              {
+                "import": true,
+                "name": "Corvette Front Weapons Batteries",
+                "hidden": false,
+                "id": "bea3-5cf9-c781-f05b",
+                "type": "selectionEntryGroup",
+                "targetId": "e19e-1e03-cb91-f4e1"
+              },
+              {
+                "import": true,
+                "name": "Corvette Back Weapons Batteries",
+                "hidden": false,
+                "id": "bd4f-b278-c884-2d78",
+                "type": "selectionEntryGroup",
+                "targetId": "d1e3-a8fa-2768-4b2b"
+              },
+              {
+                "import": true,
+                "name": "Ship Modifications ",
+                "hidden": false,
+                "id": "e3df-4582-432f-d79f",
+                "type": "selectionEntryGroup",
+                "targetId": "64d7-6d7f-699e-dfd7"
+              },
+              {
+                "import": true,
+                "name": "Fleet Communications",
+                "hidden": false,
+                "id": "d599-21a3-3f7e-c2ec",
+                "type": "selectionEntryGroup",
+                "targetId": "44d0-181c-4e1d-2e8c"
+              }
+            ],
+            "infoLinks": [
+              {
+                "name": "Firebrand Class Corvette",
+                "id": "4337-b7a2-cd77-6255",
+                "hidden": false,
+                "type": "profile",
+                "targetId": "b8a7-b557-032f-5f7f"
+              }
+            ]
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "4794-bba1-7f7a-6069"
+          }
+        ]
+      },
+      {
+        "type": "unit",
+        "import": true,
+        "name": "Raider Class Corvette",
+        "hidden": false,
+        "id": "6ac9-dce4-2adf-37a1",
+        "publicationId": "34f4-81d3-96c3-4c65",
+        "categoryLinks": [
+          {
+            "name": "Heavy Core",
+            "hidden": false,
+            "id": "a94b-53ae-5de0-9aad",
+            "targetId": "8b6d-799c-8c5f-a19b",
+            "primary": true
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Raider Class Corvette",
+            "hidden": false,
+            "id": "bc59-ab64-3cef-7da8",
+            "costs": [
+              {
+                "name": "Command Points",
+                "typeId": "6928-861d-fe09-02e7",
+                "value": 4
+              },
+              {
+                "name": "Resource Points",
+                "typeId": "6857-2916-102c-e582",
+                "value": 20
+              }
+            ],
+            "entryLinks": [
+              {
+                "import": true,
+                "name": "Corvette Back Weapons Batteries",
+                "hidden": false,
+                "id": "c673-57da-019e-1250",
+                "type": "selectionEntryGroup",
+                "targetId": "d1e3-a8fa-2768-4b2b"
+              },
+              {
+                "import": true,
+                "name": "Corvette Front Weapons Batteries",
+                "hidden": false,
+                "id": "cba4-239e-1c24-d738",
+                "type": "selectionEntryGroup",
+                "targetId": "e19e-1e03-cb91-f4e1"
+              },
+              {
+                "import": true,
+                "name": "Ship Modifications ",
+                "hidden": false,
+                "id": "749a-23ab-a979-4635",
+                "type": "selectionEntryGroup",
+                "targetId": "64d7-6d7f-699e-dfd7"
+              },
+              {
+                "import": true,
+                "name": "Fleet Communications",
+                "hidden": false,
+                "id": "22fe-ed50-c6e8-c9c2",
+                "type": "selectionEntryGroup",
+                "targetId": "44d0-181c-4e1d-2e8c"
+              }
+            ],
+            "infoLinks": [
+              {
+                "name": "Raider Class Corvette",
+                "id": "7c8f-ef16-f97e-30fb",
+                "hidden": false,
+                "type": "profile",
+                "targetId": "ce96-6348-54ce-b1e5"
+              }
+            ]
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "ddb6-08e3-c6f4-642e"
+          }
+        ]
+      },
+      {
+        "type": "unit",
+        "import": true,
+        "name": "Manowar Class Carrier",
+        "hidden": false,
+        "id": "f9e2-12ba-d145-7613",
+        "publicationId": "34f4-81d3-96c3-4c65",
+        "categoryLinks": [
+          {
+            "name": "Heavy Support",
+            "hidden": false,
+            "id": "1445-f219-66e1-ba91",
+            "targetId": "ab63-205a-11bb-1a1e",
+            "primary": true
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Manowar Class Carrier",
+            "hidden": false,
+            "id": "e821-6632-a21a-0511",
+            "costs": [
+              {
+                "name": "Command Points",
+                "typeId": "6928-861d-fe09-02e7",
+                "value": 8
+              },
+              {
+                "name": "Resource Points",
+                "typeId": "6857-2916-102c-e582",
+                "value": 40
+              }
+            ],
+            "entryLinks": [
+              {
+                "import": true,
+                "name": "Carrier Front Weapons Batteries",
+                "hidden": false,
+                "id": "4cc1-19f1-2132-ed13",
+                "type": "selectionEntryGroup",
+                "targetId": "8106-ce63-48bf-9ee8"
+              },
+              {
+                "import": true,
+                "name": "Carrier Rear Weapons Batteries",
+                "hidden": false,
+                "id": "a25d-66a0-8e51-da35",
+                "type": "selectionEntryGroup",
+                "targetId": "448a-ba1e-5d45-426f"
+              },
+              {
+                "import": true,
+                "name": "Ship Modifications ",
+                "hidden": false,
+                "id": "84f8-667c-6113-f703",
+                "type": "selectionEntryGroup",
+                "targetId": "64d7-6d7f-699e-dfd7"
+              },
+              {
+                "import": true,
+                "name": "Fleet Communications",
+                "hidden": false,
+                "id": "7301-f819-c67e-2fd7",
+                "type": "selectionEntryGroup",
+                "targetId": "44d0-181c-4e1d-2e8c"
+              },
+              {
+                "import": true,
+                "name": "Task Force Flagship",
+                "hidden": false,
+                "id": "62b4-67f8-218f-6528",
+                "type": "selectionEntry",
+                "targetId": "d962-58a3-8acb-ee79"
+              },
+              {
+                "import": true,
+                "name": "Hanger Bay",
+                "hidden": false,
+                "id": "c9a3-4adf-6027-f376",
+                "type": "selectionEntry",
+                "targetId": "b971-5773-9be7-581c",
+                "selectionEntries": [
+                  {
+                    "type": "upgrade",
+                    "import": true,
+                    "name": "JP-7 \"BlackStar\" HAVOC Squadron",
+                    "hidden": false,
+                    "id": "f0de-fc4d-5c90-3870",
+                    "constraints": [
+                      {
+                        "type": "max",
+                        "value": 3,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "3255-d06b-1fb7-e923"
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "name": "JP-7 \"BlackStar\" HAVOC Squadron",
+                        "id": "2319-39d7-1067-1caf",
+                        "hidden": false,
+                        "type": "profile",
+                        "targetId": "bd9c-35b4-7c3a-0905"
+                      }
+                    ],
+                    "selectionEntries": [
+                      {
+                        "type": "upgrade",
+                        "import": true,
+                        "name": "JP-7 \"BlackStar\" HAVOC Squadron",
+                        "hidden": false,
+                        "id": "b890-c3e5-c69e-7090",
+                        "constraints": [
+                          {
+                            "type": "min",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "b169-4a41-addb-0e87"
+                          },
+                          {
+                            "type": "max",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "8eb1-6d7f-617f-0b87"
+                          }
+                        ],
+                        "costs": [
+                          {
+                            "name": "Command Points",
+                            "typeId": "6928-861d-fe09-02e7",
+                            "value": 0
+                          },
+                          {
+                            "name": "Resource Points",
+                            "typeId": "6857-2916-102c-e582",
+                            "value": 20
+                          }
+                        ],
+                        "entryLinks": [
+                          {
+                            "import": true,
+                            "name": "2x Anti-Armor Missiles",
+                            "hidden": false,
+                            "id": "e7b2-c1dd-5783-9e3d",
+                            "constraints": [
+                              {
+                                "type": "max",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "id": "3aa8-b5b2-849f-56d2",
+                                "percentValue": false,
+                                "includeChildSelections": false,
+                                "includeChildForces": false
+                              },
+                              {
+                                "type": "min",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "id": "a2d8-5634-647a-d3ab",
+                                "percentValue": false,
+                                "includeChildSelections": false,
+                                "includeChildForces": false
+                              }
+                            ],
+                            "collective": false,
+                            "targetId": "156e-f7c4-d013-9514",
+                            "type": "selectionEntry",
+                            "costs": [
+                              {
+                                "name": "Resource Points",
+                                "typeId": "6857-2916-102c-e582",
+                                "value": -10
+                              }
+                            ]
+                          },
+                          {
+                            "import": true,
+                            "name": "2x Anti-Armor Missiles",
+                            "hidden": false,
+                            "id": "2f09-d875-ffc0-ed2c",
+                            "constraints": [
+                              {
+                                "type": "max",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "id": "ec88-3a3e-484c-a31b",
+                                "percentValue": false,
+                                "includeChildSelections": false,
+                                "includeChildForces": false
+                              },
+                              {
+                                "type": "min",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "id": "ff3f-a01f-c466-e6ae",
+                                "percentValue": false,
+                                "includeChildSelections": false,
+                                "includeChildForces": false
+                              }
+                            ],
+                            "collective": false,
+                            "targetId": "156e-f7c4-d013-9514",
+                            "type": "selectionEntry",
+                            "costs": [
+                              {
+                                "name": "Resource Points",
+                                "typeId": "6857-2916-102c-e582",
+                                "value": -10
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "costs": [
+                      {
+                        "name": "Command Points",
+                        "typeId": "6928-861d-fe09-02e7",
+                        "value": 0
+                      },
+                      {
+                        "name": "Resource Points",
+                        "typeId": "6857-2916-102c-e582",
+                        "value": -6
+                      }
+                    ]
+                  },
+                  {
+                    "type": "upgrade",
+                    "import": true,
+                    "name": "JP-9 \"Aurora\" HAVOC Squadron",
+                    "hidden": false,
+                    "id": "91d6-e7a0-161a-e2b6",
+                    "constraints": [
+                      {
+                        "type": "max",
+                        "value": 3,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "4b3d-da6e-75f3-f448"
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "name": "JP-9 \"Aurora\" HAVOC Squadron",
+                        "id": "c38b-1b08-a082-bbcd",
+                        "hidden": false,
+                        "type": "profile",
+                        "targetId": "394e-25bd-7671-0c38"
+                      }
+                    ],
+                    "costs": [
+                      {
+                        "name": "Command Points",
+                        "typeId": "6928-861d-fe09-02e7",
+                        "value": 0
+                      },
+                      {
+                        "name": "Resource Points",
+                        "typeId": "6857-2916-102c-e582",
+                        "value": -6
+                      }
+                    ],
+                    "selectionEntries": [
+                      {
+                        "type": "upgrade",
+                        "import": true,
+                        "name": "JP-9 \"Aurora\" HAVOC Squadron",
+                        "hidden": false,
+                        "id": "c4fa-86ce-b862-5953",
+                        "costs": [
+                          {
+                            "name": "Command Points",
+                            "typeId": "6928-861d-fe09-02e7",
+                            "value": 0
+                          },
+                          {
+                            "name": "Resource Points",
+                            "typeId": "6857-2916-102c-e582",
+                            "value": 19
+                          }
+                        ],
+                        "constraints": [
+                          {
+                            "type": "min",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "c551-73d0-5f21-ef8c"
+                          },
+                          {
+                            "type": "max",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "5eb2-fa57-5354-f1fb"
+                          }
+                        ],
+                        "entryLinks": [
+                          {
+                            "import": true,
+                            "name": "2x Anti-Armor Missiles",
+                            "hidden": false,
+                            "id": "7abb-bb13-e909-df11",
+                            "constraints": [
+                              {
+                                "type": "max",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "id": "3e82-728c-a04c-2acd",
+                                "percentValue": false,
+                                "includeChildSelections": false,
+                                "includeChildForces": false
+                              },
+                              {
+                                "type": "min",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "id": "a5b0-c95b-9578-21af",
+                                "percentValue": false,
+                                "includeChildSelections": false,
+                                "includeChildForces": false
+                              }
+                            ],
+                            "collective": false,
+                            "targetId": "156e-f7c4-d013-9514",
+                            "type": "selectionEntry",
+                            "costs": [
+                              {
+                                "name": "Resource Points",
+                                "typeId": "6857-2916-102c-e582",
+                                "value": -10
+                              }
+                            ]
+                          },
+                          {
+                            "import": true,
+                            "name": "Metal Storm Cannon",
+                            "hidden": false,
+                            "id": "dfb9-a127-39e5-d85a",
+                            "collective": false,
+                            "targetId": "f0d2-c865-d7f8-eacb",
+                            "type": "selectionEntry",
+                            "costs": [
+                              {
+                                "name": "Resource Points",
+                                "typeId": "6857-2916-102c-e582",
+                                "value": -9
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "780d-aba6-b926-0934"
+          }
+        ]
+      },
+      {
+        "type": "unit",
+        "import": true,
+        "name": "Redeemer Class Battleship",
+        "hidden": false,
+        "id": "094f-02c2-9bfe-eba8",
+        "publicationId": "34f4-81d3-96c3-4c65",
+        "categoryLinks": [
+          {
+            "name": "Light Support",
+            "hidden": false,
+            "id": "aeee-cbaa-f5d3-afee",
+            "targetId": "f7db-09ad-7e76-bdaf",
+            "primary": true
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Redeemer Class Battleship",
+            "hidden": false,
+            "id": "101b-2209-d7e1-5c7b",
+            "costs": [
+              {
+                "name": "Command Points",
+                "typeId": "6928-861d-fe09-02e7",
+                "value": 6
+              },
+              {
+                "name": "Resource Points",
+                "typeId": "6857-2916-102c-e582",
+                "value": 20
+              }
+            ],
+            "infoLinks": [
+              {
+                "name": "Redeemer Class Battleship",
+                "id": "b1d5-fe7f-494d-db18",
+                "hidden": false,
+                "type": "profile",
+                "targetId": "8ace-7c00-dafd-41c8"
+              }
+            ],
+            "entryLinks": [
+              {
+                "import": true,
+                "name": "Battleship Front Weapons Batteries",
+                "hidden": false,
+                "id": "74fd-7c28-9c82-1c74",
+                "type": "selectionEntryGroup",
+                "targetId": "cc17-18c6-9b90-8a22"
+              },
+              {
+                "import": true,
+                "name": "Battleship Mid Battleries",
+                "hidden": false,
+                "id": "38f1-b650-331e-2807",
+                "type": "selectionEntryGroup",
+                "targetId": "7cc3-44e6-a439-1b53"
+              },
+              {
+                "import": true,
+                "name": "Battleship Rear Weapons Batteries",
+                "hidden": false,
+                "id": "78d6-9be0-6572-4cbb",
+                "type": "selectionEntryGroup",
+                "targetId": "1ca6-4bca-bb9b-f360"
+              },
+              {
+                "import": true,
+                "name": "Ship Modifications ",
+                "hidden": false,
+                "id": "0d2e-59d4-640b-d302",
+                "type": "selectionEntryGroup",
+                "targetId": "64d7-6d7f-699e-dfd7"
+              },
+              {
+                "import": true,
+                "name": "Fleet Communications",
+                "hidden": false,
+                "id": "156e-a4b8-2329-2cb0",
+                "type": "selectionEntryGroup",
+                "targetId": "44d0-181c-4e1d-2e8c"
+              },
+              {
+                "import": true,
+                "name": "Task Force Flagship",
+                "hidden": false,
+                "id": "364d-d93d-707c-6b49",
+                "type": "selectionEntry",
+                "targetId": "d962-58a3-8acb-ee79"
+              }
+            ]
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "a3d3-447c-a126-07fe"
+          }
+        ]
+      },
+      {
+        "type": "unit",
+        "import": true,
+        "name": "Vixen Class Assault Carrier ",
+        "hidden": false,
+        "id": "3a3d-a694-3b70-a1a9",
+        "publicationId": "34f4-81d3-96c3-4c65",
+        "categoryLinks": [
+          {
+            "name": "Heavy Support",
+            "hidden": false,
+            "id": "6aee-03a7-7bbb-2681",
+            "targetId": "ab63-205a-11bb-1a1e",
+            "primary": true
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Vixen Class Assault Carrier ",
+            "hidden": false,
+            "id": "e510-156a-0572-91d2",
+            "costs": [
+              {
+                "name": "Command Points",
+                "typeId": "6928-861d-fe09-02e7",
+                "value": 8
+              },
+              {
+                "name": "Resource Points",
+                "typeId": "6857-2916-102c-e582",
+                "value": 40
+              }
+            ],
+            "entryLinks": [
+              {
+                "import": true,
+                "name": "Carrier Front Weapons Batteries",
+                "hidden": false,
+                "id": "64f4-52e3-5e8d-cf04",
+                "type": "selectionEntryGroup",
+                "targetId": "8106-ce63-48bf-9ee8"
+              },
+              {
+                "import": true,
+                "name": "Carrier Rear Weapons Batteries",
+                "hidden": false,
+                "id": "868b-9ba5-df31-b6e3",
+                "type": "selectionEntryGroup",
+                "targetId": "448a-ba1e-5d45-426f"
+              },
+              {
+                "import": true,
+                "name": "Ship Modifications ",
+                "hidden": false,
+                "id": "27ab-e931-1618-45f7",
+                "type": "selectionEntryGroup",
+                "targetId": "64d7-6d7f-699e-dfd7"
+              },
+              {
+                "import": true,
+                "name": "Fleet Communications",
+                "hidden": false,
+                "id": "2c68-06aa-182c-4bfd",
+                "type": "selectionEntryGroup",
+                "targetId": "44d0-181c-4e1d-2e8c"
+              },
+              {
+                "import": true,
+                "name": "Task Force Flagship",
+                "hidden": false,
+                "id": "7d9d-b1fa-dbfa-bae2",
+                "type": "selectionEntry",
+                "targetId": "d962-58a3-8acb-ee79"
+              },
+              {
+                "import": true,
+                "name": "Hanger Bay",
+                "hidden": false,
+                "id": "55e5-2bca-c769-677b",
+                "type": "selectionEntry",
+                "targetId": "b971-5773-9be7-581c",
+                "selectionEntries": [
+                  {
+                    "type": "upgrade",
+                    "import": true,
+                    "name": "JP-7 \"BlackStar\" HAVOC Squadron",
+                    "hidden": false,
+                    "id": "8b48-fa7b-33f2-3e45",
+                    "constraints": [
+                      {
+                        "type": "max",
+                        "value": 3,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "191f-f650-00f6-e698"
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "name": "JP-7 \"BlackStar\" HAVOC Squadron",
+                        "id": "6c9e-e2f7-ab13-9598",
+                        "hidden": false,
+                        "type": "profile",
+                        "targetId": "bd9c-35b4-7c3a-0905"
+                      }
+                    ],
+                    "selectionEntries": [
+                      {
+                        "type": "upgrade",
+                        "import": true,
+                        "name": "JP-7 \"BlackStar\" HAVOC Squadron",
+                        "hidden": false,
+                        "id": "af46-b63e-28f5-a11f",
+                        "constraints": [
+                          {
+                            "type": "min",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "f5c9-4c36-3bce-89fa"
+                          },
+                          {
+                            "type": "max",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "e065-c305-2971-2b5b"
+                          }
+                        ],
+                        "costs": [
+                          {
+                            "name": "Command Points",
+                            "typeId": "6928-861d-fe09-02e7",
+                            "value": 0
+                          },
+                          {
+                            "name": "Resource Points",
+                            "typeId": "6857-2916-102c-e582",
+                            "value": 20
+                          }
+                        ],
+                        "entryLinks": [
+                          {
+                            "import": true,
+                            "name": "2x Anti-Armor Missiles",
+                            "hidden": false,
+                            "id": "843c-c93b-125d-f7ba",
+                            "constraints": [
+                              {
+                                "type": "max",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "id": "172e-2ae8-d25d-7be4",
+                                "percentValue": false,
+                                "includeChildSelections": false,
+                                "includeChildForces": false
+                              },
+                              {
+                                "type": "min",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "id": "f106-389e-cac6-84b5",
+                                "percentValue": false,
+                                "includeChildSelections": false,
+                                "includeChildForces": false
+                              }
+                            ],
+                            "collective": false,
+                            "targetId": "156e-f7c4-d013-9514",
+                            "type": "selectionEntry",
+                            "costs": [
+                              {
+                                "name": "Resource Points",
+                                "typeId": "6857-2916-102c-e582",
+                                "value": -10
+                              }
+                            ]
+                          },
+                          {
+                            "import": true,
+                            "name": "2x Anti-Armor Missiles",
+                            "hidden": false,
+                            "id": "49ef-b8be-e41a-3fa2",
+                            "constraints": [
+                              {
+                                "type": "max",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "id": "2c21-a647-6d90-c050",
+                                "percentValue": false,
+                                "includeChildSelections": false,
+                                "includeChildForces": false
+                              },
+                              {
+                                "type": "min",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "id": "e522-8e4b-eff8-800d",
+                                "percentValue": false,
+                                "includeChildSelections": false,
+                                "includeChildForces": false
+                              }
+                            ],
+                            "collective": false,
+                            "targetId": "156e-f7c4-d013-9514",
+                            "type": "selectionEntry",
+                            "costs": [
+                              {
+                                "name": "Resource Points",
+                                "typeId": "6857-2916-102c-e582",
+                                "value": -10
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "costs": [
+                      {
+                        "name": "Command Points",
+                        "typeId": "6928-861d-fe09-02e7",
+                        "value": 0
+                      },
+                      {
+                        "name": "Resource Points",
+                        "typeId": "6857-2916-102c-e582",
+                        "value": -6
+                      }
+                    ]
+                  },
+                  {
+                    "type": "upgrade",
+                    "import": true,
+                    "name": "JP-9 \"Aurora\" HAVOC Squadron",
+                    "hidden": false,
+                    "id": "b333-ba16-bb9f-79f1",
+                    "constraints": [
+                      {
+                        "type": "max",
+                        "value": 3,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "3654-0cda-eb7d-67fe"
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "name": "JP-9 \"Aurora\" HAVOC Squadron",
+                        "id": "a56f-3ef2-39a3-e89d",
+                        "hidden": false,
+                        "type": "profile",
+                        "targetId": "394e-25bd-7671-0c38"
+                      }
+                    ],
+                    "costs": [
+                      {
+                        "name": "Command Points",
+                        "typeId": "6928-861d-fe09-02e7",
+                        "value": 0
+                      },
+                      {
+                        "name": "Resource Points",
+                        "typeId": "6857-2916-102c-e582",
+                        "value": -6
+                      }
+                    ],
+                    "selectionEntries": [
+                      {
+                        "type": "upgrade",
+                        "import": true,
+                        "name": "JP-9 \"Aurora\" HAVOC Squadron",
+                        "hidden": false,
+                        "id": "3018-d428-b03d-b5c0",
+                        "costs": [
+                          {
+                            "name": "Command Points",
+                            "typeId": "6928-861d-fe09-02e7",
+                            "value": 0
+                          },
+                          {
+                            "name": "Resource Points",
+                            "typeId": "6857-2916-102c-e582",
+                            "value": 19
+                          }
+                        ],
+                        "constraints": [
+                          {
+                            "type": "min",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "e126-af4e-3fd3-f3ba"
+                          },
+                          {
+                            "type": "max",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "8f07-e912-28bd-12cc"
+                          }
+                        ],
+                        "entryLinks": [
+                          {
+                            "import": true,
+                            "name": "2x Anti-Armor Missiles",
+                            "hidden": false,
+                            "id": "3112-a1a8-c0af-e873",
+                            "constraints": [
+                              {
+                                "type": "max",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "id": "71e5-acb1-f0b1-adbd",
+                                "percentValue": false,
+                                "includeChildSelections": false,
+                                "includeChildForces": false
+                              },
+                              {
+                                "type": "min",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "id": "93f8-624a-22b9-b9f3",
+                                "percentValue": false,
+                                "includeChildSelections": false,
+                                "includeChildForces": false
+                              }
+                            ],
+                            "collective": false,
+                            "targetId": "156e-f7c4-d013-9514",
+                            "type": "selectionEntry",
+                            "costs": [
+                              {
+                                "name": "Resource Points",
+                                "typeId": "6857-2916-102c-e582",
+                                "value": -10
+                              }
+                            ]
+                          },
+                          {
+                            "import": true,
+                            "name": "Metal Storm Cannon",
+                            "hidden": false,
+                            "id": "d8b6-1283-0467-537f",
+                            "collective": false,
+                            "targetId": "f0d2-c865-d7f8-eacb",
+                            "type": "selectionEntry",
+                            "costs": [
+                              {
+                                "name": "Resource Points",
+                                "typeId": "6857-2916-102c-e582",
+                                "value": -9
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "b2c3-d036-3abd-08e3"
+          }
+        ]
+      },
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": "Protectorate Defense League Naval Forces Cards",
+        "hidden": false,
+        "id": "893c-be8f-32a2-7e33",
+        "categoryLinks": [
+          {
+            "name": "Command Cards and Utilities",
+            "hidden": false,
+            "id": "4a5a-161c-0fd4-7404",
+            "targetId": "acb1-e01b-51f0-2fab",
+            "primary": true
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "1 Point Command Cards",
+            "hidden": false,
+            "id": "f48b-1cdc-8074-8d5a",
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "559a-41e3-53f6-f4e5",
+                "percentValue": false,
+                "includeChildSelections": false,
+                "includeChildForces": false
+              }
+            ],
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Autonomy Protocols",
+                "hidden": false,
+                "id": "744a-a780-5002-31d2",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 2,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "ef26-98fd-f87b-1a43",
+                    "percentValue": false,
+                    "includeChildSelections": false,
+                    "includeChildForces": false
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Command Points",
+                    "typeId": "6928-861d-fe09-02e7",
+                    "value": 1
+                  },
+                  {
+                    "name": "Resource Points",
+                    "typeId": "6857-2916-102c-e582",
+                    "value": 0
+                  },
+                  {
+                    "name": "Command Points",
+                    "typeId": "c8f4-e049-f551-b319",
+                    "value": 1
+                  },
+                  {
+                    "name": "Resource Points",
+                    "typeId": "ba8e-c9ca-122e-08da",
+                    "value": 0
+                  }
+                ],
+                "collective": false,
+                "rules": [
+                  {
+                    "name": "Autonomy Protocols",
+                    "id": "b9aa-9a23-2970-0100",
+                    "hidden": false,
+                    "description": "Select 1 friendly LIGHT CORE unit. That unit may activate immediately, ignoring normal activation order. If that unit has already fully activated this turn, it may instead perform 1 additional action."
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Localized Shield Bloom",
+                "hidden": false,
+                "id": "201e-0265-bfa0-7967",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 2,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "374b-ad85-ebcb-e5cb",
+                    "percentValue": false,
+                    "includeChildSelections": false,
+                    "includeChildForces": false
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Command Points",
+                    "typeId": "6928-861d-fe09-02e7",
+                    "value": 1
+                  },
+                  {
+                    "name": "Resource Points",
+                    "typeId": "6857-2916-102c-e582",
+                    "value": 0
+                  },
+                  {
+                    "name": "Command Points",
+                    "typeId": "c8f4-e049-f551-b319",
+                    "value": 1
+                  },
+                  {
+                    "name": "Resource Points",
+                    "typeId": "ba8e-c9ca-122e-08da",
+                    "value": 0
+                  }
+                ],
+                "collective": false,
+                "rules": [
+                  {
+                    "name": "Localized Shield Bloom",
+                    "id": "9a37-bf94-890d-7b59",
+                    "hidden": false,
+                    "description": "Select 1 HEAVY SUPPORT or LIGHT SUPPORT unit. Until the end of the turn, when that unit is targeted by an attack, you may choose 1 other friendly LIGHT or HEAVY CORE unit within CMD range. That unit becomes the target of the attack instead. A unit may only redirect 1 attack this way per turn.",
+                    "publicationId": "34f4-81d3-96c3-4c65"
+                  }
+                ]
+              }
+            ],
+            "costs": [
+              {
+                "name": "Command Points",
+                "typeId": "c8f4-e049-f551-b319",
+                "value": 0
+              },
+              {
+                "name": "Resource Points",
+                "typeId": "ba8e-c9ca-122e-08da",
+                "value": 0
+              }
+            ],
+            "collective": false
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "2 Point Command Cards",
+            "hidden": false,
+            "id": "a9d2-62d1-f5f9-62f8",
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "9fd4-a9b9-6aa1-0305",
+                "percentValue": false,
+                "includeChildSelections": false,
+                "includeChildForces": false
+              }
+            ],
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Unified Response Protocol",
+                "hidden": false,
+                "id": "b5a9-eacc-fcc2-ebf9",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 2,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "7fcc-65e0-a3db-0518",
+                    "percentValue": false,
+                    "includeChildSelections": false,
+                    "includeChildForces": false
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Command Points",
+                    "typeId": "6928-861d-fe09-02e7",
+                    "value": 2
+                  },
+                  {
+                    "name": "Resource Points",
+                    "typeId": "6857-2916-102c-e582",
+                    "value": 0
+                  },
+                  {
+                    "name": "Command Points",
+                    "typeId": "c8f4-e049-f551-b319",
+                    "value": 2
+                  },
+                  {
+                    "name": "Resource Points",
+                    "typeId": "ba8e-c9ca-122e-08da",
+                    "value": 0
+                  }
+                ],
+                "collective": false,
+                "rules": [
+                  {
+                    "name": "Unified Response Protocol",
+                    "id": "2ee3-ada6-cc67-dc8e",
+                    "hidden": false,
+                    "description": "When an enemy unit declares an attack or movement within your Command (CMD) range, you may select 1 friendly ship within CMD range of that enemy unit. Place a Reaction Token on the selected ship."
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Fleet Council Resolution",
+                "hidden": false,
+                "id": "f82f-8b68-1165-9cd7",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 2,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "8979-1196-271f-4772",
+                    "percentValue": false,
+                    "includeChildSelections": false,
+                    "includeChildForces": false
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Command Points",
+                    "typeId": "6928-861d-fe09-02e7",
+                    "value": 2
+                  },
+                  {
+                    "name": "Resource Points",
+                    "typeId": "6857-2916-102c-e582",
+                    "value": 0
+                  },
+                  {
+                    "name": "Command Points",
+                    "typeId": "c8f4-e049-f551-b319",
+                    "value": 2
+                  },
+                  {
+                    "name": "Resource Points",
+                    "typeId": "ba8e-c9ca-122e-08da",
+                    "value": 0
+                  }
+                ],
+                "collective": false,
+                "rules": [
+                  {
+                    "name": "Fleet Council Resolution",
+                    "id": "7154-6982-2a45-57f0",
+                    "hidden": false,
+                    "description": "Select 1 friendly LIGHT SUPPORT unit. When that unit activates, you may select 1 other friendly LIGHT SUPPORT unit within Command (CMD) range. That second unit may immediately perform 1 additional Move Action, even if it has already activated this turn."
+                  }
+                ]
+              }
+            ],
+            "costs": [
+              {
+                "name": "Command Points",
+                "typeId": "c8f4-e049-f551-b319",
+                "value": 0
+              },
+              {
+                "name": "Resource Points",
+                "typeId": "ba8e-c9ca-122e-08da",
+                "value": 0
+              }
+            ],
+            "collective": false
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "3 Point Command Cards",
+            "hidden": false,
+            "id": "6c8a-c813-4c75-89d5",
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "f314-5826-958e-0e10",
+                "percentValue": false,
+                "includeChildSelections": false,
+                "includeChildForces": false
+              }
+            ],
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "•••Helix Line Formation Maneuver",
+                "hidden": false,
+                "id": "f357-2529-1dbf-e985",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "b243-0db7-cf60-0690",
+                    "percentValue": false,
+                    "includeChildSelections": false,
+                    "includeChildForces": false
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Command Points",
+                    "typeId": "6928-861d-fe09-02e7",
+                    "value": 3
+                  },
+                  {
+                    "name": "Resource Points",
+                    "typeId": "6857-2916-102c-e582",
+                    "value": 0
+                  },
+                  {
+                    "name": "Command Points",
+                    "typeId": "c8f4-e049-f551-b319",
+                    "value": 3
+                  },
+                  {
+                    "name": "Resource Points",
+                    "typeId": "ba8e-c9ca-122e-08da",
+                    "value": 0
+                  }
+                ],
+                "publicationId": "25a0-f467-ac2c-01e6",
+                "collective": false,
+                "rules": [
+                  {
+                    "name": "•••Helix Line Formation Maneuver",
+                    "id": "ec87-5070-a40c-4261",
+                    "hidden": false,
+                    "publicationId": "34f4-81d3-96c3-4c65",
+                    "description": "Select up to 3 friendly units within Command (CMD) range of your FLAGSHIP. Immediately perform the following in sequence. Each selected unit may perform 1 Move Action.\nEach unit must end this movement within CMD range of at least one other selected unit.\nAfter all movements are complete: Each selected unit may immediately perform 1 Attack Action, resolving in any order. These actions are treated as part of each unit’s normal actions for the turn."
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "•••Fanning Doctrine",
+                "hidden": false,
+                "id": "043d-fb24-a97d-358d",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "3393-e9ca-ef7f-5ec8",
+                    "percentValue": false,
+                    "includeChildSelections": false,
+                    "includeChildForces": false
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Command Points",
+                    "typeId": "6928-861d-fe09-02e7",
+                    "value": 3
+                  },
+                  {
+                    "name": "Resource Points",
+                    "typeId": "6857-2916-102c-e582",
+                    "value": 0
+                  },
+                  {
+                    "name": "Command Points",
+                    "typeId": "c8f4-e049-f551-b319",
+                    "value": 3
+                  },
+                  {
+                    "name": "Resource Points",
+                    "typeId": "ba8e-c9ca-122e-08da",
+                    "value": 0
+                  }
+                ],
+                "collective": false,
+                "rules": [
+                  {
+                    "name": "•••Fanning Doctrine",
+                    "id": "de44-5505-e0d9-d0db",
+                    "hidden": false,
+                    "description": "Select up to 3 friendly units within Command (CMD) range. Until the end of the turn when one of these units completes its activation, you may immediately select another selected unit that has not yet activated. That unit may activate next, ignoring normal activation order."
+                  }
+                ]
+              }
+            ],
+            "costs": [
+              {
+                "name": "Command Points",
+                "typeId": "c8f4-e049-f551-b319",
+                "value": 0
+              },
+              {
+                "name": "Resource Points",
+                "typeId": "ba8e-c9ca-122e-08da",
+                "value": 0
+              }
+            ],
+            "collective": false
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "6229-2fbe-d5b2-232d",
+            "percentValue": false,
+            "includeChildSelections": false,
+            "includeChildForces": false
+          }
+        ]
+      },
+      {
+        "type": "unit",
+        "import": true,
+        "name": "Vanguard Class Frigate",
+        "hidden": false,
+        "id": "5875-3690-476a-0313",
+        "selectionEntries": [
+          {
+            "type": "model",
+            "import": true,
+            "name": "Vanguard Class Frigate",
+            "hidden": false,
+            "id": "3e1a-3726-808b-5169",
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "c9dd-13bf-058e-2295"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "cda6-7e39-7f06-51aa"
+              }
+            ],
+            "entryLinks": [
+              {
+                "import": true,
+                "name": "Frigate Back Weapons Batteries",
+                "hidden": false,
+                "id": "f5d9-f3b2-79bd-cb5e",
+                "type": "selectionEntryGroup",
+                "targetId": "bbb4-e94a-90ba-66c4"
+              },
+              {
+                "import": true,
+                "name": "Frigate Front Weapons Batteries",
+                "hidden": false,
+                "id": "608f-49d6-dcfd-b152",
+                "type": "selectionEntryGroup",
+                "targetId": "c88f-3ca0-2217-b870"
+              },
+              {
+                "import": true,
+                "name": "Fleet Communications",
+                "hidden": false,
+                "id": "046a-7603-f045-27bd",
+                "type": "selectionEntryGroup",
+                "targetId": "44d0-181c-4e1d-2e8c"
+              },
+              {
+                "import": true,
+                "name": "Ship Modifications ",
+                "hidden": false,
+                "id": "b9be-a5a6-793f-1ccc",
+                "type": "selectionEntryGroup",
+                "targetId": "64d7-6d7f-699e-dfd7"
+              },
+              {
+                "import": true,
+                "name": "Hanger Bay",
+                "hidden": false,
+                "id": "f356-2d58-d525-e6b2",
+                "type": "selectionEntry",
+                "targetId": "b971-5773-9be7-581c"
+              },
+              {
+                "import": true,
+                "name": "Task Force Flagship",
+                "hidden": false,
+                "id": "d43f-3038-8435-7e8e",
+                "type": "selectionEntry",
+                "targetId": "d962-58a3-8acb-ee79"
+              }
+            ],
+            "infoLinks": [
+              {
+                "name": "Vanguard Class Frigate",
+                "id": "de27-82ba-1fbe-1ba9",
+                "hidden": false,
+                "type": "profile",
+                "targetId": "367a-a33f-74f7-065c"
+              }
+            ],
+            "costs": [
+              {
+                "name": "Command Points",
+                "typeId": "6928-861d-fe09-02e7",
+                "value": 5
+              },
+              {
+                "name": "Resource Points",
+                "typeId": "6857-2916-102c-e582",
+                "value": 20
+              }
+            ]
+          }
+        ],
+        "categoryLinks": [
+          {
+            "name": "Light Core",
+            "hidden": false,
+            "id": "393b-2ee8-728e-dbf5",
+            "targetId": "5e3c-da3e-210d-0398",
+            "primary": true
+          }
+        ]
+      }
+    ],
+    "sharedProfiles": [
+      {
+        "name": "Dipaluba Class Destroyer ",
+        "typeId": "9547-5a42-5c49-bd4f",
+        "typeName": "Capital Class Starship",
+        "hidden": false,
+        "id": "d29b-3c37-79c7-f6c3",
+        "characteristics": [
+          {
+            "name": "Key Traits",
+            "typeId": "8db2-af2f-a088-d966",
+            "$text": ""
+          },
+          {
+            "name": "CMBT",
+            "typeId": "7c17-4499-9c4c-2eec",
+            "$text": ""
+          },
+          {
+            "name": "DEF",
+            "typeId": "79b6-6ce5-7367-ae59",
+            "$text": ""
+          },
+          {
+            "name": "ATHL",
+            "typeId": "5eac-800f-4a53-f176",
+            "$text": ""
+          },
+          {
+            "name": "INT",
+            "typeId": "a3bd-b43f-b057-a451",
+            "$text": ""
+          },
+          {
+            "name": "LD",
+            "typeId": "fe09-be23-ba07-b03d",
+            "$text": ""
+          },
+          {
+            "name": "ARMOR",
+            "typeId": "58bf-6526-7e64-8d6b",
+            "$text": ""
+          },
+          {
+            "name": "END",
+            "typeId": "62d6-b815-e0fa-41d6",
+            "$text": ""
+          },
+          {
+            "name": "NERVE",
+            "typeId": "0837-d689-d34f-fc76",
+            "$text": ""
+          },
+          {
+            "name": "MOVE",
+            "typeId": "2126-d633-14fa-390b",
+            "$text": ""
+          },
+          {
+            "name": "SIZE",
+            "typeId": "eac7-b67d-2fef-88b6",
+            "$text": ""
+          }
+        ],
+        "publicationId": "34f4-81d3-96c3-4c65"
+      },
+      {
+        "name": "Firebrand Class Corvette",
+        "typeId": "9547-5a42-5c49-bd4f",
+        "typeName": "Capital Class Starship",
+        "hidden": false,
+        "id": "b8a7-b557-032f-5f7f",
+        "characteristics": [
+          {
+            "name": "Key Traits",
+            "typeId": "8db2-af2f-a088-d966",
+            "$text": ""
+          },
+          {
+            "name": "CMBT",
+            "typeId": "7c17-4499-9c4c-2eec",
+            "$text": ""
+          },
+          {
+            "name": "DEF",
+            "typeId": "79b6-6ce5-7367-ae59",
+            "$text": ""
+          },
+          {
+            "name": "ATHL",
+            "typeId": "5eac-800f-4a53-f176",
+            "$text": ""
+          },
+          {
+            "name": "INT",
+            "typeId": "a3bd-b43f-b057-a451",
+            "$text": ""
+          },
+          {
+            "name": "LD",
+            "typeId": "fe09-be23-ba07-b03d",
+            "$text": ""
+          },
+          {
+            "name": "ARMOR",
+            "typeId": "58bf-6526-7e64-8d6b",
+            "$text": ""
+          },
+          {
+            "name": "END",
+            "typeId": "62d6-b815-e0fa-41d6",
+            "$text": ""
+          },
+          {
+            "name": "NERVE",
+            "typeId": "0837-d689-d34f-fc76",
+            "$text": ""
+          },
+          {
+            "name": "MOVE",
+            "typeId": "2126-d633-14fa-390b",
+            "$text": ""
+          },
+          {
+            "name": "SIZE",
+            "typeId": "eac7-b67d-2fef-88b6",
+            "$text": ""
+          }
+        ]
+      },
+      {
+        "name": "Manowar Class Carrier",
+        "typeId": "9547-5a42-5c49-bd4f",
+        "typeName": "Capital Class Starship",
+        "hidden": false,
+        "id": "bace-6ea4-cfd3-4a00",
+        "characteristics": [
+          {
+            "name": "Key Traits",
+            "typeId": "8db2-af2f-a088-d966",
+            "$text": ""
+          },
+          {
+            "name": "CMBT",
+            "typeId": "7c17-4499-9c4c-2eec",
+            "$text": ""
+          },
+          {
+            "name": "DEF",
+            "typeId": "79b6-6ce5-7367-ae59",
+            "$text": ""
+          },
+          {
+            "name": "ATHL",
+            "typeId": "5eac-800f-4a53-f176",
+            "$text": ""
+          },
+          {
+            "name": "INT",
+            "typeId": "a3bd-b43f-b057-a451",
+            "$text": ""
+          },
+          {
+            "name": "LD",
+            "typeId": "fe09-be23-ba07-b03d",
+            "$text": ""
+          },
+          {
+            "name": "ARMOR",
+            "typeId": "58bf-6526-7e64-8d6b",
+            "$text": ""
+          },
+          {
+            "name": "END",
+            "typeId": "62d6-b815-e0fa-41d6",
+            "$text": ""
+          },
+          {
+            "name": "NERVE",
+            "typeId": "0837-d689-d34f-fc76",
+            "$text": ""
+          },
+          {
+            "name": "MOVE",
+            "typeId": "2126-d633-14fa-390b",
+            "$text": ""
+          },
+          {
+            "name": "SIZE",
+            "typeId": "eac7-b67d-2fef-88b6",
+            "$text": ""
+          }
+        ]
+      },
+      {
+        "name": "Raider Class Corvette",
+        "typeId": "9547-5a42-5c49-bd4f",
+        "typeName": "Capital Class Starship",
+        "hidden": false,
+        "id": "ce96-6348-54ce-b1e5",
+        "characteristics": [
+          {
+            "name": "Key Traits",
+            "typeId": "8db2-af2f-a088-d966",
+            "$text": ""
+          },
+          {
+            "name": "CMBT",
+            "typeId": "7c17-4499-9c4c-2eec",
+            "$text": ""
+          },
+          {
+            "name": "DEF",
+            "typeId": "79b6-6ce5-7367-ae59",
+            "$text": ""
+          },
+          {
+            "name": "ATHL",
+            "typeId": "5eac-800f-4a53-f176",
+            "$text": ""
+          },
+          {
+            "name": "INT",
+            "typeId": "a3bd-b43f-b057-a451",
+            "$text": ""
+          },
+          {
+            "name": "LD",
+            "typeId": "fe09-be23-ba07-b03d",
+            "$text": ""
+          },
+          {
+            "name": "ARMOR",
+            "typeId": "58bf-6526-7e64-8d6b",
+            "$text": ""
+          },
+          {
+            "name": "END",
+            "typeId": "62d6-b815-e0fa-41d6",
+            "$text": ""
+          },
+          {
+            "name": "NERVE",
+            "typeId": "0837-d689-d34f-fc76",
+            "$text": ""
+          },
+          {
+            "name": "MOVE",
+            "typeId": "2126-d633-14fa-390b",
+            "$text": ""
+          },
+          {
+            "name": "SIZE",
+            "typeId": "eac7-b67d-2fef-88b6",
+            "$text": ""
+          }
+        ]
+      },
+      {
+        "name": "Redeemer Class Battleship",
+        "typeId": "9547-5a42-5c49-bd4f",
+        "typeName": "Capital Class Starship",
+        "hidden": false,
+        "id": "8ace-7c00-dafd-41c8",
+        "characteristics": [
+          {
+            "name": "Key Traits",
+            "typeId": "8db2-af2f-a088-d966",
+            "$text": ""
+          },
+          {
+            "name": "CMBT",
+            "typeId": "7c17-4499-9c4c-2eec",
+            "$text": ""
+          },
+          {
+            "name": "DEF",
+            "typeId": "79b6-6ce5-7367-ae59",
+            "$text": ""
+          },
+          {
+            "name": "ATHL",
+            "typeId": "5eac-800f-4a53-f176",
+            "$text": ""
+          },
+          {
+            "name": "INT",
+            "typeId": "a3bd-b43f-b057-a451",
+            "$text": ""
+          },
+          {
+            "name": "LD",
+            "typeId": "fe09-be23-ba07-b03d",
+            "$text": ""
+          },
+          {
+            "name": "ARMOR",
+            "typeId": "58bf-6526-7e64-8d6b",
+            "$text": ""
+          },
+          {
+            "name": "END",
+            "typeId": "62d6-b815-e0fa-41d6",
+            "$text": ""
+          },
+          {
+            "name": "NERVE",
+            "typeId": "0837-d689-d34f-fc76",
+            "$text": ""
+          },
+          {
+            "name": "MOVE",
+            "typeId": "2126-d633-14fa-390b",
+            "$text": ""
+          },
+          {
+            "name": "SIZE",
+            "typeId": "eac7-b67d-2fef-88b6",
+            "$text": ""
+          }
+        ]
+      },
+      {
+        "name": "Vixen Class Assault Carrier ",
+        "typeId": "9547-5a42-5c49-bd4f",
+        "typeName": "Capital Class Starship",
+        "hidden": false,
+        "id": "3cf4-3e27-1705-81a1",
+        "characteristics": [
+          {
+            "name": "Key Traits",
+            "typeId": "8db2-af2f-a088-d966",
+            "$text": ""
+          },
+          {
+            "name": "CMBT",
+            "typeId": "7c17-4499-9c4c-2eec",
+            "$text": ""
+          },
+          {
+            "name": "DEF",
+            "typeId": "79b6-6ce5-7367-ae59",
+            "$text": ""
+          },
+          {
+            "name": "ATHL",
+            "typeId": "5eac-800f-4a53-f176",
+            "$text": ""
+          },
+          {
+            "name": "INT",
+            "typeId": "a3bd-b43f-b057-a451",
+            "$text": ""
+          },
+          {
+            "name": "LD",
+            "typeId": "fe09-be23-ba07-b03d",
+            "$text": ""
+          },
+          {
+            "name": "ARMOR",
+            "typeId": "58bf-6526-7e64-8d6b",
+            "$text": ""
+          },
+          {
+            "name": "END",
+            "typeId": "62d6-b815-e0fa-41d6",
+            "$text": ""
+          },
+          {
+            "name": "NERVE",
+            "typeId": "0837-d689-d34f-fc76",
+            "$text": ""
+          },
+          {
+            "name": "MOVE",
+            "typeId": "2126-d633-14fa-390b",
+            "$text": ""
+          },
+          {
+            "name": "SIZE",
+            "typeId": "eac7-b67d-2fef-88b6",
+            "$text": ""
+          }
+        ]
+      },
+      {
+        "name": "JP-7 \"BlackStar\" HAVOC Squadron",
+        "typeId": "1e89-9b5a-5df4-2e60",
+        "typeName": "HAVOC Squadron (High Altitude Void Operable Craft)",
+        "hidden": false,
+        "id": "bd9c-35b4-7c3a-0905",
+        "characteristics": [
+          {
+            "name": "Key Traits",
+            "typeId": "ffe7-15cb-37f4-9bba",
+            "$text": ""
+          },
+          {
+            "name": "CMBT",
+            "typeId": "e8aa-f4e4-1e81-687c",
+            "$text": ""
+          },
+          {
+            "name": "DEF",
+            "typeId": "7229-240f-2b7d-54a7",
+            "$text": ""
+          },
+          {
+            "name": "ATHL",
+            "typeId": "aecc-ad00-bb75-7cd6",
+            "$text": ""
+          },
+          {
+            "name": "INT",
+            "typeId": "5cdc-9c54-4ba6-d8f2",
+            "$text": ""
+          },
+          {
+            "name": "LD",
+            "typeId": "c3f9-6ed1-c910-c263",
+            "$text": ""
+          },
+          {
+            "name": "ARMOR",
+            "typeId": "0973-5745-9a3b-890b",
+            "$text": ""
+          },
+          {
+            "name": "END",
+            "typeId": "2782-60fa-c60d-6e03",
+            "$text": ""
+          },
+          {
+            "name": "NERVE",
+            "typeId": "c37c-42fa-6c0f-c769",
+            "$text": ""
+          },
+          {
+            "name": "MOVE",
+            "typeId": "de93-ab45-2c22-ab4c",
+            "$text": ""
+          },
+          {
+            "name": "SIZE",
+            "typeId": "3697-d30e-2fbc-4fa7",
+            "$text": ""
+          }
+        ]
+      },
+      {
+        "name": "JP-9 \"Aurora\" HAVOC Squadron",
+        "typeId": "1e89-9b5a-5df4-2e60",
+        "typeName": "HAVOC Squadron (High Altitude Void Operable Craft)",
+        "hidden": false,
+        "id": "394e-25bd-7671-0c38",
+        "characteristics": [
+          {
+            "name": "Key Traits",
+            "typeId": "ffe7-15cb-37f4-9bba",
+            "$text": ""
+          },
+          {
+            "name": "CMBT",
+            "typeId": "e8aa-f4e4-1e81-687c",
+            "$text": ""
+          },
+          {
+            "name": "DEF",
+            "typeId": "7229-240f-2b7d-54a7",
+            "$text": ""
+          },
+          {
+            "name": "ATHL",
+            "typeId": "aecc-ad00-bb75-7cd6",
+            "$text": ""
+          },
+          {
+            "name": "INT",
+            "typeId": "5cdc-9c54-4ba6-d8f2",
+            "$text": ""
+          },
+          {
+            "name": "LD",
+            "typeId": "c3f9-6ed1-c910-c263",
+            "$text": ""
+          },
+          {
+            "name": "ARMOR",
+            "typeId": "0973-5745-9a3b-890b",
+            "$text": ""
+          },
+          {
+            "name": "END",
+            "typeId": "2782-60fa-c60d-6e03",
+            "$text": ""
+          },
+          {
+            "name": "NERVE",
+            "typeId": "c37c-42fa-6c0f-c769",
+            "$text": ""
+          },
+          {
+            "name": "MOVE",
+            "typeId": "de93-ab45-2c22-ab4c",
+            "$text": ""
+          },
+          {
+            "name": "SIZE",
+            "typeId": "3697-d30e-2fbc-4fa7",
+            "$text": ""
+          }
+        ]
+      },
+      {
+        "name": "Vanguard Class Frigate",
+        "typeId": "9547-5a42-5c49-bd4f",
+        "typeName": "Capital Class Starship",
+        "hidden": false,
+        "id": "367a-a33f-74f7-065c",
+        "characteristics": [
+          {
+            "name": "Key Traits",
+            "typeId": "8db2-af2f-a088-d966",
+            "$text": ""
+          },
+          {
+            "name": "CMBT",
+            "typeId": "7c17-4499-9c4c-2eec",
+            "$text": ""
+          },
+          {
+            "name": "DEF",
+            "typeId": "79b6-6ce5-7367-ae59",
+            "$text": ""
+          },
+          {
+            "name": "ATHL",
+            "typeId": "5eac-800f-4a53-f176",
+            "$text": ""
+          },
+          {
+            "name": "INT",
+            "typeId": "a3bd-b43f-b057-a451",
+            "$text": ""
+          },
+          {
+            "name": "LD",
+            "typeId": "fe09-be23-ba07-b03d",
+            "$text": ""
+          },
+          {
+            "name": "ARMOR",
+            "typeId": "58bf-6526-7e64-8d6b",
+            "$text": ""
+          },
+          {
+            "name": "END",
+            "typeId": "62d6-b815-e0fa-41d6",
+            "$text": ""
+          },
+          {
+            "name": "NERVE",
+            "typeId": "0837-d689-d34f-fc76",
+            "$text": ""
+          },
+          {
+            "name": "MOVE",
+            "typeId": "2126-d633-14fa-390b",
+            "$text": ""
+          },
+          {
+            "name": "SIZE",
+            "typeId": "eac7-b67d-2fef-88b6",
+            "$text": ""
+          }
+        ]
+      }
+    ],
+    "publicationId": "34f4-81d3-96c3-4c65",
+    "type": "catalogue",
+    "sharedSelectionEntries": [
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": "JP-7 \"BlackStar\" HAVOC Squadron",
+        "hidden": false,
+        "id": "aa35-23eb-1fd2-9bd4",
+        "constraints": [
+          {
+            "type": "max",
+            "value": 3,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "1371-2586-1e9a-b6e0"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "JP-7 \"BlackStar\" HAVOC Squadron",
+            "id": "9cbb-9039-2321-c824",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "bd9c-35b4-7c3a-0905"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "JP-7 \"BlackStar\" HAVOC Squadron",
+            "hidden": false,
+            "id": "e136-fc0f-498e-6574",
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "4002-6624-35c3-9139"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "441d-8cf1-2235-76af"
+              }
+            ],
+            "costs": [
+              {
+                "name": "Command Points",
+                "typeId": "6928-861d-fe09-02e7",
+                "value": 0
+              },
+              {
+                "name": "Resource Points",
+                "typeId": "6857-2916-102c-e582",
+                "value": 20
+              }
+            ],
+            "entryLinks": [
+              {
+                "import": true,
+                "name": "2x Anti-Armor Missiles",
+                "hidden": false,
+                "id": "7893-5e2c-f22c-dd11",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "818f-2cf0-70fb-26c9",
+                    "percentValue": false,
+                    "includeChildSelections": false,
+                    "includeChildForces": false
+                  },
+                  {
+                    "type": "min",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "50c4-94e6-e79d-d4c7",
+                    "percentValue": false,
+                    "includeChildSelections": false,
+                    "includeChildForces": false
+                  }
+                ],
+                "collective": false,
+                "targetId": "156e-f7c4-d013-9514",
+                "type": "selectionEntry",
+                "costs": [
+                  {
+                    "name": "Resource Points",
+                    "typeId": "6857-2916-102c-e582",
+                    "value": -10
+                  }
+                ]
+              },
+              {
+                "import": true,
+                "name": "2x Anti-Armor Missiles",
+                "hidden": false,
+                "id": "59f2-c77e-f735-5b48",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "b374-2da4-fa79-e6e3",
+                    "percentValue": false,
+                    "includeChildSelections": false,
+                    "includeChildForces": false
+                  },
+                  {
+                    "type": "min",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "b050-d993-9247-9dcd",
+                    "percentValue": false,
+                    "includeChildSelections": false,
+                    "includeChildForces": false
+                  }
+                ],
+                "collective": false,
+                "targetId": "156e-f7c4-d013-9514",
+                "type": "selectionEntry",
+                "costs": [
+                  {
+                    "name": "Resource Points",
+                    "typeId": "6857-2916-102c-e582",
+                    "value": -10
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "costs": [
+          {
+            "name": "Command Points",
+            "typeId": "6928-861d-fe09-02e7",
+            "value": 0
+          },
+          {
+            "name": "Resource Points",
+            "typeId": "6857-2916-102c-e582",
+            "value": -6
+          }
+        ]
+      },
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": "JP-9 \"Aurora\" HAVOC Squadron",
+        "hidden": false,
+        "id": "5edb-5a08-5acd-2964",
+        "constraints": [
+          {
+            "type": "max",
+            "value": 3,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "3582-74d0-43fa-8b83"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "JP-9 \"Aurora\" HAVOC Squadron",
+            "id": "d2a0-c4c3-abcd-34bf",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "394e-25bd-7671-0c38"
+          }
+        ],
+        "costs": [
+          {
+            "name": "Command Points",
+            "typeId": "6928-861d-fe09-02e7",
+            "value": 0
+          },
+          {
+            "name": "Resource Points",
+            "typeId": "6857-2916-102c-e582",
+            "value": -6
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "JP-9 \"Aurora\" HAVOC Squadron",
+            "hidden": false,
+            "id": "1512-863b-25dc-98a6",
+            "costs": [
+              {
+                "name": "Command Points",
+                "typeId": "6928-861d-fe09-02e7",
+                "value": 0
+              },
+              {
+                "name": "Resource Points",
+                "typeId": "6857-2916-102c-e582",
+                "value": 19
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "4824-b674-c0c6-29f7"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "0e4c-877c-eb09-c163"
+              }
+            ],
+            "entryLinks": [
+              {
+                "import": true,
+                "name": "2x Anti-Armor Missiles",
+                "hidden": false,
+                "id": "acf4-200e-79f1-d2ba",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "3c29-3ac0-f43c-ee8e",
+                    "percentValue": false,
+                    "includeChildSelections": false,
+                    "includeChildForces": false
+                  },
+                  {
+                    "type": "min",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "9aff-51be-d3b0-ad20",
+                    "percentValue": false,
+                    "includeChildSelections": false,
+                    "includeChildForces": false
+                  }
+                ],
+                "collective": false,
+                "targetId": "156e-f7c4-d013-9514",
+                "type": "selectionEntry",
+                "costs": [
+                  {
+                    "name": "Resource Points",
+                    "typeId": "6857-2916-102c-e582",
+                    "value": -10
+                  }
+                ]
+              },
+              {
+                "import": true,
+                "name": "Metal Storm Cannon",
+                "hidden": false,
+                "id": "0504-881c-e2e7-1a9e",
+                "collective": false,
+                "targetId": "f0d2-c865-d7f8-eacb",
+                "type": "selectionEntry",
+                "costs": [
+                  {
+                    "name": "Resource Points",
+                    "typeId": "6857-2916-102c-e582",
+                    "value": -9
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
